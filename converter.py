@@ -70,6 +70,6 @@ def csv_to_rdf(csv_file, output_ttl):
 
 
 # Exemple d’exécution
-csv_file = ".csv/nobel-prize-laureates.csv"
+csv_file = "./nobel-prize-laureates.csv"
 output_ttl = "nobel.ttl"
 csv_to_rdf(csv_file, output_ttl)
