@@ -1,0 +1,22 @@
+# Compte le nombre de lauréats par genre pour chaque décennie à partir des prix et années enregistrés dans les données
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema1: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT 
+  (STR(?decade) AS ?decadeStr)   # Décennie sous forme de chaîne
+  ?gender                        
+  (STR(COUNT(?person)) AS ?nbLaureatsStr)  # Nombre de lauréats sous forme de chaîne
+WHERE {
+  ?award a schema1:Award ;
+         schema1:awardDate ?year ;
+         schema1:recipient ?person .
+
+  ?person a foaf:Person ;
+          schema1:gender ?gender .
+
+  BIND(xsd:integer(FLOOR(xsd:integer(?year)/10) * 10) AS ?decade)  # Calcul de la décennie
+}
+GROUP BY ?decade ?gender
+ORDER BY ?decade
