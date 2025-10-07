@@ -1,1 +1,14 @@
+# Compte le nombre de prix attribués chaque année et les affiche en ordre décroissant selon ce nombre
 
+PREFIX schema1: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+    (STR(xsd:integer(?year)) AS ?yearStr)   # Année sous forme de chaîne
+    (STR(COUNT(?award)) AS ?nbPrix)        # Nombre de prix sous forme de chaîne
+WHERE {
+  ?award a schema1:Award ;
+         schema1:awardDate ?year .
+}
+GROUP BY ?year
+ORDER BY DESC(COUNT(?award))  # Tri décroissant par nombre de prix
