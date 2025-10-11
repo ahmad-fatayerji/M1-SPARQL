@@ -320,13 +320,13 @@
     schema1:awardDate "1947"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their pioneering work in the international peace movement and compassionate effort to relieve human suffering thereby promoting the fraternity between nations"@en ;
-    schema1:recipient <http://example.org/nobel/person/American_Friends_Service_Committee_nan> .
+    schema1:recipient organization:American_Friends_Service_Committee_nan .
 
 <http://example.org/nobel/award/Amnesty_International_nan_1977_Peace> a schema1:Award ;
     schema1:awardDate "1977"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for worldwide respect for human rights"@en ;
-    schema1:recipient <http://example.org/nobel/person/Amnesty_International_nan> .
+    schema1:recipient organization:Amnesty_International_nan .
 
 <http://example.org/nobel/award/Anatole_France_1921_Literature> a schema1:Award ;
     schema1:awardDate "1921"^^xsd:gYear ;
@@ -842,7 +842,7 @@
     schema1:awardDate "2022"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "The Peace Prize laureates represent civil society in their home countries. They have for many years promoted the right to criticise power and protect the fundamental rights of citizens. They have made an outstanding effort to document war crimes human right abuses and the abuse of power. Together they demonstrate the significance of civil society for peace and democracy."@en ;
-    schema1:recipient <http://example.org/nobel/person/Center_for_Civil_Liberties_nan> .
+    schema1:recipient organization:Center_for_Civil_Liberties_nan .
 
 <http://example.org/nobel/award/Charles_B._Huggins_1966_Medicine> a schema1:Award ;
     schema1:awardDate "1966"^^xsd:gYear ;
@@ -1202,7 +1202,7 @@
     schema1:awardDate "1999"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "in recognition of the organisation's pioneering humanitarian work on several continents"@en ;
-    schema1:recipient <http://example.org/nobel/person/Doctors_Without_Borders_nan> .
+    schema1:recipient organization:Doctors_Without_Borders_nan .
 
 <http://example.org/nobel/award/Donald_A._Glaser_1960_Physics> a schema1:Award ;
     schema1:awardDate "1960"^^xsd:gYear ;
@@ -1592,7 +1592,7 @@
     schema1:awardDate "2012"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for over six decades contributed to the advancement of peace and reconciliation democracy and human rights in Europe"@en ;
-    schema1:recipient <http://example.org/nobel/person/European_Union_nan> .
+    schema1:recipient organization:European_Union_nan .
 
 <http://example.org/nobel/award/Eyvind_Johnson_1974_Literature> a schema1:Award ;
     schema1:awardDate "1974"^^xsd:gYear ;
@@ -1808,7 +1808,7 @@
     schema1:awardDate "1947"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their pioneering work in the international peace movement and compassionate effort to relieve human suffering thereby promoting the fraternity between nations"@en ;
-    schema1:recipient <http://example.org/nobel/person/Friends_Service_Council_nan> .
+    schema1:recipient organization:Friends_Service_Council_nan .
 
 <http://example.org/nobel/award/Frits_Zernike_1953_Physics> a schema1:Award ;
     schema1:awardDate "1953"^^xsd:gYear ;
@@ -2132,7 +2132,7 @@
     schema1:awardDate "2006"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their efforts to create economic and social development from below"@en ;
-    schema1:recipient <http://example.org/nobel/person/Grameen_Bank_nan> .
+    schema1:recipient organization:Grameen_Bank_nan .
 
 <http://example.org/nobel/award/Grazia_Deledda_1926_Literature> a schema1:Award ;
     schema1:awardDate "1926"^^xsd:gYear ;
@@ -2528,61 +2528,61 @@
     schema1:awardDate "1904"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its striving in public law to develop peaceful ties between nations and to make the laws of war more humane"@en ;
-    schema1:recipient <http://example.org/nobel/person/Institute_of_International_Law_nan> .
+    schema1:recipient organization:Institute_of_International_Law_nan .
 
 <http://example.org/nobel/award/Intergovernmental_Panel_on_Climate_Change_nan_2007_Peace> a schema1:Award ;
     schema1:awardDate "2007"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their efforts to build up and disseminate greater knowledge about man-made climate change and to lay the foundations for the measures that are needed to counteract such change"@en ;
-    schema1:recipient <http://example.org/nobel/person/Intergovernmental_Panel_on_Climate_Change_nan> .
+    schema1:recipient organization:Intergovernmental_Panel_on_Climate_Change_nan .
 
 <http://example.org/nobel/award/International_Atomic_Energy_Agency_nan_2005_Peace> a schema1:Award ;
     schema1:awardDate "2005"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their efforts to prevent nuclear energy from being used for military purposes and to ensure that nuclear energy for peaceful purposes is used in the safest possible way"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Atomic_Energy_Agency_nan> .
+    schema1:recipient organization:International_Atomic_Energy_Agency_nan .
 
 <http://example.org/nobel/award/International_Campaign_to_Abolish_Nuclear_Weapons_nan_2017_Peace> a schema1:Award ;
     schema1:awardDate "2017"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its work to draw attention to the catastrophic humanitarian consequences of any use of nuclear weapons and for its ground-breaking efforts to achieve a treaty-based prohibition of such weapons"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Campaign_to_Abolish_Nuclear_Weapons_nan> .
+    schema1:recipient organization:International_Campaign_to_Abolish_Nuclear_Weapons_nan .
 
 <http://example.org/nobel/award/International_Campaign_to_Ban_Landmines_nan_1997_Peace> a schema1:Award ;
     schema1:awardDate "1997"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their work for the banning and clearing of anti-personnel mines"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Campaign_to_Ban_Landmines_nan> .
+    schema1:recipient organization:International_Campaign_to_Ban_Landmines_nan .
 
 <http://example.org/nobel/award/International_Committee_of_the_Red_Cross_nan_1917_Peace> a schema1:Award ;
     schema1:awardDate "1917"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for the efforts to take care of wounded soldiers and prisoners of war and their families"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Committee_of_the_Red_Cross_nan> .
+    schema1:recipient organization:International_Committee_of_the_Red_Cross_nan .
 
 <http://example.org/nobel/award/International_Committee_of_the_Red_Cross_nan_1944_Peace> a schema1:Award ;
     schema1:awardDate "1944"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for the great work it has performed during the war on behalf of humanity"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Committee_of_the_Red_Cross_nan> .
+    schema1:recipient organization:International_Committee_of_the_Red_Cross_nan .
 
 <http://example.org/nobel/award/International_Committee_of_the_Red_Cross_nan_1963_Peace> a schema1:Award ;
     schema1:awardDate "1963"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for promoting the principles of the Geneva Convention and cooperation with the UN"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Committee_of_the_Red_Cross_nan> .
+    schema1:recipient organization:International_Committee_of_the_Red_Cross_nan .
 
 <http://example.org/nobel/award/International_Labour_Organization_nan_1969_Peace> a schema1:Award ;
     schema1:awardDate "1969"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for creating international legislation insuring certain norms for working conditions in every country"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Labour_Organization_nan> .
+    schema1:recipient organization:International_Labour_Organization_nan .
 
 <http://example.org/nobel/award/International_Physicians_for_the_Prevention_of_Nuclear_War_nan_1985_Peace> a schema1:Award ;
     schema1:awardDate "1985"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for spreading authoritative information and by creating awareness of the catastrophic consequences of nuclear war"@en ;
-    schema1:recipient <http://example.org/nobel/person/International_Physicians_for_the_Prevention_of_Nuclear_War_nan> .
+    schema1:recipient organization:International_Physicians_for_the_Prevention_of_Nuclear_War_nan .
 
 <http://example.org/nobel/award/Ir%C3%A8ne_Joliot-Curie_1935_Chemistry> a schema1:Award ;
     schema1:awardDate "1935"^^xsd:gYear ;
@@ -3482,7 +3482,7 @@
     schema1:awardDate "1963"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for promoting the principles of the Geneva Convention and cooperation with the UN"@en ;
-    schema1:recipient <http://example.org/nobel/person/League_of_Red_Cross_Societies_nan> .
+    schema1:recipient organization:League_of_Red_Cross_Societies_nan .
 
 <http://example.org/nobel/award/Lech_Wa%C5%82%C4%99sa_1983_Peace> a schema1:Award ;
     schema1:awardDate "1983"^^xsd:gYear ;
@@ -3872,7 +3872,7 @@
     schema1:awardDate "2022"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "The Peace Prize laureates represent civil society in their home countries. They have for many years promoted the right to criticise power and protect the fundamental rights of citizens. They have made an outstanding effort to document war crimes human right abuses and the abuse of power. Together they demonstrate the significance of civil society for peace and democracy."@en ;
-    schema1:recipient <http://example.org/nobel/person/Memorial_nan> .
+    schema1:recipient organization:Memorial_nan .
 
 <http://example.org/nobel/award/Menachem_Begin_1978_Peace> a schema1:Award ;
     schema1:awardDate "1978"^^xsd:gYear ;
@@ -4022,7 +4022,7 @@
     schema1:awardDate "1938"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for having carried on the work of Fridtjof Nansen to the benefit of refugees across Europe"@en ;
-    schema1:recipient <http://example.org/nobel/person/Nansen_International_Office_for_Refugees_nan> .
+    schema1:recipient organization:Nansen_International_Office_for_Refugees_nan .
 
 <http://example.org/nobel/award/Narges_Mohammadi_2023_Peace> a schema1:Award ;
     schema1:awardDate "2023"^^xsd:gYear ;
@@ -4040,7 +4040,7 @@
     schema1:awardDate "2015"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its decisive contribution to the building of a pluralistic democracy in Tunisia in the wake of the Jasmine Revolution of 2011"@en ;
-    schema1:recipient <http://example.org/nobel/person/National_Dialogue_Quartet_nan> .
+    schema1:recipient organization:National_Dialogue_Quartet_nan .
 
 <http://example.org/nobel/award/Nelly_Sachs_1966_Literature> a schema1:Award ;
     schema1:awardDate "1966"^^xsd:gYear ;
@@ -4094,7 +4094,7 @@
     schema1:awardDate "2024"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its efforts to achieve a world free of nuclear weapons and for demonstrating through witness testimony that nuclear weapons must never be used again"@en ;
-    schema1:recipient <http://example.org/nobel/person/Nihon_Hidankyo_nan> .
+    schema1:recipient organization:Nihon_Hidankyo_nan .
 
 <http://example.org/nobel/award/Nikolaas_Tinbergen_1973_Medicine> a schema1:Award ;
     schema1:awardDate "1973"^^xsd:gYear ;
@@ -4148,13 +4148,13 @@
     schema1:awardDate "1954"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its efforts to heal the wounds of war by providing help and protection to refugees all over the world"@en ;
-    schema1:recipient <http://example.org/nobel/person/Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan> .
+    schema1:recipient organization:Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan .
 
 <http://example.org/nobel/award/Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan_1981_Peace> a schema1:Award ;
     schema1:awardDate "1981"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for promoting the fundamental rights of refugees"@en ;
-    schema1:recipient <http://example.org/nobel/person/Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan> .
+    schema1:recipient organization:Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan .
 
 <http://example.org/nobel/award/Olga_Tokarczuk_2018_Literature> a schema1:Award ;
     schema1:awardDate "2018"^^xsd:gYear ;
@@ -4184,7 +4184,7 @@
     schema1:awardDate "2013"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its extensive efforts to eliminate chemical weapons"@en ;
-    schema1:recipient <http://example.org/nobel/person/Organisation_for_the_Prohibition_of_Chemical_Weapons_nan> .
+    schema1:recipient organization:Organisation_for_the_Prohibition_of_Chemical_Weapons_nan .
 
 <http://example.org/nobel/award/Orhan_Pamuk_2006_Literature> a schema1:Award ;
     schema1:awardDate "2006"^^xsd:gYear ;
@@ -4279,7 +4279,7 @@
 <http://example.org/nobel/award/Patrick_Modiano_2014_Literature> a schema1:Award ;
     schema1:awardDate "2014"^^xsd:gYear ;
     schema1:category "Literature"^^xsd:string ;
-    schema1:description """for the art of memory with which he has evoked the most ungraspable human destinies and
+    schema1:description """for the art of memory with which he has evoked the most ungraspable human destinies and\r
 uncovered the life-world of the occupation"""@en ;
     schema1:recipient <http://example.org/nobel/person/Patrick_Modiano> .
 
@@ -4419,7 +4419,7 @@ uncovered the life-world of the occupation"""@en ;
     schema1:awardDate "1910"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for acting as a link between the peace societies of the various countries and helping them to organize the world rallies of the international peace movement"@en ;
-    schema1:recipient <http://example.org/nobel/person/Permanent_International_Peace_Bureau_nan> .
+    schema1:recipient organization:Permanent_International_Peace_Bureau_nan .
 
 <http://example.org/nobel/award/Peter_A._Diamond_2010_Economics> a schema1:Award ;
     schema1:awardDate "2010"^^xsd:gYear ;
@@ -4557,7 +4557,7 @@ uncovered the life-world of the occupation"""@en ;
     schema1:awardDate "1995"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their efforts to diminish the part played by nuclear arms in international politics and in the longer run to eliminate such arms"@en ;
-    schema1:recipient <http://example.org/nobel/person/Pugwash_Conferences_on_Science_and_World_Affairs_nan> .
+    schema1:recipient organization:Pugwash_Conferences_on_Science_and_World_Affairs_nan .
 
 <http://example.org/nobel/award/Pyotr_Kapitsa_1978_Physics> a schema1:Award ;
     schema1:awardDate "1978"^^xsd:gYear ;
@@ -5643,19 +5643,19 @@ uncovered the life-world of the occupation"""@en ;
     schema1:awardDate "1965"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its effort to enhance solidarity between nations and reduce the difference between rich and poor states"@en ;
-    schema1:recipient <http://example.org/nobel/person/United_Nations_Children%27s_Fund_nan> .
+    schema1:recipient organization:United_Nations_Children%27s_Fund_nan .
 
 <http://example.org/nobel/award/United_Nations_Peacekeeping_Forces_nan_1988_Peace> a schema1:Award ;
     schema1:awardDate "1988"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for preventing armed clashes and creating conditions for negotiations"@en ;
-    schema1:recipient <http://example.org/nobel/person/United_Nations_Peacekeeping_Forces_nan> .
+    schema1:recipient organization:United_Nations_Peacekeeping_Forces_nan .
 
 <http://example.org/nobel/award/United_Nations_nan_2001_Peace> a schema1:Award ;
     schema1:awardDate "2001"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for their work for a better organized and more peaceful world"@en ;
-    schema1:recipient <http://example.org/nobel/person/United_Nations_nan> .
+    schema1:recipient organization:United_Nations_nan .
 
 <http://example.org/nobel/award/V._S._Naipaul_2001_Literature> a schema1:Award ;
     schema1:awardDate "2001"^^xsd:gYear ;
@@ -6009,7 +6009,7 @@ uncovered the life-world of the occupation"""@en ;
     schema1:awardDate "2020"^^xsd:gYear ;
     schema1:category "Peace"^^xsd:string ;
     schema1:description "for its efforts to combat hunger for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict"@en ;
-    schema1:recipient <http://example.org/nobel/person/World_Food_Programme_nan> .
+    schema1:recipient organization:World_Food_Programme_nan .
 
 <http://example.org/nobel/award/Xiaobo_Liu_2010_Peace> a schema1:Award ;
     schema1:awardDate "2010"^^xsd:gYear ;
@@ -6105,6 +6105,12 @@ organization:All_Souls_College a schema1:Organization ;
     schema1:location place:OrgPlace_Oxford_United_Kingdom ;
     foaf:name "All Souls College" .
 
+organization:American_Friends_Service_Committee_nan a schema1:Organization ;
+    foaf:name "American Friends Service Committee"^^xsd:string .
+
+organization:Amnesty_International_nan a schema1:Organization ;
+    foaf:name "Amnesty International"^^xsd:string .
+
 organization:Argonne_National_Laboratory a schema1:Organization ;
     schema1:location place:OrgPlace_Argonne_IL_USA ;
     foaf:name "Argonne National Laboratory" .
@@ -6181,6 +6187,9 @@ organization:Carnegie_Institution_of_Washington a schema1:Organization ;
     schema1:location place:OrgPlace_Long_Island_New_York_NY_USA ;
     foaf:name "Carnegie Institution of Washington" .
 
+organization:Center_for_Civil_Liberties_nan a schema1:Organization ;
+    foaf:name "Center for Civil Liberties"^^xsd:string .
+
 organization:Center_for_Study_of_Public_Choice a schema1:Organization ;
     schema1:location place:OrgPlace_Fairfax_VA_USA ;
     foaf:name "Center for Study of Public Choice" .
@@ -6217,6 +6226,9 @@ organization:Department_of_Scientific_and_Industrial_Research a schema1:Organiza
     schema1:location place:OrgPlace_Mountain_View_CA_USA ;
     foaf:name "Digital Pathways Inc." .
 
+organization:Doctors_Without_Borders_nan a schema1:Organization ;
+    foaf:name "Doctors Without Borders"^^xsd:string .
+
 organization:Drew_University a schema1:Organization ;
     schema1:location place:OrgPlace_Madison_NJ_USA ;
     foaf:name "Drew University" .
@@ -6228,6 +6240,9 @@ organization:Du_Pont a schema1:Organization ;
 organization:Enrico_Fermi_Institute_University_of_Chicago a schema1:Organization ;
     schema1:location place:OrgPlace_Chicago_IL_USA ;
     foaf:name "Enrico Fermi Institute University of Chicago" .
+
+organization:European_Union_nan a schema1:Organization ;
+    foaf:name "European Union"^^xsd:string .
 
 organization:Fermi_National_Accelerator_Laboratory a schema1:Organization ;
     schema1:location place:OrgPlace_Batavia_IL_USA ;
@@ -6249,6 +6264,9 @@ organization:Frankfurt-on-the-Main_University a schema1:Organization ;
     schema1:location place:OrgPlace_Frankfurt-on-the-Main_Germany ;
     foaf:name "Frankfurt-on-the-Main University" .
 
+organization:Friends_Service_Council_nan a schema1:Organization ;
+    foaf:name "Friends Service Council"^^xsd:string .
+
 organization:G%C3%B6teborg_University a schema1:Organization ;
     schema1:location place:OrgPlace_Gothenburg_Sweden ;
     foaf:name "Göteborg University" .
@@ -6268,6 +6286,9 @@ organization:Ghent_University a schema1:Organization ;
 organization:Glynn_Research_Laboratories a schema1:Organization ;
     schema1:location place:OrgPlace_Bodmin_United_Kingdom ;
     foaf:name "Glynn Research Laboratories" .
+
+organization:Grameen_Bank_nan a schema1:Organization ;
+    foaf:name "Grameen Bank"^^xsd:string .
 
 organization:Greifswald_University a schema1:Organization ;
     schema1:location place:OrgPlace_Greifswald_Germany ;
@@ -6337,6 +6358,9 @@ organization:Institute_for_Infectious_Diseases a schema1:Organization ;
     schema1:location place:OrgPlace_Rome_Italy ;
     foaf:name "Institute of Cell Biology of the C.N.R." .
 
+organization:Institute_of_International_Law_nan a schema1:Organization ;
+    foaf:name "Institute of International Law"^^xsd:string .
+
 organization:Institute_of_Physical_Chemistry a schema1:Organization ;
     schema1:location place:OrgPlace_Cambridge_United_Kingdom ;
     foaf:name "Institute of Physical Chemistry" .
@@ -6349,9 +6373,27 @@ organization:Instituto_de_Biologia_y_Medicina_Experimental_%28Institute_for_Biol
     schema1:location place:OrgPlace_Buenos_Aires_Argentina ;
     foaf:name "Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine)" .
 
+organization:Intergovernmental_Panel_on_Climate_Change_nan a schema1:Organization ;
+    foaf:name "Intergovernmental Panel on Climate Change"^^xsd:string .
+
+organization:International_Atomic_Energy_Agency_nan a schema1:Organization ;
+    foaf:name "International Atomic Energy Agency"^^xsd:string .
+
+organization:International_Campaign_to_Abolish_Nuclear_Weapons_nan a schema1:Organization ;
+    foaf:name "International Campaign to Abolish Nuclear Weapons"^^xsd:string .
+
+organization:International_Campaign_to_Ban_Landmines_nan a schema1:Organization ;
+    foaf:name "International Campaign to Ban Landmines"^^xsd:string .
+
 organization:International_Centre_for_Theoretical_Physics a schema1:Organization ;
     schema1:location place:OrgPlace_Trieste_Italy ;
     foaf:name "International Centre for Theoretical Physics" .
+
+organization:International_Labour_Organization_nan a schema1:Organization ;
+    foaf:name "International Labour Organization"^^xsd:string .
+
+organization:International_Physicians_for_the_Prevention_of_Nuclear_War_nan a schema1:Organization ;
+    foaf:name "International Physicians for the Prevention of Nuclear War"^^xsd:string .
 
 organization:Istituto_Superiore_di_Sanit%C3%A0_%28Chief_Institute_of_Public_Health%29 a schema1:Organization ;
     schema1:location place:OrgPlace_Rome_Italy ;
@@ -6420,6 +6462,9 @@ organization:Landwirtschaftliche_Hochschule_%28Agricultural_College%29 a schema1
 organization:Lawrence_Berkeley_National_Laboratory a schema1:Organization ;
     schema1:location place:OrgPlace_Berkeley_CA_USA ;
     foaf:name "Lawrence Berkeley National Laboratory" .
+
+organization:League_of_Red_Cross_Societies_nan a schema1:Organization ;
+    foaf:name "League of Red Cross Societies"^^xsd:string .
 
 organization:Liverpool_University a schema1:Organization ;
     schema1:location place:OrgPlace_Liverpool_United_Kingdom ;
@@ -6533,6 +6578,9 @@ organization:Meijo_University a schema1:Organization ;
     schema1:location place:OrgPlace_Nagoya_Japan ;
     foaf:name "Meijo University" .
 
+organization:Memorial_nan a schema1:Organization ;
+    foaf:name "Memorial"^^xsd:string .
+
 organization:Military_Medical_Academy a schema1:Organization ;
     schema1:location place:OrgPlace_St._Petersburg_Russia ;
     foaf:name "Military Medical Academy" .
@@ -6561,6 +6609,12 @@ organization:Nancy_University a schema1:Organization ;
     schema1:location place:OrgPlace_New_York_NY_USA ;
     foaf:name "Nanocrystals Technology Inc." .
 
+organization:Nansen_International_Office_for_Refugees_nan a schema1:Organization ;
+    foaf:name "Nansen International Office for Refugees"^^xsd:string .
+
+organization:National_Dialogue_Quartet_nan a schema1:Organization ;
+    foaf:name "National Dialogue Quartet"^^xsd:string .
+
 organization:National_Institute_of_Environmental_Health_Sciences a schema1:Organization ;
     schema1:location place:OrgPlace_Research_Triangle_Park_NC_USA ;
     foaf:name "National Institute of Environmental Health Sciences" .
@@ -6581,9 +6635,15 @@ organization:Niels_Bohr_Institute a schema1:Organization ;
     schema1:location place:OrgPlace_Copenhagen_Denmark ;
     foaf:name "Niels Bohr Institute" .
 
+organization:Nihon_Hidankyo_nan a schema1:Organization ;
+    foaf:name "Nihon Hidankyo"^^xsd:string .
+
 organization:Nordita a schema1:Organization ;
     schema1:location place:OrgPlace_Copenhagen_Denmark ;
     foaf:name "Nordita" .
+
+organization:Organisation_for_the_Prohibition_of_Chemical_Weapons_nan a schema1:Organization ;
+    foaf:name "Organisation for the Prohibition of Chemical Weapons"^^xsd:string .
 
 organization:Parker_Institute_for_Cancer_Immunotherapy a schema1:Organization ;
     schema1:location place:OrgPlace_San_Francisco_CA_USA ;
@@ -6597,6 +6657,9 @@ organization:Penn_Institute_for_RNA_Innovations_University_of_Pennsylvania a sch
     schema1:location place:OrgPlace_Philadelphia_PA_USA ;
     foaf:name "Penn Institute for RNA Innovations University of Pennsylvania" .
 
+organization:Permanent_International_Peace_Bureau_nan a schema1:Organization ;
+    foaf:name "Permanent International Peace Bureau"^^xsd:string .
+
 organization:Polarographic_Institute_of_the_Czechoslovak_Academy_of_Science a schema1:Organization ;
     schema1:location place:OrgPlace_Prague_Czechoslovakia_%28now_Czech_Republic%29 ;
     foaf:name "Polarographic Institute of the Czechoslovak Academy of Science" .
@@ -6604,6 +6667,9 @@ organization:Polarographic_Institute_of_the_Czechoslovak_Academy_of_Science a sc
 organization:Polytechnic_Institute a schema1:Organization ;
     schema1:location place:OrgPlace_Copenhagen_Denmark ;
     foaf:name "Polytechnic Institute" .
+
+organization:Pugwash_Conferences_on_Science_and_World_Affairs_nan a schema1:Organization ;
+    foaf:name "Pugwash Conferences on Science and World Affairs"^^xsd:string .
 
 organization:Queen%27s_University a schema1:Organization ;
     schema1:location place:OrgPlace_Kingston_Canada ;
@@ -6764,6 +6830,15 @@ organization:UMass_Chan_Medical_School a schema1:Organization ;
 organization:US_Naval_Research_Laboratory a schema1:Organization ;
     schema1:location place:OrgPlace_Washington_D.C._USA ;
     foaf:name "US Naval Research Laboratory" .
+
+organization:United_Nations_Children%27s_Fund_nan a schema1:Organization ;
+    foaf:name "United Nations Children's Fund"^^xsd:string .
+
+organization:United_Nations_Peacekeeping_Forces_nan a schema1:Organization ;
+    foaf:name "United Nations Peacekeeping Forces"^^xsd:string .
+
+organization:United_Nations_nan a schema1:Organization ;
+    foaf:name "United Nations"^^xsd:string .
 
 organization:Universit%26eacute%3B_Paris-Sud a schema1:Organization ;
     schema1:location place:OrgPlace_Orsay_France ;
@@ -6940,6 +7015,9 @@ organization:Weizmann_Institute_of_Science a schema1:Organization ;
 organization:Western_Reserve_University a schema1:Organization ;
     schema1:location place:OrgPlace_Cleveland_OH_USA ;
     foaf:name "Western Reserve University" .
+
+organization:World_Food_Programme_nan a schema1:Organization ;
+    foaf:name "World Food Programme"^^xsd:string .
 
 organization:World_Foundation_for_AIDS_Research_and_Prevention a schema1:Organization ;
     schema1:location place:OrgPlace_Paris_France ;
@@ -7472,26 +7550,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Sen"^^xsd:string ;
     foaf:givenName "Amartya"^^xsd:string .
-
-<http://example.org/nobel/person/American_Friends_Service_Committee_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "American Friends Service Committee"^^xsd:string .
-
-<http://example.org/nobel/person/Amnesty_International_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Amnesty International"^^xsd:string .
 
 <http://example.org/nobel/person/Anatole_France> a foaf:Person ;
     schema1:affiliation organization:nan ;
@@ -8323,16 +8381,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "Powell"^^xsd:string ;
     foaf:givenName "Cecil"^^xsd:string .
 
-<http://example.org/nobel/person/Center_for_Civil_Liberties_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Center for Civil Liberties"^^xsd:string .
-
 <http://example.org/nobel/person/Charles_B._Huggins> a foaf:Person ;
     schema1:affiliation organization:University_of_Chicago_Ben_May_Laboratory_for_Cancer_Research ;
     schema1:birthDate "1901-09-22"^^xsd:date ;
@@ -8922,16 +8970,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Muratov"^^xsd:string ;
     foaf:givenName "Dmitry"^^xsd:string .
-
-<http://example.org/nobel/person/Doctors_Without_Borders_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Doctors Without Borders"^^xsd:string .
 
 <http://example.org/nobel/person/Donald_A._Glaser> a foaf:Person ;
     schema1:affiliation organization:University_of_California ;
@@ -9573,16 +9611,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "Montale"^^xsd:string ;
     foaf:givenName "Eugenio"^^xsd:string .
 
-<http://example.org/nobel/person/European_Union_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "European Union"^^xsd:string .
-
 <http://example.org/nobel/person/Eyvind_Johnson> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1900-07-29"^^xsd:date ;
@@ -9912,16 +9940,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "von Hayek"^^xsd:string ;
     foaf:givenName "Friedrich"^^xsd:string .
-
-<http://example.org/nobel/person/Friends_Service_Council_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Friends Service Council"^^xsd:string .
 
 <http://example.org/nobel/person/Frits_Zernike> a foaf:Person ;
     schema1:affiliation organization:Groningen_University ;
@@ -10452,16 +10470,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Hounsfield"^^xsd:string ;
     foaf:givenName "Godfrey N."^^xsd:string .
-
-<http://example.org/nobel/person/Grameen_Bank_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Grameen Bank"^^xsd:string .
 
 <http://example.org/nobel/person/Grazia_Deledda> a foaf:Person ;
     schema1:affiliation organization:nan ;
@@ -11112,76 +11120,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Kertész"^^xsd:string ;
     foaf:givenName "Imre"^^xsd:string .
-
-<http://example.org/nobel/person/Institute_of_International_Law_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Institute of International Law"^^xsd:string .
-
-<http://example.org/nobel/person/Intergovernmental_Panel_on_Climate_Change_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Intergovernmental Panel on Climate Change"^^xsd:string .
-
-<http://example.org/nobel/person/International_Atomic_Energy_Agency_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Atomic Energy Agency"^^xsd:string .
-
-<http://example.org/nobel/person/International_Campaign_to_Abolish_Nuclear_Weapons_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Campaign to Abolish Nuclear Weapons"^^xsd:string .
-
-<http://example.org/nobel/person/International_Campaign_to_Ban_Landmines_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Campaign to Ban Landmines"^^xsd:string .
-
-<http://example.org/nobel/person/International_Labour_Organization_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Labour Organization"^^xsd:string .
-
-<http://example.org/nobel/person/International_Physicians_for_the_Prevention_of_Nuclear_War_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Physicians for the Prevention of Nuclear War"^^xsd:string .
 
 <http://example.org/nobel/person/Ir%C3%A8ne_Joliot-Curie> a foaf:Person ;
     schema1:affiliation organization:Institut_du_Radium ;
@@ -12653,16 +12591,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "nan"^^xsd:string ;
     foaf:givenName "Le Duc Tho"^^xsd:string .
 
-<http://example.org/nobel/person/League_of_Red_Cross_Societies_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "League of Red Cross Societies"^^xsd:string .
-
 <http://example.org/nobel/person/Lech_Wa%C5%82%C4%99sa> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1943-09-29"^^xsd:date ;
@@ -13263,16 +13191,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "Schwartz"^^xsd:string ;
     foaf:givenName "Melvin"^^xsd:string .
 
-<http://example.org/nobel/person/Memorial_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Memorial"^^xsd:string .
-
 <http://example.org/nobel/person/Menachem_Begin> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1913-08-16"^^xsd:date ;
@@ -13513,16 +13431,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "Mahfouz"^^xsd:string ;
     foaf:givenName "Naguib"^^xsd:string .
 
-<http://example.org/nobel/person/Nansen_International_Office_for_Refugees_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Nansen International Office for Refugees"^^xsd:string .
-
 <http://example.org/nobel/person/Narges_Mohammadi> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1972-04-21"^^xsd:date ;
@@ -13542,16 +13450,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Söderblom"^^xsd:string ;
     foaf:givenName "Nathan"^^xsd:string .
-
-<http://example.org/nobel/person/National_Dialogue_Quartet_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "National Dialogue Quartet"^^xsd:string .
 
 <http://example.org/nobel/person/Nelly_Sachs> a foaf:Person ;
     schema1:affiliation organization:nan ;
@@ -13632,16 +13530,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Finsen"^^xsd:string ;
     foaf:givenName "Niels Ryberg"^^xsd:string .
-
-<http://example.org/nobel/person/Nihon_Hidankyo_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "1956-08-10"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Nihon Hidankyo"^^xsd:string .
 
 <http://example.org/nobel/person/Nikolaas_Tinbergen> a foaf:Person ;
     schema1:affiliation organization:University_of_Oxford ;
@@ -13762,16 +13650,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Smithies"^^xsd:string ;
     foaf:givenName "Oliver"^^xsd:string .
-
-<http://example.org/nobel/person/Organisation_for_the_Prohibition_of_Chemical_Weapons_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Organisation for the Prohibition of Chemical Weapons"^^xsd:string .
 
 <http://example.org/nobel/person/Orhan_Pamuk> a foaf:Person ;
     schema1:affiliation organization:nan ;
@@ -14153,16 +14031,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "Bridgman"^^xsd:string ;
     foaf:givenName "Percy W."^^xsd:string .
 
-<http://example.org/nobel/person/Permanent_International_Peace_Bureau_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Permanent International Peace Bureau"^^xsd:string .
-
 <http://example.org/nobel/person/Peter_A._Diamond> a foaf:Person ;
     schema1:affiliation organization:Massachusetts_Institute_of_Technology_%28MIT%29 ;
     schema1:birthDate "1940-04-29"^^xsd:date ;
@@ -14382,16 +14250,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Kusch"^^xsd:string ;
     foaf:givenName "Polykarp"^^xsd:string .
-
-<http://example.org/nobel/person/Pugwash_Conferences_on_Science_and_World_Affairs_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Pugwash Conferences on Science and World Affairs"^^xsd:string .
 
 <http://example.org/nobel/person/Pyotr_Kapitsa> a foaf:Person ;
     schema1:affiliation organization:Academy_of_Sciences ;
@@ -16193,36 +16051,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:familyName "von Euler"^^xsd:string ;
     foaf:givenName "Ulf"^^xsd:string .
 
-<http://example.org/nobel/person/United_Nations_Children%27s_Fund_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "United Nations Children's Fund"^^xsd:string .
-
-<http://example.org/nobel/person/United_Nations_Peacekeeping_Forces_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "United Nations Peacekeeping Forces"^^xsd:string .
-
-<http://example.org/nobel/person/United_Nations_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "United Nations"^^xsd:string .
-
 <http://example.org/nobel/person/V._S._Naipaul> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1932-08-17"^^xsd:date ;
@@ -16802,16 +16630,6 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:gender "male"^^xsd:string ;
     foaf:familyName "Wilson"^^xsd:string ;
     foaf:givenName "Woodrow"^^xsd:string .
-
-<http://example.org/nobel/person/World_Food_Programme_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "World Food Programme"^^xsd:string .
 
 <http://example.org/nobel/person/Xiaobo_Liu> a foaf:Person ;
     schema1:affiliation organization:nan ;
@@ -20907,6 +20725,9 @@ organization:Norwegian_University_of_Science_and_Technology_%28NTNU%29 a schema1
     schema1:location place:OrgPlace_Trondheim_Norway ;
     foaf:name "Norwegian University of Science and Technology (NTNU)" .
 
+organization:Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan a schema1:Organization ;
+    foaf:name "Office of the United Nations High Commissioner for Refugees"^^xsd:string .
+
 organization:Purdue_University a schema1:Organization ;
     schema1:location place:OrgPlace_West_Lafayette_IN_USA ;
     foaf:name "Purdue University" .
@@ -21038,16 +20859,6 @@ organization:Wellcome_Research_Laboratories a schema1:Organization ;
     schema1:gender "female"^^xsd:string ;
     foaf:familyName "Curie"^^xsd:string ;
     foaf:givenName "Marie"^^xsd:string .
-
-<http://example.org/nobel/person/Office_of_the_United_Nations_High_Commissioner_for_Refugees_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "1950-12-14"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "Office of the United Nations High Commissioner for Refugees"^^xsd:string .
 
 place:Born_Alice_TX_USA a schema1:Place ;
     schema1:addressCountry "USA" ;
@@ -21239,6 +21050,10 @@ place:Born_Yonkers_NY_USA a schema1:Place ;
 
 place:Born_nan_United_Kingdom a schema1:Place ;
     schema1:addressCountry "United Kingdom" ;
+    schema1:addressLocality "nan" .
+
+place:Born_nan_nan a schema1:Place ;
+    schema1:addressCountry "nan" ;
     schema1:addressLocality "nan" .
 
 place:Died_Amsterdam_the_Netherlands a schema1:Place ;
@@ -21530,6 +21345,9 @@ organization:Imperial_College a schema1:Organization ;
     schema1:location place:OrgPlace_London_United_Kingdom ;
     foaf:name "Imperial College" .
 
+organization:International_Committee_of_the_Red_Cross_nan a schema1:Organization ;
+    foaf:name "International Committee of the Red Cross"^^xsd:string .
+
 organization:Kiel_University a schema1:Organization ;
     schema1:location place:OrgPlace_Kiel_Germany ;
     foaf:name "Kiel University" .
@@ -21589,16 +21407,6 @@ organization:University_of_Zurich a schema1:Organization ;
 organization:Victoria_University a schema1:Organization ;
     schema1:location place:OrgPlace_Manchester_United_Kingdom ;
     foaf:name "Victoria University" .
-
-<http://example.org/nobel/person/International_Committee_of_the_Red_Cross_nan> a foaf:Person ;
-    schema1:affiliation organization:nan ;
-    schema1:birthDate "nan"^^xsd:date ;
-    schema1:birthPlace place:Born_nan_nan ;
-    schema1:deathDate "nan"^^xsd:date ;
-    schema1:deathPlace place:Died_nan_nan ;
-    schema1:gender "org"^^xsd:string ;
-    foaf:familyName "nan"^^xsd:string ;
-    foaf:givenName "International Committee of the Red Cross"^^xsd:string .
 
 place:Born_Adelaide_Australia a schema1:Place ;
     schema1:addressCountry "Australia" ;
@@ -22273,10 +22081,6 @@ place:Born_Paris_France a schema1:Place ;
 place:Died_Paris_France a schema1:Place ;
     schema1:addressCountry "France" ;
     schema1:addressLocality "Paris" .
-
-place:Born_nan_nan a schema1:Place ;
-    schema1:addressCountry "nan" ;
-    schema1:addressLocality "nan" .
 
 organization:University_of_California a schema1:Organization ;
     schema1:location place:OrgPlace_Berkeley_CA_USA,

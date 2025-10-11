@@ -1,1 +1,32 @@
+# Détection de migrations scientifiques (pays de naissance ≠ affiliation)
+
+  PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+  PREFIX schema: <http://schema.org/>
+
+  SELECT DISTINCT
+    ?firstName
+    ?lastName
+    ?birthCountry 
+    ?orgName 
+    ?orgCountry
+
+  WHERE {
+    ?person a foaf:Person ;
+            foaf:familyName ?lastName ;
+            foaf:givenName ?firstName ;
+            schema:birthPlace ?birthPlace ;
+            schema:affiliation ?organization .
+
+    ?birthPlace schema:addressCountry ?birthCountry .
+
+    ?organization schema:location ?orgLocation ;
+                  foaf:name ?orgName .
+
+    ?orgLocation schema:addressCountry ?orgCountry .
+
+    FILTER(?birthCountry != ?orgCountry)
+
+  }
+
+  ORDER BY ?personName
 

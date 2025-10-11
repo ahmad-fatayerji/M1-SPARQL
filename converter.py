@@ -3,6 +3,36 @@ from rdflib import Graph, Literal, RDF, URIRef, Namespace
 from rdflib.namespace import FOAF, XSD
 from urllib.parse import quote
 import os
+import re
+
+
+COUNTRY_MAP = {
+    "U.S.A.": "United States",
+    "USA": "United States",
+    "U. S. A.": "United States",
+    "United States of America": "United States",
+    "Deutschland": "Germany",
+    "UK": "United Kingdom",
+    "U.K.": "United Kingdom",
+    "Russian Federation": "Russia",
+    "USSR": "Russia",
+    "USSR (now Russia)": "Russia"
+}
+
+def normalize_country(country: str) -> str:
+    if not country or pd.isna(country):
+        return ""
+
+    # Nettoyage de base
+    c = country.strip()
+    c = re.sub(r"\s+", " ", c)  # espaces multiples → 1
+    c = c.replace(".", "")  # enlever les points
+    
+    # Dictionnaire
+    if c in COUNTRY_MAP:
+        return COUNTRY_MAP[c]
+
+    return c
 
 def safe_uri_component(value: str) -> str:
     """Encode safely a string to be used inside a URI"""
@@ -45,17 +75,17 @@ def csv_to_rdf(csv_file, output_ttl=None):
         gender = str(row.get("Gender", "")).strip()
         
         # Lieu de Naissance
-        born_country = str(row.get("Born country", "")).strip()
+        born_country = normalize_country(row.get("Born country", ""))
         born_city = str(row.get("Born city", "")).strip()
         
         # Lieu de Décès
-        died_country = str(row.get("Died country", "")).strip()
+        died_country = normalize_country(row.get("Died country", ""))
         died_city = str(row.get("Died city", "")).strip()
         
         # Affiliation
         org_name = str(row.get("Organization name", "")).strip()
         org_city = str(row.get("Organization city", "")).strip()
-        org_country = str(row.get("Organization country", "")).strip()
+        org_country = normalize_country(row.get("Organization country", ""))
         
         
         # --- 2. Encodage pour URI ---
@@ -117,7 +147,7 @@ def csv_to_rdf(csv_file, output_ttl=None):
         
         # --- Lieu de Naissance (schema:Place) ---
         if (born_city or born_country) and not laureate_is_org:
-            place_id = safe_uri_component(f"Born_{born_city}_{born_country}")
+            place_id = safe_uri_component(f"{born_city}_{born_country}")
             place_uri = URIRef(place_ns + place_id)
             
             g.add((laureate_uri, schema.birthPlace, place_uri))
@@ -129,7 +159,7 @@ def csv_to_rdf(csv_file, output_ttl=None):
 
         # --- Lieu de Décès (schema:Place) ---
         if (died_city or died_country) and not laureate_is_org:
-            place_id = safe_uri_component(f"Died_{died_city}_{died_country}")
+            place_id = safe_uri_component(f"{died_city}_{died_country}")
             place_uri = URIRef(place_ns + place_id)
             
             g.add((laureate_uri, schema.deathPlace, place_uri))
@@ -168,7 +198,7 @@ def csv_to_rdf(csv_file, output_ttl=None):
 
             # Ajout du lieu de l'organisation
             if org_city or org_country:
-                org_place_id = safe_uri_component(f"OrgPlace_{org_city}_{org_country}")
+                org_place_id = safe_uri_component(f"{org_city}_{org_country}")
                 org_place_uri = URIRef(place_ns + org_place_id)
 
                 g.add((org_uri, schema.location, org_place_uri))
@@ -186,4 +216,4 @@ def csv_to_rdf(csv_file, output_ttl=None):
 
 if __name__ == '__main__':
     # REMPLACER 'nobel-prize-laureates.csv' par le nom de votre fichier si nécessaire
-    csv_to_rdf('nobel-prize-laureates.csv', 'nobel_complete.ttl')
+    csv_to_rdf('nobel-prize-laureates.csv', 'out.ttl')
