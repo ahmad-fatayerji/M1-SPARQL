@@ -11154,7 +11154,7 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
 <http://example.org/nobel/person/Isaac_Bashevis_Singer> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1904-07-14"^^xsd:date ;
-    schema1:birthPlace place:Leoncin_Russian_Empire_%28now_Poland%29 ;
+    schema1:birthPlace place:Leoncin_Poland ;
     schema1:deathDate "1991-07-24"^^xsd:date ;
     schema1:deathPlace place:Surfside_FL_United_States ;
     schema1:gender "male"^^xsd:string ;
@@ -12134,7 +12134,7 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
 <http://example.org/nobel/person/Joseph_Rotblat> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1908-11-04"^^xsd:date ;
-    schema1:birthPlace place:Warsaw_Russian_Empire_%28now_Poland%29 ;
+    schema1:birthPlace place:Warsaw_Poland ;
     schema1:deathDate "2005-08-31"^^xsd:date ;
     schema1:deathPlace place:London_United_Kingdom ;
     schema1:gender "male"^^xsd:string ;
@@ -16174,7 +16174,7 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
 <http://example.org/nobel/person/W%C5%82adys%C5%82aw_Reymont> a foaf:Person ;
     schema1:affiliation organization:nan ;
     schema1:birthDate "1867-05-07"^^xsd:date ;
-    schema1:birthPlace place:Kobiele_Wielkie_Russian_Empire_%28now_Poland%29 ;
+    schema1:birthPlace place:Kobiele_Wielkie_Poland ;
     schema1:deathDate "1925-12-05"^^xsd:date ;
     schema1:deathPlace place:Warsaw_Poland ;
     schema1:gender "male"^^xsd:string ;
@@ -18112,8 +18112,8 @@ place:Kobe_Japan a schema1:Place ;
     schema1:addressCountry "Japan" ;
     schema1:addressLocality "Kobe" .
 
-place:Kobiele_Wielkie_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    schema1:addressCountry "Russian Empire (now Poland)" ;
+place:Kobiele_Wielkie_Poland a schema1:Place ;
+    schema1:addressCountry "Poland" ;
     schema1:addressLocality "Kobiele Wielkie" .
 
 place:Kojo_Iraq a schema1:Place ;
@@ -18216,8 +18216,8 @@ place:Lenoir_NC_United_States a schema1:Place ;
     schema1:addressCountry "United States" ;
     schema1:addressLocality "Lenoir NC" .
 
-place:Leoncin_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    schema1:addressCountry "Russian Empire (now Poland)" ;
+place:Leoncin_Poland a schema1:Place ;
+    schema1:addressCountry "Poland" ;
     schema1:addressLocality "Leoncin" .
 
 place:Lethbridge_Alberta_Canada a schema1:Place ;
@@ -19568,10 +19568,6 @@ place:Waltersdorf_%28now_Niegoslawice%29_Germany_%28now_Poland%29 a schema1:Plac
     schema1:addressCountry "Germany (now Poland)" ;
     schema1:addressLocality "Waltersdorf (now Niegoslawice)" .
 
-place:Warsaw_Poland a schema1:Place ;
-    schema1:addressCountry "Poland" ;
-    schema1:addressLocality "Warsaw" .
-
 place:Warwick_United_Kingdom a schema1:Place ;
     schema1:addressCountry "United Kingdom" ;
     schema1:addressLocality "Warwick" .
@@ -20016,7 +20012,7 @@ organization:Wellcome_Research_Laboratories a schema1:Organization ;
     schema1:affiliation organization:Sorbonne_University,
         organization:nan ;
     schema1:birthDate "1867-11-07"^^xsd:date ;
-    schema1:birthPlace place:Warsaw_Russian_Empire_%28now_Poland%29 ;
+    schema1:birthPlace place:Warsaw_Poland ;
     schema1:deathDate "1934-07-04"^^xsd:date ;
     schema1:deathPlace place:Sallanches_France ;
     schema1:gender "female"^^xsd:string ;
@@ -20403,10 +20399,6 @@ place:Waltham_MA_United_States a schema1:Place ;
     schema1:addressCountry "United States" ;
     schema1:addressLocality "Waltham MA" .
 
-place:Warsaw_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    schema1:addressCountry "Russian Empire (now Poland)" ;
-    schema1:addressLocality "Warsaw" .
-
 place:White_Plains_NY_United_States a schema1:Place ;
     schema1:addressCountry "United States" ;
     schema1:addressLocality "White Plains NY" .
@@ -20678,6 +20670,10 @@ place:Tel_Aviv_Israel a schema1:Place ;
 place:Tucson_AZ_United_States a schema1:Place ;
     schema1:addressCountry "United States" ;
     schema1:addressLocality "Tucson AZ" .
+
+place:Warsaw_Poland a schema1:Place ;
+    schema1:addressCountry "Poland" ;
+    schema1:addressLocality "Warsaw" .
 
 place:Yonkers_NY_United_States a schema1:Place ;
     schema1:addressCountry "United States" ;

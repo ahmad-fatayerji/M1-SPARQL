@@ -72,9 +72,11 @@ URI : `nobel:person/<firstname_surname>`
 | `schema:deathPlace`    | `schema`   | URI → `schema:Place`          | Lieu de décès |
 | `schema:affiliation`   | `schema`   | URI → `schema:Organization`   | Organisation(s) affiliée(s) au moment du prix |
 
+> Une personne peut avoir plusieurs organisations (notemment si elle a reçu plusieurs prix)
+
 ---
 
-### 🏅 Récompense (`schema:Award`)
+### Récompense (`schema:Award`)
 
 URI : `nobel:award/<name>_<year>_<category>`
 
@@ -115,6 +117,13 @@ URI : `place:<Born|Died|OrgPlace>_<city>_<country>`
 ### Exemple complet (extrait Turtle)
 
 ```turtle
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix organization: <http://example.org/nobel/organization/> .
+@prefix place: <http://example.org/nobel/place/> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Marie Curie en guise d'exemple
 <http://example.org/nobel/person/Marie_Curie> a foaf:Person ;
         schema1:affiliation organization:Sorbonne_University,
         organization:nan ;
@@ -126,26 +135,45 @@ URI : `place:<Born|Died|OrgPlace>_<city>_<country>`
         foaf:familyName "Curie"^^xsd:string ;
         foaf:givenName "Marie"^^xsd:string .
 
-nobel:award/Marie_Curie_1911_Chemistry a schema:Award ;
-    schema:awardDate "1911"^^xsd:gYear ;
-    schema:category "Chemistry" ;
-    schema:description "in recognition of her services to the advancement of chemistry..."@en ;
-    schema:recipient <http://example.org/nobel/person/Marie_Curie> .
+# Prix nobel reçu
+<http://example.org/nobel/award/Marie_Curie_1903_Physics> a schema1:Award ;
+    schema1:awardDate "1903"^^xsd:gYear ;
+    schema1:category "Physics"^^xsd:string ;
+    schema1:description "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel"@en ;
+    schema1:recipient <http://example.org/nobel/person/Marie_Curie> .
 
+# Prix nobel reçu
+<http://example.org/nobel/award/Marie_Curie_1911_Chemistry> a schema1:Award ;
+    schema1:awardDate "1911"^^xsd:gYear ;
+    schema1:category "Chemistry"^^xsd:string ;
+    schema1:description "in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium by the isolation of radium and the study of the nature and compounds of this remarkable element"@en ;
+    schema1:recipient <http://example.org/nobel/person/Marie_Curie> .
+
+# Organisation de la lauréate
 organization:Sorbonne_University a schema1:Organization ;
     schema1:location place:Paris_France ;
     foaf:name "Sorbonne University" .
 
-place:Warsaw_Poland a schema1:Place ;
-    schema1:addressCountry "Poland" ;
-    schema1:addressLocality "Warsaw" .
-
+# Lieux de l'organisation
 place:Paris_France a schema1:Place ;
     schema1:addressCountry "France" ;
     schema1:addressLocality "Paris" .
 
+# Lieux de naissance 
+place:Sallanches_France a schema1:Place ;
+    schema1:addressCountry "France" ;
+    schema1:addressLocality "Sallanches" .
+
+
+# Lieux de mort
+place:Warsaw_Poland a schema1:Place ;
+    schema1:addressCountry "Poland" ;
+    schema1:addressLocality "Warsaw" .
+
+
 ```
----
+- Nous obtenons avec cela cette représentation RDF (fait avec [RF-GRAPHER](https://www.ldf.fi/service/rdf-grapher)) :
+![Marie Curie](Marie_Curie.png)
 
 ## Utilisation avec Fuseki
 

@@ -16,7 +16,8 @@ COUNTRY_MAP = {
     "U.K.": "United Kingdom",
     "Russian Federation": "Russia",
     "USSR": "Russia",
-    "USSR (now Russia)": "Russia"
+    "USSR (now Russia)": "Russia",
+    "Russian Empire (now Poland)": "Poland"
 }
 
 def normalize_country(country: str) -> str:
