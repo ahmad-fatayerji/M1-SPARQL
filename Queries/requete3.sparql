@@ -1,7 +1,8 @@
 # Détection de migrations scientifiques (pays de naissance ≠ affiliation)
-
+  PREFIX dbo: <http://dbpedia.org/ontology/>
   PREFIX foaf: <http://xmlns.com/foaf/0.1/>
   PREFIX schema: <http://schema.org/>
+  PREFIX db: <http://dbpedia.org/resource/>
 
   SELECT DISTINCT
     ?firstName
@@ -17,14 +18,16 @@
             schema:birthPlace ?birthPlace ;
             schema:affiliation ?organization .
 
-    ?birthPlace schema:addressCountry ?birthCountry .
+    ?birthPlace dbo:country ?birthCountry .
 
     ?organization schema:location ?orgLocation ;
                   foaf:name ?orgName .
 
-    ?orgLocation schema:addressCountry ?orgCountry .
+    ?orgLocation dbo:country ?orgCountry .
 
     FILTER(?birthCountry != ?orgCountry)
+    FILTER(?orgName != "nan")
+  	FILTER(?birthCountry != db:nan)
 
   }
 
