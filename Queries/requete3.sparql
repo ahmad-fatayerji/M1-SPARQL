@@ -26,8 +26,8 @@
     ?orgLocation dbo:country ?orgCountry .
 
     FILTER(?birthCountry != ?orgCountry)
-    FILTER(?orgName != "nan")
-  	FILTER(?birthCountry != db:nan)
+    #FILTER(?orgName != "nan")
+  	#FILTER(?birthCountry != db:nan)
 
   }
 

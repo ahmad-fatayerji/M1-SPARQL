@@ -1,0 +1,79 @@
+Exemple fonctionnement CSV -> RDF avec marie curie : 
+
+Rappel des colonnes :
+
+Firstname; Surname; Born; Died; Born country; Born country code; Born city; Died country; Died country code; Died city; Gender; Year; Category; Motivation; Organization name; Organization city; Organization country
+
+Pour Marie Curie : 
+
+Marie; Curie; 1867-11-07; 1934-07-04; Russian Empire (now Poland); PL; Warsaw; France; FR; Sallanches; female; 1903; Physics; """in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel""" ; ; ;
+
+1 --- Stocker toutes les valeurs dans une variable row : 
+
+row["Firstname"] = "Marie"
+row["Surname"] = "Curie"
+row["Born"] = "1867-11-07"
+row["Born country"] = "Russian Empire (now Poland)"
+row["Born city"] = "Warsaw"
+etc 
+
+2 --- Créer l'uri de la personne : 
+
+http://example.org/nobel/person/Marie_Curie  ; 
+
+Si la personne était une organisation (gender == org) alors on mettrais le nom de l'organisation.
+
+http://example.org/nobel/person/<org_name> ;
+
+3 --- Création des triplets pour les personnes: 
+
+Le triplet contient prenom, nom, genre, date de naissance (autres valeurs seront ajoutés après, comme lieux de naissance et mort, organisations etc)
+
+<nobel/person/Marie_Curie> a foaf:Person ;
+    foaf:givenName "Marie" ;
+    foaf:familyName "Curie" ;
+    schema:birthDate "1867-11-07"^^xsd:date ;
+    schema:deathDate "1934-07-04"^^xsd:date ;
+    schema:gender "female" .
+
+4 --- Création des triplets pour les lieux (places) :
+
+Pour le lieux de naissance, on a : 
+
+Ville = Warsaw
+Pays = Russian Empire (now Poland)
+
+http://example.org/nobel/place/Warsaw_Russian_Empire_(now_Poland)
+
+
+
+On a créé un dictionnaire de conversion des noms de pays pour les adapter à DBPedia;
+ici on a alors "Russian Empire (now Poland)" -> "Poland", "Warsaw" reste inchangé puisque déjà présent dans DBPedia.
+
+Le triplet contient ville, pays, sous la forme : 
+
+<nobel/place/Warsaw_Russian_Empire_(now_Poland)> a schema:Place ;
+    dbo:city dbr:Warsaw ;
+    dbo:country dbr:Poland .
+
+On fait de même pour le lieux de décès.
+
+5 --- Création des triplets pour les prix nobels : 
+
+http://example.org/nobel/award/Marie_Curie_1903_Physics
+
+Contient date de reçus, catégorie, description, personne remportant le lauréat. Sous la forme : 
+
+<nobel/award/Marie_Curie_1903_Physics> a schema:Award ;
+    schema:awardDate "1903"^^xsd:gYear ;
+    schema:category "Physics" ;
+    schema:description "in recognition of the extraordinary services..."@en ;
+    schema:recipient <nobel/person/Marie_Curie> .
+
+6 --- Organisations
+
+Lors de ce prix nobel, Marie Curie n'était pas dans une organisation, alors on ajoute pas de champ schema:affiliation dans le triplet Person.
+Lors de son second prix, une organisation est mentionnée ; dans ce cas, une ressource Organization distincte est créée et reliée à la même entité Marie_Curie.
+On ne crée pas deux individus différents pour la même personne : on fusionne les informations.
+
+
