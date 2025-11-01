@@ -46,6 +46,9 @@ Ce jeu de données RDF repose sur deux vocabulaires principaux :
 
 - [`schema.org`](https://schema.org/) : pour les entités Personne, Organisation, Récompense et Lieu  
 - [`FOAF`](http://xmlns.com/foaf/spec/) : pour la modélisation des noms propres (personnes et organisations)
+- [`DBpedia Ontology (dbo:)`](https://dbpedia.org/ontology/) : pour la représentation des lieux géographiques (pays, villes)
+- [`DBpedia Resources (dbr:)`](https://dbpedia.org/resource/) : pour les valeurs associés aux lieux géographiques
+
 
 ---
 
