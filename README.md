@@ -4,6 +4,10 @@
 
 Ce projet transforme un fichier CSV contenant les informations des lauréats du **Prix Nobel** en un graphe **RDF** au format **Turtle**, interrogeable via **SPARQL** sur un serveur local [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/).
 
+### Utilisation pour autres groupes !
+
+Le graphe peut être récupéré dans le repo, sous le nom ```out.ttl```, ou bien directement à travers son [API]( https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql), hérbergé par le site ```triplyDB``` ([Notre Graphe](https://triplydb.com/Ijjaziad/laureate-nobel/sparql)). Celui ci utilise dbo:country
+
 ---
 
 ## Prérequis et installation
@@ -111,8 +115,8 @@ URI : `place:<Born|Died|OrgPlace>_<city>_<country>`
 | Propriété                     | Namespace   | Type de valeur              | Description |
 |-------------------------------|------------|------------------------------|-------------|
 | `rdf:type`                   | `rdf`      | URI (`schema:Place`)      | Typage |
-| `schema:addressLocality`    | `schema`   | Literal (`xsd:string`)   | Ville |
-| `schema:addressCountry`    | `schema`   | Literal (`xsd:string`)   | Pays (normalisé) |
+| `dbo:city`    | `dbo`   | **URI** → ressource DBpedia   | Ville |
+| `dbo:country`    | `dbo`   | **URI** → ressource DBpedia   | Pays (normalisé) |
 
 ### Exemple complet (extrait Turtle)
 
@@ -156,19 +160,18 @@ organization:Sorbonne_University a schema1:Organization ;
 
 # Lieux de l'organisation
 place:Paris_France a schema1:Place ;
-    schema1:addressCountry "France" ;
-    schema1:addressLocality "Paris" .
+    dbo:city dbr:Paris ;
+    dbo:country dbr:France .
 
 # Lieux de naissance 
 place:Sallanches_France a schema1:Place ;
-    schema1:addressCountry "France" ;
-    schema1:addressLocality "Sallanches" .
-
+    dbo:city dbr:Sallanches ;
+    dbo:country dbr:France .
 
 # Lieux de mort
 place:Warsaw_Poland a schema1:Place ;
-    schema1:addressCountry "Poland" ;
-    schema1:addressLocality "Warsaw" .
+    dbo:city dbr:Warsaw ;
+    dbo:country dbr:Poland .
 
 
 ```
@@ -185,7 +188,7 @@ place:Warsaw_Poland a schema1:Place ;
 
 2. Créer un dataset via l’interface [http://localhost:3030](http://localhost:3030)
 
-3. Importer `nobel_complete.ttl` et exécuter des requêtes SPARQL.
+3. Importer `out.ttl` et exécuter des requêtes SPARQL.
 
 ---
 
@@ -238,8 +241,10 @@ ORDER BY DESC(COUNT(?award))  # Tri décroissant par nombre de prix
 ### Détection de migrations scientifiques (pays de naissance ≠ affiliation)
 
 ```turtle
+  PREFIX dbo: <http://dbpedia.org/ontology/>
   PREFIX foaf: <http://xmlns.com/foaf/0.1/>
   PREFIX schema: <http://schema.org/>
+  PREFIX db: <http://dbpedia.org/resource/>
 
   SELECT DISTINCT
     ?firstName
@@ -255,14 +260,16 @@ ORDER BY DESC(COUNT(?award))  # Tri décroissant par nombre de prix
             schema:birthPlace ?birthPlace ;
             schema:affiliation ?organization .
 
-    ?birthPlace schema:addressCountry ?birthCountry .
+    ?birthPlace dbo:country ?birthCountry .
 
     ?organization schema:location ?orgLocation ;
                   foaf:name ?orgName .
 
-    ?orgLocation schema:addressCountry ?orgCountry .
+    ?orgLocation dbo:country ?orgCountry .
 
     FILTER(?birthCountry != ?orgCountry)
+    #FILTER(?orgName != "nan")
+  	#FILTER(?birthCountry != db:nan)
 
   }
 
@@ -275,5 +282,5 @@ ORDER BY DESC(COUNT(?award))  # Tri décroissant par nombre de prix
 
 - **Python**, `pandas`, `rdflib`
 - **RDF / Turtle**, **SPARQL**
-- **Apache Jena Fuseki**
-- Vocabulaires : `schema.org`, `FOAF`
+- **Apache Jena Fuseki**, **TriplyDB**
+- Vocabulaires : `schema.org`, `FOAF`, `dbpedia`
