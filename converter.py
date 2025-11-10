@@ -1,8 +1,9 @@
-import pandas as pd
-from rdflib import Graph, Literal, RDF, URIRef, Namespace
-from rdflib.namespace import FOAF, XSD
-from urllib.parse import quote
 import os
+from urllib.parse import quote
+
+import pandas as pd
+from rdflib import RDF, RDFS, Graph, Literal, Namespace, URIRef
+from rdflib.namespace import FOAF, XSD
 
 # --- Mapping manuel pour les pays avec noms historiques / abréviations ---
 COUNTRY_URI_MAP = {
@@ -79,7 +80,7 @@ COUNTRY_URI_MAP = {
     "Java Dutch East Indies (now Indonesia)": "Indonesia",
     "Hesse-Kassel (now Germany)": "Germany",
     "Crete (now Greece)": "Greece",
-    "Free City of Danzig (now Poland)": "Poland"
+    "Free City of Danzig (now Poland)": "Poland",
 }
 
 CITY_URI_MAP = {
@@ -92,7 +93,7 @@ CITY_URI_MAP = {
     "Berkeley CA": "Berkeley,_California",
     "Boulder CO": "Boulder,_Colorado",
     "Chicago IL": "Chicago",
-    "Cologne": "Cologne", 
+    "Cologne": "Cologne",
     "Stanford CA": "Stanford,_California",
     "New Haven CT": "New_Haven,_Connecticut",
     "Pasadena CA": "Pasadena,_California",
@@ -103,22 +104,25 @@ CITY_URI_MAP = {
     "Los Angeles CA": "Los_Angeles",
     "San Francisco CA": "San_Francisco",
     "the Hague": "The_Hague",
-    "Waltersdorf (now Niegoslawice)": "Niegoslawice"
-    
+    "Waltersdorf (now Niegoslawice)": "Niegoslawice",
     # Non finis car trop de villes dans le fichier
 }
+
 
 # --- Fonctions utilitaires ---
 def safe_uri_component(value: str) -> str:
     return quote(value.strip().replace(" ", "_"))
+
 
 def normalize_text(value) -> str:
     if not value or pd.isna(value):
         return ""
     return str(value).strip()
 
+
 def normalize_country_text(value) -> str:
     return normalize_text(value).replace(".", "").replace("  ", " ")
+
 
 def normalize_country_to_uri(country: str, dbpedia_res: Namespace) -> URIRef:
     c = normalize_country_text(country)
@@ -128,6 +132,7 @@ def normalize_country_to_uri(country: str, dbpedia_res: Namespace) -> URIRef:
         return URIRef(dbpedia_res + COUNTRY_URI_MAP[c])
     return URIRef(dbpedia_res + safe_uri_component(c))
 
+
 def normalize_city_to_uri(city: str, dbpedia_res: Namespace) -> URIRef:
     c = normalize_text(city)
     if not c:
@@ -135,6 +140,7 @@ def normalize_city_to_uri(city: str, dbpedia_res: Namespace) -> URIRef:
     if c in CITY_URI_MAP:
         return URIRef(dbpedia_res + CITY_URI_MAP[c])
     return URIRef(dbpedia_res + safe_uri_component(c))
+
 
 # --- Construction des URI ---
 def create_laureate_uri(row, nobel_ns, org_ns):
@@ -146,17 +152,26 @@ def create_laureate_uri(row, nobel_ns, org_ns):
     if not has_name:
         return None, False, ""
 
-    is_org = (gender == "org")
-    display_name = firstname if is_org and firstname else (
-        f"{firstname} {surname}".strip() if firstname and surname else (firstname or surname)
+    is_org = gender == "org"
+    display_name = (
+        firstname
+        if is_org and firstname
+        else (
+            f"{firstname} {surname}".strip()
+            if firstname and surname
+            else (firstname or surname)
+        )
     )
 
-    name_for_uri = f"{firstname}_{surname}" if firstname and surname else (firstname or surname)
+    name_for_uri = (
+        f"{firstname}_{surname}" if firstname and surname else (firstname or surname)
+    )
     name_enc = safe_uri_component(name_for_uri)
 
     if is_org:
         return URIRef(org_ns + name_enc), True, display_name
     return URIRef(nobel_ns + f"person/{name_enc}"), False, display_name
+
 
 # --- Ajout des triplets RDF ---
 def add_laureate_triples(g, laureate_uri, row, is_org, schema):
@@ -169,13 +184,23 @@ def add_laureate_triples(g, laureate_uri, row, is_org, schema):
     if is_org:
         g.add((laureate_uri, RDF.type, schema.Organization))
         if firstname or surname:
-            g.add((laureate_uri, FOAF.name, Literal(firstname or surname, datatype=XSD.string)))
+            g.add(
+                (
+                    laureate_uri,
+                    FOAF.name,
+                    Literal(firstname or surname, datatype=XSD.string),
+                )
+            )
     else:
         g.add((laureate_uri, RDF.type, FOAF.Person))
         if firstname:
-            g.add((laureate_uri, FOAF.givenName, Literal(firstname, datatype=XSD.string)))
+            g.add(
+                (laureate_uri, FOAF.givenName, Literal(firstname, datatype=XSD.string))
+            )
         if surname:
-            g.add((laureate_uri, FOAF.familyName, Literal(surname, datatype=XSD.string)))
+            g.add(
+                (laureate_uri, FOAF.familyName, Literal(surname, datatype=XSD.string))
+            )
         if born:
             g.add((laureate_uri, schema.birthDate, Literal(born, datatype=XSD.date)))
         if died:
@@ -183,7 +208,10 @@ def add_laureate_triples(g, laureate_uri, row, is_org, schema):
         if gender.lower() in {"male", "female"}:
             g.add((laureate_uri, schema.gender, Literal(gender, datatype=XSD.string)))
 
-def add_place_triples(g, subject_uri, city, country, predicate, place_ns, dbo, dbr, schema):
+
+def add_place_triples(
+    g, subject_uri, city, country, predicate, place_ns, dbo, dbr, schema
+):
     if not city and not country:
         return
 
@@ -191,6 +219,7 @@ def add_place_triples(g, subject_uri, city, country, predicate, place_ns, dbo, d
     place_uri = URIRef(place_ns + place_id)
     g.add((subject_uri, predicate, place_uri))
     g.add((place_uri, RDF.type, schema.Place))
+    g.add((place_uri, RDFS.label, Literal(country, lang="en"))) # country label
 
     if city:
         city_uri = normalize_city_to_uri(city, dbr)
@@ -200,16 +229,21 @@ def add_place_triples(g, subject_uri, city, country, predicate, place_ns, dbo, d
         country_uri = normalize_country_to_uri(country, dbr)
         if country_uri:
             g.add((place_uri, dbo.country, country_uri))
+            
+
 
 def add_award_triples(g, laureate_uri, row, nobel_ns, schema):
     year = normalize_text(row.get("Year")) or "unknown"
     category = normalize_text(row.get("Category")) or "unknown"
-    motivation = normalize_text(row.get("Motivation")).replace('"', '') or "unknown"
+    motivation = normalize_text(row.get("Motivation")).replace('"', "") or "unknown"
 
     year_enc = safe_uri_component(year)
     category_enc = safe_uri_component(category)
     name_for_uri = safe_uri_component(
-        f"{normalize_text(row.get('Firstname'))}_{normalize_text(row.get('Surname'))}".strip("_") or "unknown"
+        f"{normalize_text(row.get('Firstname'))}_{normalize_text(row.get('Surname'))}".strip(
+            "_"
+        )
+        or "unknown"
     )
 
     award_uri = URIRef(nobel_ns + f"award/{name_for_uri}_{year_enc}_{category_enc}")
@@ -219,8 +253,9 @@ def add_award_triples(g, laureate_uri, row, nobel_ns, schema):
     if category and category != "unknown":
         g.add((award_uri, schema.category, Literal(category, datatype=XSD.string)))
     if motivation:
-        g.add((award_uri, schema.description, Literal(motivation, lang='en')))
+        g.add((award_uri, schema.description, Literal(motivation, lang="en")))
     g.add((award_uri, schema.recipient, laureate_uri))
+
 
 def add_organization_triples(g, laureate_uri, row, org_ns, place_ns, dbo, dbr, schema):
     org_name = normalize_text(row.get("Organization name"))
@@ -237,7 +272,18 @@ def add_organization_triples(g, laureate_uri, row, org_ns, place_ns, dbo, dbr, s
     g.add((org_uri, FOAF.name, Literal(org_name)))
 
     if org_city or org_country:
-        add_place_triples(g, org_uri, org_city, org_country, schema.location, place_ns, dbo, dbr, schema)
+        add_place_triples(
+            g,
+            org_uri,
+            org_city,
+            org_country,
+            schema.location,
+            place_ns,
+            dbo,
+            dbr,
+            schema,
+        )
+
 
 # --- Fonction principale ---
 def csv_to_rdf(csv_file, output_ttl=None):
@@ -272,21 +318,34 @@ def csv_to_rdf(csv_file, output_ttl=None):
 
         if not is_org:
             add_place_triples(
-                g, laureate_uri,
+                g,
+                laureate_uri,
                 normalize_text(row.get("Born city")),
                 normalize_country_text(row.get("Born country")),
-                schema.birthPlace, place_ns, dbo, dbr, schema
+                schema.birthPlace,
+                place_ns,
+                dbo,
+                dbr,
+                schema,
             )
             add_place_triples(
-                g, laureate_uri,
+                g,
+                laureate_uri,
                 normalize_text(row.get("Died city")),
                 normalize_country_text(row.get("Died country")),
-                schema.deathPlace, place_ns, dbo, dbr, schema
+                schema.deathPlace,
+                place_ns,
+                dbo,
+                dbr,
+                schema,
             )
-            add_organization_triples(g, laureate_uri, row, org_ns, place_ns, dbo, dbr, schema)
+            add_organization_triples(
+                g, laureate_uri, row, org_ns, place_ns, dbo, dbr, schema
+            )
 
     g.serialize(destination=output_ttl, format="turtle")
     print(f"Conversion terminée. Fichier TTL sauvegardé : {output_ttl}")
 
-if __name__ == '__main__':
-    csv_to_rdf('nobel-prize-laureates.csv', 'out.ttl')
+
+if __name__ == "__main__":
+    csv_to_rdf("nobel-prize-laureates.csv", "out.ttl")
