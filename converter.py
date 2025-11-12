@@ -138,6 +138,8 @@ def normalize_country(country: str) -> str:
         return ""
     if c in COUNTRY_URI_MAP:
         return COUNTRY_URI_MAP[c]
+    else :
+        return c
 
 
 def normalize_city_to_uri(city: str, dbpedia_res: Namespace) -> URIRef:
