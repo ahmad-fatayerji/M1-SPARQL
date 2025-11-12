@@ -7,13 +7,13 @@ from rdflib.namespace import FOAF, XSD
 
 # --- Mapping manuel pour les pays avec noms historiques / abréviations ---
 COUNTRY_URI_MAP = {
-    "U.S.A.": "United_States",
-    "USA": "United_States",
-    "U. S. A.": "United_States",
-    "United States of America": "United_States",
+    "U.S.A.": "United States",
+    "USA": "United States",
+    "U. S. A.": "United States",
+    "United States of America": "United States",
     "Deutschland": "Germany",
-    "UK": "United_Kingdom",
-    "U.K.": "United_Kingdom",
+    "UK": "United Kingdom",
+    "U.K.": "United Kingdom",
     "Russian Federation": "Russia",
     "USSR": "Russia",
     "USSR (now Russia)": "Russia",
@@ -21,26 +21,26 @@ COUNTRY_URI_MAP = {
     "Russian Empire (now Lithuania)": "Lithuania",
     "the Netherlands": "Netherlands",
     "Austria-Hungary (now Austria)": "Austria",
-    "Austria-Hungary (now Bosnia and Herzegovina)": "Bosnia_and_Herzegovina",
+    "Austria-Hungary (now Bosnia and Herzegovina)": "Bosnia and Herzegovina",
     "Austria-Hungary (now Croatia)": "Croatia",
-    "Austria-Hungary (now Czech Republic)": "Czech_Republic",
+    "Austria-Hungary (now Czech Republic)": "Czech Republic",
     "Austria-Hungary (now Hungary)": "Hungary",
     "Austria-Hungary (now Poland)": "Poland",
     "Austria-Hungary (now Slovenia)": "Slovenia",
     "Austria-Hungary (now Ukraine)": "Ukraine",
     "Austrian Empire (now Austria)": "Austria",
-    "Austrian Empire (now Czech Republic)": "Czech_Republic",
+    "Austrian Empire (now Czech Republic)": "Czech Republic",
     "Austrian Empire (now Italy)": "Italy",
     "Bavaria (now Germany)": "Germany",
-    "Belgian Congo (now Democratic Republic of the Congo)": "Democratic_Republic_of_the_Congo",
-    "Bosnia (now Bosnia and Herzegovina)": "Bosnia_and_Herzegovina",
+    "Belgian Congo (now Democratic Republic of the Congo)": "Democratic Republic of the Congo",
+    "Bosnia (now Bosnia and Herzegovina)": "Bosnia and Herzegovina",
     "British India (now Bangladesh)": "Bangladesh",
     "British India (now India)": "India",
     "British Mandate of Palestine (now Israel)": "Israel",
     "British Protectorate of Palestine (now Israel)": "Israel",
-    "British West Indies (now Saint Lucia)": "Saint_Lucia",
+    "British West Indies (now Saint Lucia)": "Saint Lucia",
     "Burma (now Myanmar)": "Myanmar",
-    "Czechoslovakia (now Czech Republic)": "Czech_Republic",
+    "Czechoslovakia (now Czech Republic)": "Czech Republic",
     "East Friesland (now Germany)": "Germany",
     "East Germany (now Germany)": "Germany",
     "French Algeria (now Algeria)": "Algeria",
@@ -52,8 +52,8 @@ COUNTRY_URI_MAP = {
     "Gold Coast (now Ghana)": "Ghana",
     "Hungary (now Slovakia)": "Slovakia",
     "India (now Pakistan)": "Pakistan",
-    "Korea (now South Korea)": "South_Korea",
-    "Ottoman Empire (now North Macedonia)": "North_Macedonia",
+    "Korea (now South Korea)": "South Korea",
+    "Ottoman Empire (now North Macedonia)": "North Macedonia",
     "Ottoman Empire (now Turkey)": "Turkey",
     "Persia (now Iran)": "Iran",
     "Poland (now Belarus)": "Belarus",
@@ -129,7 +129,7 @@ def normalize_country_to_uri(country: str, dbpedia_res: Namespace) -> URIRef:
     if not c:
         return None
     if c in COUNTRY_URI_MAP:
-        return URIRef(dbpedia_res + COUNTRY_URI_MAP[c])
+        return URIRef(dbpedia_res + safe_uri_component(COUNTRY_URI_MAP[c]))
     return URIRef(dbpedia_res + safe_uri_component(c))
 
 def normalize_country(country: str) -> str:
