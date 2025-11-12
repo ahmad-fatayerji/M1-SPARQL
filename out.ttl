@@ -15882,1457 +15882,1457 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     foaf:givenName "Zhores"^^xsd:string .
 
 <http://example.org/nobel/place/%27s_Graveland_the_Netherlands> a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city <http://dbpedia.org/resource/%27s_Graveland> ;
     dbo:country dbr:Netherlands .
 
 <http://example.org/nobel/place/%C3%84ngelholm_Sweden> a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/%C3%84ngelholm> ;
     dbo:country dbr:Sweden .
 
 <http://example.org/nobel/place/%C3%85lesund_Norway> a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/%C3%85lesund> ;
     dbo:country dbr:Norway .
 
 <http://example.org/nobel/place/%C3%89pernay_France> a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/%C3%89pernay> ;
     dbo:country dbr:France .
 
 <http://example.org/nobel/place/%C3%96vralid_Sweden> a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/%C3%96vralid> ;
     dbo:country dbr:Sweden .
 
 <http://example.org/nobel/place/%C5%9Aeteniai_Russian_Empire_%28now_Lithuania%29> a schema1:Place ;
-    rdfs:label "Russian Empire (now Lithuania)"@en ;
+    rdfs:label "Lithuania"@en ;
     dbo:city <http://dbpedia.org/resource/%C5%9Aeteniai> ;
     dbo:country dbr:Lithuania .
 
 place:Aarberg_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aarberg ;
     dbo:country dbr:Switzerland .
 
 place:Abeokuta_Nigeria a schema1:Place ;
-    rdfs:label "Nigeria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Abeokuta ;
     dbo:country dbr:Nigeria .
 
 place:Aberdeen_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aberdeen ;
     dbo:country dbr:Scotland .
 
 place:Aberdeen_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aberdeen ;
     dbo:country dbr:United_Kingdom .
 
 place:Aberdeen_WA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Aberdeen,_Washington> ;
     dbo:country dbr:United_States .
 
 place:Agen_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Agen ;
     dbo:country dbr:France .
 
 place:Agnetendorf_%28now_Jagniatk%C3%B3w%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Agnetendorf_%28now_Jagniatk%C3%B3w%29 ;
     dbo:country dbr:Poland .
 
 place:Agrigento_Sicily_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Agrigento_Sicily ;
     dbo:country dbr:Italy .
 
 place:Aigle_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aigle ;
     dbo:country dbr:Switzerland .
 
 place:Ainay-le-Ch%C3%A2teau_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ainay-le-Ch%C3%A2teau ;
     dbo:country dbr:France .
 
 place:Akron_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Akron,_Ohio> ;
     dbo:country dbr:United_States .
 
 place:Albertville_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Albertville ;
     dbo:country dbr:France .
 
 place:Albuquerque_NM_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Albuquerque,_New_Mexico> ;
     dbo:country dbr:United_States .
 
 place:Aldea_Chimel_Guatemala a schema1:Place ;
-    rdfs:label "Guatemala"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aldea_Chimel ;
     dbo:country dbr:Guatemala .
 
 place:Alliston_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Alliston ;
     dbo:country dbr:Canada .
 
 place:Almora_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Almora ;
     dbo:country dbr:India .
 
 place:Altenberg%3B_Gr%C3%BCnau_im_Almtal_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Altenberg%3B_Gr%C3%BCnau_im_Almtal ;
     dbo:country dbr:Austria .
 
 place:Alton_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Alton ;
     dbo:country dbr:United_Kingdom .
 
 place:Amherst_NS_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/Amherst,_Nova_Scotia> ;
     dbo:country dbr:Canada .
 
 place:Amoy_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Amoy ;
     dbo:country dbr:China .
 
 place:Annandale_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Annandale_VA ;
     dbo:country dbr:United_States .
 
 place:Aracataca_Colombia a schema1:Place ;
-    rdfs:label "Colombia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aracataca ;
     dbo:country dbr:Colombia .
 
 place:Arad_Romania a schema1:Place ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Arad ;
     dbo:country dbr:Romania .
 
 place:Arequipa_Peru a schema1:Place ;
-    rdfs:label "Peru"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Arequipa ;
     dbo:country dbr:Peru .
 
 place:Argonne_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Argonne_IL ;
     dbo:country dbr:United_States .
 
 place:Arlington_SD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Arlington_SD ;
     dbo:country dbr:United_States .
 
 place:Arlington_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Arlington_VA ;
     dbo:country dbr:United_States .
 
 place:Arnhem_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Arnhem ;
     dbo:country dbr:Netherlands .
 
 place:Ascona_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ascona ;
     dbo:country dbr:Switzerland .
 
 place:Ashburn_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ashburn_VA ;
     dbo:country dbr:United_States .
 
 place:Ashland_NH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ashland_NH ;
     dbo:country dbr:United_States .
 
 place:Atherton_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Atherton ;
     dbo:country dbr:Australia .
 
 place:Atlanta_GA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Atlanta_GA ;
     dbo:country dbr:United_States .
 
 place:Auburn_AL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Auburn_AL ;
     dbo:country dbr:United_States .
 
 place:Augsburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Augsburg ;
     dbo:country dbr:Germany .
 
 place:Augusta_GA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Augusta_GA ;
     dbo:country dbr:United_States .
 
 place:Aurich_East_Friesland_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "East Friesland (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Aurich ;
     dbo:country dbr:Germany .
 
 place:Autun_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Autun ;
     dbo:country dbr:France .
 
 place:Avanca_Portugal a schema1:Place ;
-    rdfs:label "Portugal"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Avanca ;
     dbo:country dbr:Portugal .
 
 place:Ayot_St._Lawrence_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ayot_St._Lawrence ;
     dbo:country dbr:United_Kingdom .
 
 place:Azinhaga_Portugal a schema1:Place ;
-    rdfs:label "Portugal"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Azinhaga ;
     dbo:country dbr:Portugal .
 
 place:Bad_Cannstatt_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bad_Cannstatt ;
     dbo:country dbr:Germany .
 
 place:Bad_Kissingen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bad_Kissingen ;
     dbo:country dbr:Germany .
 
 place:Bad_Salzbrunn_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Bad_Salzbrunn ;
     dbo:country dbr:Poland .
 
 place:Baden-Baden_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Baden-Baden ;
     dbo:country dbr:Germany .
 
 place:Bahia_Blanca_Argentina a schema1:Place ;
-    rdfs:label "Argentina"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bahia_Blanca ;
     dbo:country dbr:Argentina .
 
 place:Baku_Russian_Empire_%28now_Azerbaijan%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Azerbaijan)"@en ;
+    rdfs:label "Azerbaijan"@en ;
     dbo:city dbr:Baku ;
     dbo:country dbr:Azerbaijan .
 
 place:Banbury_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Banbury ;
     dbo:country dbr:United_Kingdom .
 
 place:Bandol_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bandol ;
     dbo:country dbr:France .
 
 place:Bangalore_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bangalore ;
     dbo:country dbr:India .
 
 place:Barbizon_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Barbizon ;
     dbo:country dbr:France .
 
 place:Barger-Compascuum_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Barger-Compascuum ;
     dbo:country dbr:Netherlands .
 
 place:Barnegat_Township_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Barnegat_Township_NJ ;
     dbo:country dbr:United_States .
 
 place:Batavia_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Batavia_IL ;
     dbo:country dbr:United_States .
 
 place:Batley_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Batley ;
     dbo:country dbr:United_Kingdom .
 
 place:Bayonne_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bayonne ;
     dbo:country dbr:France .
 
 place:Bearsden_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bearsden ;
     dbo:country dbr:United_Kingdom .
 
 place:Beckenham_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Beckenham ;
     dbo:country dbr:United_Kingdom .
 
 place:Beijing_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Beijing ;
     dbo:country dbr:China .
 
 place:Beirut_Lebanon a schema1:Place ;
-    rdfs:label "Lebanon"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Beirut ;
     dbo:country dbr:Lebanon .
 
 place:Belgrade_Yugoslavia_%28now_Serbia%29 a schema1:Place ;
-    rdfs:label "Yugoslavia (now Serbia)"@en ;
+    rdfs:label "Serbia"@en ;
     dbo:city dbr:Belgrade ;
     dbo:country dbr:Serbia .
 
 place:Bell%C3%AAme_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bell%C3%AAme ;
     dbo:country dbr:France .
 
 place:Bellshill_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bellshill ;
     dbo:country dbr:United_Kingdom .
 
 place:Belmont_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Belmont_MA ;
     dbo:country dbr:United_States .
 
 place:Benzonia_MI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Benzonia_MI ;
     dbo:country dbr:United_States .
 
 place:Bergamo_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bergamo ;
     dbo:country dbr:Italy .
 
 place:Bergen_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bergen ;
     dbo:country dbr:Norway .
 
 place:Berlin_East_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "East Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Berlin ;
     dbo:country dbr:Germany .
 
 place:Berlin_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Berlin ;
     dbo:country dbr:Germany .
 
 place:Berne_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Berne_IN ;
     dbo:country dbr:United_States .
 
 place:Beshasha_Ethiopia a schema1:Place ;
-    rdfs:label "Ethiopia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Beshasha ;
     dbo:country dbr:Ethiopia .
 
 place:Beverly_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Beverly_MA ;
     dbo:country dbr:United_States .
 
 place:Bilthoven_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Bilthoven ;
     dbo:country dbr:Netherlands .
 
 place:Blackpool_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Blackpool ;
     dbo:country dbr:United_Kingdom .
 
 place:Blacksburg_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Blacksburg_VA ;
     dbo:country dbr:United_States .
 
 place:Blankenburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Blankenburg ;
     dbo:country dbr:Germany .
 
 place:Blockley_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Blockley ;
     dbo:country dbr:United_Kingdom .
 
 place:Bloomington_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bloomington_IL ;
     dbo:country dbr:United_States .
 
 place:Bloomsburg_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bloomsburg_PA ;
     dbo:country dbr:United_States .
 
 place:Blue_Point_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Blue_Point_NY ;
     dbo:country dbr:United_States .
 
 place:Bluefield_WV_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bluefield_WV ;
     dbo:country dbr:United_States .
 
 place:Bnin_%28now_K%C3%B3rnik%29_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bnin_%28now_K%C3%B3rnik%29 ;
     dbo:country dbr:Poland .
 
 place:Bochum_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bochum ;
     dbo:country dbr:Germany .
 
 place:Bogot%C3%A1_Colombia a schema1:Place ;
-    rdfs:label "Colombia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bogot%C3%A1 ;
     dbo:country dbr:Colombia .
 
 place:Bombay_%28now_Mumbai%29_British_India_%28now_India%29 a schema1:Place ;
-    rdfs:label "British India (now India)"@en ;
+    rdfs:label "India"@en ;
     dbo:city dbr:Bombay_%28now_Mumbai%29 ;
     dbo:country dbr:India .
 
 place:Bordeaux_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bordeaux ;
     dbo:country dbr:France .
 
 place:Bornheim-Merten_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Bornheim-Merten ;
     dbo:country dbr:Germany .
 
 place:Bourne_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bourne ;
     dbo:country dbr:United_Kingdom .
 
 place:Bradford_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bradford_MA ;
     dbo:country dbr:United_States .
 
 place:Bradford_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bradford ;
     dbo:country dbr:United_Kingdom .
 
 place:Branford_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Branford_CT ;
     dbo:country dbr:United_States .
 
 place:Bremen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bremen ;
     dbo:country dbr:Germany .
 
 place:Bremerhaven-Lehe_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bremerhaven-Lehe ;
     dbo:country dbr:Germany .
 
 place:Breslau_%28now_Wroclaw%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Breslau_%28now_Wroclaw%29 ;
     dbo:country dbr:Poland .
 
 place:Brest_Litovsk_Russian_Empire_%28now_Belarus%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Belarus)"@en ;
+    rdfs:label "Belarus"@en ;
     dbo:city dbr:Brest_Litovsk ;
     dbo:country dbr:Belarus .
 
 place:Bridgetown_Barbados a schema1:Place ;
-    rdfs:label "Barbados"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bridgetown ;
     dbo:country dbr:Barbados .
 
 place:Briesen_%28now_W%C4%85brze%C5%BAno%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Briesen_%28now_W%C4%85brze%C5%BAno%29 ;
     dbo:country dbr:Poland .
 
 place:Brisbane_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Brisbane ;
     dbo:country dbr:Australia .
 
 place:Brive-Corr%C3%A8ze_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Brive-Corr%C3%A8ze ;
     dbo:country dbr:France .
 
 place:Bronx_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bronx_NY ;
     dbo:country dbr:United_States .
 
 place:Buchs_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Buchs ;
     dbo:country dbr:Switzerland .
 
 place:Bucksburn_%28Scotland%29_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bucksburn_%28Scotland%29 ;
     dbo:country dbr:United_Kingdom .
 
 place:Buczacz_%28now_Buchach%29_Austria-Hungary_%28now_Ukraine%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Ukraine)"@en ;
+    rdfs:label "Ukraine"@en ;
     dbo:city dbr:Buczacz_%28now_Buchach%29 ;
     dbo:country dbr:Ukraine .
 
 place:Bukavu_Belgian_Congo_%28now_Democratic_Republic_of_the_Congo%29 a schema1:Place ;
-    rdfs:label "Belgian Congo (now Democratic Republic of the Congo)"@en ;
+    rdfs:label "Democratic_Republic_of_the_Congo"@en ;
     dbo:city dbr:Bukavu ;
     dbo:country dbr:Democratic_Republic_of_the_Congo .
 
 place:Bulawayo_Southern_Rhodesia_%28now_Zimbabwe%29 a schema1:Place ;
-    rdfs:label "Southern Rhodesia (now Zimbabwe)"@en ;
+    rdfs:label "Zimbabwe"@en ;
     dbo:city dbr:Bulawayo ;
     dbo:country dbr:Zimbabwe .
 
 place:Burgberg_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Burgberg ;
     dbo:country dbr:Germany .
 
 place:Burlingame_KS_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Burlingame_KS ;
     dbo:country dbr:United_States .
 
 place:Burnham-on-Sea_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Burnham-on-Sea ;
     dbo:country dbr:United_Kingdom .
 
 place:Byhalia_MS_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Byhalia_MS ;
     dbo:country dbr:United_States .
 
 place:Calais_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Calais ;
     dbo:country dbr:France .
 
 place:Calw_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Calw ;
     dbo:country dbr:Germany .
 
 place:Canberra_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Canberra ;
     dbo:country dbr:Australia .
 
 place:Cannes_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cannes ;
     dbo:country dbr:France .
 
 place:Canterbury_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Canterbury ;
     dbo:country dbr:United_Kingdom .
 
 place:Canton_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Canton_MA ;
     dbo:country dbr:United_States .
 
 place:Canton_SD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Canton_SD ;
     dbo:country dbr:United_States .
 
 place:Caracas_Venezuela a schema1:Place ;
-    rdfs:label "Venezuela"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Caracas ;
     dbo:country dbr:Venezuela .
 
 place:Carlops_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Carlops ;
     dbo:country dbr:Scotland .
 
 place:Casablanca_Morocco a schema1:Place ;
-    rdfs:label "Morocco"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Casablanca ;
     dbo:country dbr:Morocco .
 
 place:Casteld%C3%A0wson_Northern_Ireland a schema1:Place ;
-    rdfs:label "Northern Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Casteld%C3%A0wson ;
     dbo:country dbr:Northern_Ireland .
 
 place:Castillon-du-Gard_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Castillon-du-Gard ;
     dbo:country dbr:France .
 
 place:Castries_British_West_Indies_%28now_Saint_Lucia%29 a schema1:Place ;
-    rdfs:label "British West Indies (now Saint Lucia)"@en ;
+    rdfs:label "Saint_Lucia"@en ;
     dbo:city dbr:Castries ;
     dbo:country dbr:Saint_Lucia .
 
 place:Castries_Saint_Lucia a schema1:Place ;
-    rdfs:label "Saint Lucia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Castries ;
     dbo:country dbr:Saint_Lucia .
 
 place:Catanzaro_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Catanzaro ;
     dbo:country dbr:Italy .
 
 place:Cedarville_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Cedarville_IL ;
     dbo:country dbr:United_States .
 
 place:Ch%C3%A2tenay_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ch%C3%A2tenay ;
     dbo:country dbr:France .
 
 place:Chabris_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Chabris ;
     dbo:country dbr:France .
 
 place:Chaguanas_Trinidad_and_Tobago a schema1:Place ;
-    rdfs:label "Trinidad and Tobago"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Chaguanas ;
     dbo:country dbr:Trinidad_and_Tobago .
 
 place:Champaign-Urbana_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Champaign-Urbana_IL ;
     dbo:country dbr:United_States .
 
 place:Champaign_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Champaign_IL ;
     dbo:country dbr:United_States .
 
 place:Charleston_SC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Charleston_SC ;
     dbo:country dbr:United_States .
 
 place:Charlottenburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Charlottenburg ;
     dbo:country dbr:Germany .
 
 place:Charlottesville_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Charlottesville_VA ;
     dbo:country dbr:United_States .
 
 place:Cheetham_Hill_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cheetham_Hill ;
     dbo:country dbr:United_Kingdom .
 
 place:Cherbourg_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cherbourg ;
     dbo:country dbr:France .
 
 place:Chester_VT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Chester_VT ;
     dbo:country dbr:United_States .
 
 place:Chesterfield_MO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Chesterfield_MO ;
     dbo:country dbr:United_States .
 
 place:Chidambaram_Tamil_Nadu_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Chidambaram_Tamil_Nadu ;
     dbo:country dbr:India .
 
 place:Chiran_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Chiran ;
     dbo:country dbr:Japan .
 
 place:Chittagong_British_India_%28now_Bangladesh%29 a schema1:Place ;
-    rdfs:label "British India (now Bangladesh)"@en ;
+    rdfs:label "Bangladesh"@en ;
     dbo:city dbr:Chittagong ;
     dbo:country dbr:Bangladesh .
 
 place:Chorley_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Chorley ;
     dbo:country dbr:United_Kingdom .
 
 place:Clamecy_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Clamecy ;
     dbo:country dbr:France .
 
 place:Clausthal_%28now_Clausthal-Zellerfeld%29_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Clausthal_%28now_Clausthal-Zellerfeld%29 ;
     dbo:country dbr:Germany .
 
 place:Clinton_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Clinton_NY ;
     dbo:country dbr:United_States .
 
 place:Cluny_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cluny ;
     dbo:country dbr:Scotland .
 
 place:Colchester_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Colchester ;
     dbo:country dbr:United_Kingdom .
 
 place:Cold_Spring_Harbor_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Cold_Spring_Harbor_NY ;
     dbo:country dbr:United_States .
 
 place:College_Park_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:College_Park_MD ;
     dbo:country dbr:United_States .
 
 place:College_Station_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:College_Station_TX ;
     dbo:country dbr:United_States .
 
 place:Cologne_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Cologne ;
     dbo:country dbr:Germany .
 
 place:Columbia_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Columbia ;
     dbo:country dbr:United_States .
 
 place:Concord_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Concord_MA ;
     dbo:country dbr:United_States .
 
 place:Constantine_French_Algeria_%28now_Algeria%29 a schema1:Place ;
-    rdfs:label "French Algeria (now Algeria)"@en ;
+    rdfs:label "Algeria"@en ;
     dbo:city dbr:Constantine ;
     dbo:country dbr:Algeria .
 
 place:Contra_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Contra ;
     dbo:country dbr:Switzerland .
 
 place:Coral_Gables_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Coral_Gables_FL ;
     dbo:country dbr:United_States .
 
 place:Corona_del_Mar_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Corona_del_Mar_CA ;
     dbo:country dbr:United_States .
 
 place:Corteno_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Corteno ;
     dbo:country dbr:Italy .
 
 place:Corvallis_OR_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Corvallis_OR ;
     dbo:country dbr:United_States .
 
 place:Council_ID_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Council_ID ;
     dbo:country dbr:United_States .
 
 place:Cresco_IA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Cresco_IA ;
     dbo:country dbr:United_States .
 
 place:Cresskill_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Cresskill_NJ ;
     dbo:country dbr:United_States .
 
 place:Croydon_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Croydon ;
     dbo:country dbr:United_Kingdom .
 
 place:Dabrovica_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dabrovica ;
     dbo:country dbr:Poland .
 
 place:Damanhur_Egypt a schema1:Place ;
-    rdfs:label "Egypt"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Damanhur ;
     dbo:country dbr:Egypt .
 
 place:Danby_VT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Danby_VT ;
     dbo:country dbr:United_States .
 
 place:Danzig_%28now_Gdansk%29_Free_City_of_Danzig_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Free City of Danzig (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Danzig_%28now_Gdansk%29 ;
     dbo:country dbr:Poland .
 
 place:Deerfield_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Deerfield_MA ;
     dbo:country dbr:United_States .
 
 place:Delaware_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Delaware_OH ;
     dbo:country dbr:United_States .
 
 place:Den_Helder_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Den_Helder ;
     dbo:country dbr:Netherlands .
 
 place:Derby_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Derby ;
     dbo:country dbr:United_Kingdom .
 
 place:Des_Moines_IA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Des_Moines_IA ;
     dbo:country dbr:United_States .
 
 place:Dewsbury_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dewsbury ;
     dbo:country dbr:United_Kingdom .
 
 place:Dieppe_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dieppe ;
     dbo:country dbr:France .
 
 place:Dijon_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dijon ;
     dbo:country dbr:France .
 
 place:Dili_East_Timor a schema1:Place ;
-    rdfs:label "East Timor"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dili ;
     dbo:country dbr:East_Timor .
 
 place:Dinant_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dinant ;
     dbo:country dbr:Belgium .
 
 place:Dippenhall_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dippenhall ;
     dbo:country dbr:United_Kingdom .
 
 place:Djursholm_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Djursholm ;
     dbo:country dbr:Sweden .
 
 place:Dolac_Bosnia_%28now_Bosnia_and_Herzegovina%29 a schema1:Place ;
-    rdfs:label "Bosnia (now Bosnia and Herzegovina)"@en ;
+    rdfs:label "Bosnia_and_Herzegovina"@en ;
     dbo:city dbr:Dolac ;
     dbo:country dbr:Bosnia_and_Herzegovina .
 
 place:Dordrecht_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Dordrecht ;
     dbo:country dbr:Netherlands .
 
 place:Drexel_Hill_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Drexel_Hill_PA ;
     dbo:country dbr:United_States .
 
 place:Duarte_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Duarte_CA ;
     dbo:country dbr:United_States .
 
 place:Duluth_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Duluth_MN ;
     dbo:country dbr:United_States .
 
 place:Dungarvan_Ireland a schema1:Place ;
-    rdfs:label "Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dungarvan ;
     dbo:country dbr:Ireland .
 
 place:Durham_NC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Durham_NC ;
     dbo:country dbr:United_States .
 
 place:East_Orange_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:East_Orange_NJ ;
     dbo:country dbr:United_States .
 
 place:Echternach_Luxembourg a schema1:Place ;
-    rdfs:label "Luxembourg"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Echternach ;
     dbo:country dbr:Luxembourg .
 
 place:Edmonton_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Edmonton ;
     dbo:country dbr:Canada .
 
 place:Edzell_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Edzell ;
     dbo:country dbr:Scotland .
 
 place:El_Cerrito_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:El_Cerrito_CA ;
     dbo:country dbr:United_States .
 
 place:Elizabeth_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Elizabeth_NJ ;
     dbo:country dbr:United_States .
 
 place:Enterprise_OR_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Enterprise_OR ;
     dbo:country dbr:United_States .
 
 place:Etterbeek_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Etterbeek ;
     dbo:country dbr:Belgium .
 
 place:Eugene_OR_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Eugene_OR ;
     dbo:country dbr:United_States .
 
 place:Euskirchen_Prussia_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Prussia (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Euskirchen ;
     dbo:country dbr:Germany .
 
 place:F%C3%BCrth_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:F%C3%BCrth ;
     dbo:country dbr:Germany .
 
 place:Fallston_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Fallston_MD ;
     dbo:country dbr:United_States .
 
 place:Falmouth_KY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Falmouth_KY ;
     dbo:country dbr:United_States .
 
 place:Falmouth_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Falmouth_MA ;
     dbo:country dbr:United_States .
 
 place:Fareham_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fareham ;
     dbo:country dbr:United_Kingdom .
 
 place:Farnborough_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Farnborough ;
     dbo:country dbr:United_Kingdom .
 
 place:Fars%C3%B8_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fars%C3%B8 ;
     dbo:country dbr:Denmark .
 
 place:Fler%C3%A4ng_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fler%C3%A4ng ;
     dbo:country dbr:Sweden .
 
 place:Fleurier_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fleurier ;
     dbo:country dbr:Switzerland .
 
 place:Focsani_Romania a schema1:Place ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Focsani ;
     dbo:country dbr:Romania .
 
 place:Fort_Worth_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Fort_Worth_TX ;
     dbo:country dbr:United_States .
 
 place:Fosnav%C3%A5g_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fosnav%C3%A5g ;
     dbo:country dbr:Norway .
 
 place:Fowey_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fowey ;
     dbo:country dbr:United_Kingdom .
 
 place:Frauenfeld_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Frauenfeld ;
     dbo:country dbr:Switzerland .
 
 place:Fredericia_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fredericia ;
     dbo:country dbr:Denmark .
 
 place:Freiburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Freiburg ;
     dbo:country dbr:Germany .
 
 place:Fukuoka_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fukuoka ;
     dbo:country dbr:Japan .
 
 place:Fulda_Hesse-Kassel_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Hesse-Kassel (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Fulda ;
     dbo:country dbr:Germany .
 
 place:Fulmer_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Fulmer ;
     dbo:country dbr:United_Kingdom .
 
 place:G%C3%B6rlitz_Prussia_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Prussia (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:G%C3%B6rlitz ;
     dbo:country dbr:Germany .
 
 place:Gaffken_%28now_Parusnoye%29_Prussia_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "Prussia (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Gaffken_%28now_Parusnoye%29 ;
     dbo:country dbr:Russia .
 
 place:Gainesville_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Gainesville_FL ;
     dbo:country dbr:United_States .
 
 place:Gaithersburg_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Gaithersburg_MD ;
     dbo:country dbr:United_States .
 
 place:Ganzhou_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ganzhou ;
     dbo:country dbr:China .
 
 place:Gaomi_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gaomi ;
     dbo:country dbr:China .
 
 place:Garding_Schleswig_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Schleswig (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Garding ;
     dbo:country dbr:Germany .
 
 place:Geldrop_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Geldrop ;
     dbo:country dbr:Netherlands .
 
 place:Gelsenkirchen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gelsenkirchen ;
     dbo:country dbr:Germany .
 
 place:Geneva_NE_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Geneva_NE ;
     dbo:country dbr:United_States .
 
 place:Germantown_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Germantown_PA ;
     dbo:country dbr:United_States .
 
 place:Germiston_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Germiston ;
     dbo:country dbr:South_Africa .
 
 place:Gjesdal_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gjesdal ;
     dbo:country dbr:Norway .
 
 place:Gladwyne_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Gladwyne_PA ;
     dbo:country dbr:United_States .
 
 place:Glencorse_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Glencorse ;
     dbo:country dbr:Scotland .
 
 place:Glens_Falls_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Glens_Falls_NY ;
     dbo:country dbr:United_States .
 
 place:Goldschmieden_near_Breslau_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Goldschmieden_near_Breslau ;
     dbo:country dbr:Poland .
 
 place:Gorizia_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gorizia ;
     dbo:country dbr:Italy .
 
 place:Gr%C3%A4nichen_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gr%C3%A4nichen ;
     dbo:country dbr:Switzerland .
 
 place:Grand_Valley_CO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Grand_Valley_CO ;
     dbo:country dbr:United_States .
 
 place:Grantchester_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Grantchester ;
     dbo:country dbr:United_Kingdom .
 
 place:Gravesend_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gravesend ;
     dbo:country dbr:United_Kingdom .
 
 place:Great_Barrington_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Great_Barrington_MA ;
     dbo:country dbr:United_States .
 
 place:Great_Missenden_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Great_Missenden ;
     dbo:country dbr:United_Kingdom .
 
 place:Greenbelt_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Greenbelt_MD ;
     dbo:country dbr:United_States .
 
 place:Greenville_SC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Greenville_SC ;
     dbo:country dbr:United_States .
 
 place:Greenwich_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Greenwich_CT ;
     dbo:country dbr:United_States .
 
 place:Greifswald_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Greifswald ;
     dbo:country dbr:Germany .
 
 place:Gren%C3%A5_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gren%C3%A5 ;
     dbo:country dbr:Denmark .
 
 place:Grenoble_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Grenoble ;
     dbo:country dbr:France .
 
 place:Griffen_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Griffen ;
     dbo:country dbr:Austria .
 
 place:Grimstad_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Grimstad ;
     dbo:country dbr:Norway .
 
 place:Gros-Islet_Saint_Lucia a schema1:Place ;
-    rdfs:label "Saint Lucia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gros-Islet ;
     dbo:country dbr:Saint_Lucia .
 
 place:Guatemala_City_Guatemala a schema1:Place ;
-    rdfs:label "Guatemala"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Guatemala_City ;
     dbo:country dbr:Guatemala .
 
 place:Guebwiller_Germany_%28now_France%29 a schema1:Place ;
-    rdfs:label "Germany (now France)"@en ;
+    rdfs:label "France"@en ;
     dbo:city dbr:Guebwiller ;
     dbo:country dbr:France .
 
 place:Gwangju_South_Korea a schema1:Place ;
-    rdfs:label "South Korea"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gwangju ;
     dbo:country dbr:South_Korea .
 
 place:H%C3%A4meenkyr%C3%B6_Russian_Empire_%28now_Finland%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Finland)"@en ;
+    rdfs:label "Finland"@en ;
     dbo:city dbr:H%C3%A4meenkyr%C3%B6 ;
     dbo:country dbr:Finland .
 
 place:Haifa_British_Protectorate_of_Palestine_%28now_Israel%29 a schema1:Place ;
-    rdfs:label "British Protectorate of Palestine (now Israel)"@en ;
-    dbo:city dbr:Haifa ;
-    dbo:country dbr:Israel .
-
-place:Haifa_Israel a schema1:Place ;
     rdfs:label "Israel"@en ;
     dbo:city dbr:Haifa ;
     dbo:country dbr:Israel .
 
+place:Haifa_Israel a schema1:Place ;
+    rdfs:label "None"@en ;
+    dbo:city dbr:Haifa ;
+    dbo:country dbr:Israel .
+
 place:Halifax_Nova_Scotia_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Halifax_Nova_Scotia ;
     dbo:country dbr:Canada .
 
 place:Halle_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Halle ;
     dbo:country dbr:Germany .
 
 place:Halmstad_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Halmstad ;
     dbo:country dbr:Sweden .
 
 place:Hamadan_Iran a schema1:Place ;
-    rdfs:label "Iran"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hamadan ;
     dbo:country dbr:Iran .
 
 place:Hamamatsu_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hamamatsu ;
     dbo:country dbr:Japan .
 
 place:Hampstead_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hampstead ;
     dbo:country dbr:United_Kingdom .
 
 place:Hanoi_Vietnam a schema1:Place ;
-    rdfs:label "Vietnam"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hanoi ;
     dbo:country dbr:Vietnam .
 
 place:Hanover_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hanover ;
     dbo:country dbr:Germany .
 
 place:Hanover_NH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hanover_NH ;
     dbo:country dbr:United_States .
 
 place:Hansdorf_%28now_Lawice%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Hansdorf_%28now_Lawice%29 ;
     dbo:country dbr:Poland .
 
 place:Harborne_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Harborne ;
     dbo:country dbr:United_Kingdom .
 
 place:Harlow_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Harlow ;
     dbo:country dbr:United_Kingdom .
 
 place:Harrison_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Harrison_NY ;
     dbo:country dbr:United_States .
 
 place:Harwell_Berkshire_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Harwell_Berkshire ;
     dbo:country dbr:United_Kingdom .
 
 place:Haugesund_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Haugesund ;
     dbo:country dbr:Norway .
 
 place:Haverhill_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Haverhill_MA ;
     dbo:country dbr:United_States .
 
 place:Heiden_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Heiden ;
     dbo:country dbr:Switzerland .
 
 place:Helsa_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Helsa ;
     dbo:country dbr:Germany .
 
 place:Hempstead_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hempstead_NY ;
     dbo:country dbr:United_States .
 
 place:Henan_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Henan ;
     dbo:country dbr:China .
 
 place:Heredia_Costa_Rica a schema1:Place ;
-    rdfs:label "Costa Rica"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Heredia ;
     dbo:country dbr:Costa_Rica .
 
 place:Hertfordshire_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hertfordshire ;
     dbo:country dbr:United_Kingdom .
 
 place:Higashimatsuyama_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Higashimatsuyama ;
     dbo:country dbr:Japan .
 
 place:High_Wycombe_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:High_Wycombe ;
     dbo:country dbr:United_Kingdom .
 
 place:Hildesheim_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hildesheim ;
     dbo:country dbr:Germany .
 
 place:Hillsboro_WV_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hillsboro_WV ;
     dbo:country dbr:United_States .
 
 place:Hobart_Tasmania_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hobart_Tasmania ;
     dbo:country dbr:Australia .
 
 place:Hoechst_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hoechst ;
     dbo:country dbr:Germany .
 
 place:Hofei_Anhwei_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hofei_Anhwei ;
     dbo:country dbr:China .
 
 place:Holbeach_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Holbeach ;
     dbo:country dbr:United_Kingdom .
 
 place:Hollerich_Luxembourg a schema1:Place ;
-    rdfs:label "Luxembourg"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hollerich ;
     dbo:country dbr:Luxembourg .
 
 place:Holmdel_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Holmdel_NJ ;
     dbo:country dbr:United_States .
 
@@ -17341,2343 +17341,2343 @@ place:Hong_Kong_ a schema1:Place ;
     dbo:city dbr:Hong_Kong .
 
 place:Hoquiam_WA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hoquiam_WA ;
     dbo:country dbr:United_States .
 
 place:Hsinchu_Taiwan a schema1:Place ;
-    rdfs:label "Taiwan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hsinchu ;
     dbo:country dbr:Taiwan .
 
 place:Hume_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hume_IL ;
     dbo:country dbr:United_States .
 
 place:Huntington_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Huntington_NY ;
     dbo:country dbr:United_States .
 
 place:Hyannis_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hyannis_MA ;
     dbo:country dbr:United_States .
 
 place:Iasi_Romania a schema1:Place ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Iasi ;
     dbo:country dbr:Romania .
 
 place:Ikata_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ikata ;
     dbo:country dbr:Japan .
 
 place:Imperia_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Imperia ;
     dbo:country dbr:Italy .
 
 place:Innsbruck_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Innsbruck ;
     dbo:country dbr:Austria .
 
 place:Ipswich_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ipswich ;
     dbo:country dbr:United_Kingdom .
 
 place:Ir%C3%A1klion_Crete_%28now_Greece%29 a schema1:Place ;
-    rdfs:label "Crete (now Greece)"@en ;
+    rdfs:label "Greece"@en ;
     dbo:city dbr:Ir%C3%A1klion ;
     dbo:country dbr:Greece .
 
 place:Iria_Flavia_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Iria_Flavia ;
     dbo:country dbr:Spain .
 
 place:Irvine_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Irvine_CA ;
     dbo:country dbr:United_States .
 
 place:Ishpeming_MI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ishpeming_MI ;
     dbo:country dbr:United_States .
 
 place:Ivano-Frankivsk_Ukraine a schema1:Place ;
-    rdfs:label "Ukraine"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ivano-Frankivsk ;
     dbo:country dbr:Ukraine .
 
 place:J%C3%A4msh%C3%B6g_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:J%C3%A4msh%C3%B6g ;
     dbo:country dbr:Sweden .
 
 place:J%C3%B6nk%C3%B6ping_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:J%C3%B6nk%C3%B6ping ;
     dbo:country dbr:Sweden .
 
 place:Jamaica_Plain_MA_%28now_Boston_MA%29_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Jamaica_Plain_MA_%28now_Boston_MA%29 ;
     dbo:country dbr:United_States .
 
 place:Jefferson_City_MO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Jefferson_City_MO ;
     dbo:country dbr:United_States .
 
 place:Jerusalem_Israel a schema1:Place ;
-    rdfs:label "Israel"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Jerusalem ;
     dbo:country dbr:Israel .
 
 place:Jhang_Maghi%C4%81na_India_%28now_Pakistan%29 a schema1:Place ;
-    rdfs:label "India (now Pakistan)"@en ;
+    rdfs:label "Pakistan"@en ;
     dbo:city dbr:Jhang_Maghi%C4%81na ;
     dbo:country dbr:Pakistan .
 
 place:Juvisy-sur-Orge_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Juvisy-sur-Orge ;
     dbo:country dbr:France .
 
 place:K%C3%B6nigsh%C3%BCtte_%28now_Chorz%C3%B3w%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:K%C3%B6nigsh%C3%BCtte_%28now_Chorz%C3%B3w%29 ;
     dbo:country dbr:Poland .
 
 place:Kalgoorlie_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kalgoorlie ;
     dbo:country dbr:Australia .
 
 place:Kalundborg_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kalundborg ;
     dbo:country dbr:Denmark .
 
 place:Kansas_City_MO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Kansas_City_MO ;
     dbo:country dbr:United_States .
 
 place:Karcag_Hungary a schema1:Place ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Karcag ;
     dbo:country dbr:Hungary .
 
 place:Karlbo_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Karlbo ;
     dbo:country dbr:Sweden .
 
 place:Karlsruhe_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Karlsruhe ;
     dbo:country dbr:Germany .
 
 place:Kashiwa_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kashiwa ;
     dbo:country dbr:Japan .
 
 place:Kattowitz_%28now_Katowice%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Kattowitz_%28now_Katowice%29 ;
     dbo:country dbr:Poland .
 
 place:Kaysersberg_Germany_%28now_France%29 a schema1:Place ;
-    rdfs:label "Germany (now France)"@en ;
+    rdfs:label "France"@en ;
     dbo:city dbr:Kaysersberg ;
     dbo:country dbr:France .
 
 place:Kent_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Kent_CT ;
     dbo:country dbr:United_States .
 
 place:Kermanshah_Persia_%28now_Iran%29 a schema1:Place ;
-    rdfs:label "Persia (now Iran)"@en ;
+    rdfs:label "Iran"@en ;
     dbo:city dbr:Kermanshah ;
     dbo:country dbr:Iran .
 
 place:Ketchum_ID_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ketchum_ID ;
     dbo:country dbr:United_States .
 
 place:Kharkov_%28now_Kharkiv%29_Russian_Empire_%28now_Ukraine%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Ukraine)"@en ;
+    rdfs:label "Ukraine"@en ;
     dbo:city dbr:Kharkov_%28now_Kharkiv%29 ;
     dbo:country dbr:Ukraine .
 
 place:Kibbutz_Sde-Nahum_British_Mandate_of_Palestine_%28now_Israel%29 a schema1:Place ;
-    rdfs:label "British Mandate of Palestine (now Israel)"@en ;
+    rdfs:label "Israel"@en ;
     dbo:city dbr:Kibbutz_Sde-Nahum ;
     dbo:country dbr:Israel .
 
 place:Kiel_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kiel ;
     dbo:country dbr:Germany .
 
 place:Kiel_Schleswig_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Schleswig (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Kiel ;
     dbo:country dbr:Germany .
 
 place:Kiel_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Kiel ;
     dbo:country dbr:Germany .
 
 place:Kilmaurs_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kilmaurs ;
     dbo:country dbr:Scotland .
 
 place:Kingston_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kingston ;
     dbo:country dbr:Canada .
 
 place:Kingston_Hill_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kingston_Hill ;
     dbo:country dbr:United_Kingdom .
 
 place:Kingston_ON_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kingston_ON ;
     dbo:country dbr:Canada .
 
 place:Kingston_upon_Thames_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kingston_upon_Thames ;
     dbo:country dbr:United_Kingdom .
 
 place:Kislovodsk_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kislovodsk ;
     dbo:country dbr:Russia .
 
 place:Klerksdorp_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Klerksdorp ;
     dbo:country dbr:South_Africa .
 
 place:Klippan_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Klippan ;
     dbo:country dbr:Sweden .
 
 place:Klotzsche_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Klotzsche ;
     dbo:country dbr:Germany .
 
 place:Knokke_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Knokke ;
     dbo:country dbr:Belgium .
 
 place:Kobe_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kobe ;
     dbo:country dbr:Japan .
 
 place:Kobiele_Wielkie_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Kobiele_Wielkie ;
     dbo:country dbr:Poland .
 
 place:Kojo_Iraq a schema1:Place ;
-    rdfs:label "Iraq"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kojo ;
     dbo:country dbr:Iraq .
 
 place:Kronshtadt_Russian_Empire_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Kronshtadt ;
     dbo:country dbr:Russia .
 
 place:Kubyshev_%28now_Samara%29_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Kubyshev_%28now_Samara%29 ;
     dbo:country dbr:Russia .
 
 place:Kumasi_Gold_Coast_%28now_Ghana%29 a schema1:Place ;
-    rdfs:label "Gold Coast (now Ghana)"@en ;
+    rdfs:label "Ghana"@en ;
     dbo:city dbr:Kumasi ;
     dbo:country dbr:Ghana .
 
 place:Kvikne_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kvikne ;
     dbo:country dbr:Norway .
 
 place:La_Fl%C3%A8che_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:La_Fl%C3%A8che ;
     dbo:country dbr:France .
 
 place:Lafayette_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lafayette_IN ;
     dbo:country dbr:United_States .
 
 place:Lagow_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Lagow ;
     dbo:country dbr:Poland .
 
 place:Lahore_India_%28now_Pakistan%29 a schema1:Place ;
-    rdfs:label "India (now Pakistan)"@en ;
+    rdfs:label "Pakistan"@en ;
     dbo:city dbr:Lahore ;
     dbo:country dbr:Pakistan .
 
 place:Laibach_%28now_Ljubljana%29_Austria-Hungary_%28now_Slovenia%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Slovenia)"@en ;
+    rdfs:label "Slovenia"@en ;
     dbo:city dbr:Laibach_%28now_Ljubljana%29 ;
     dbo:country dbr:Slovenia .
 
 place:Lakeville_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lakeville_CT ;
     dbo:country dbr:United_States .
 
 place:Lambar%C3%A9n%C3%A9_Gabon a schema1:Place ;
-    rdfs:label "Gabon"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lambar%C3%A9n%C3%A9 ;
     dbo:country dbr:Gabon .
 
 place:Lancashire_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lancashire ;
     dbo:country dbr:United_Kingdom .
 
 place:Landsberg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Landsberg ;
     dbo:country dbr:Germany .
 
 place:Landskrona_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Landskrona ;
     dbo:country dbr:Sweden .
 
 place:Langford_Grove_Maldon_Essex_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Langford_Grove_Maldon_Essex ;
     dbo:country dbr:United_Kingdom .
 
 place:Lansing_IA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lansing_IA ;
     dbo:country dbr:United_States .
 
 place:Lanzarote_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lanzarote ;
     dbo:country dbr:Spain .
 
 place:Leeds_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leeds ;
     dbo:country dbr:United_Kingdom .
 
 place:Leggiuno-Sangiano_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leggiuno-Sangiano ;
     dbo:country dbr:Italy .
 
 place:Leicester_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leicester ;
     dbo:country dbr:United_Kingdom .
 
 place:Lemvig_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lemvig ;
     dbo:country dbr:Denmark .
 
 place:Leningrad_%28now_St._Petersburg%29_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leningrad_%28now_St._Petersburg%29 ;
     dbo:country dbr:Russia .
 
 place:Leningrad_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leningrad ;
     dbo:country dbr:Russia .
 
 place:Lennep_%28now_Remscheid%29_Prussia_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Prussia (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Lennep_%28now_Remscheid%29 ;
     dbo:country dbr:Germany .
 
 place:Lenoir_NC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lenoir_NC ;
     dbo:country dbr:United_States .
 
 place:Leoncin_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Leoncin ;
     dbo:country dbr:Poland .
 
 place:Lethbridge_Alberta_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lethbridge_Alberta ;
     dbo:country dbr:Canada .
 
 place:Leuven_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leuven ;
     dbo:country dbr:Belgium .
 
 place:Lewes_East_Sussex_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lewes_East_Sussex ;
     dbo:country dbr:United_Kingdom .
 
 place:Lexington_KY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lexington_KY ;
     dbo:country dbr:United_States .
 
 place:Liding%C3%B6_Stockholm_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Liding%C3%B6_Stockholm ;
     dbo:country dbr:Sweden .
 
 place:Liestal_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Liestal ;
     dbo:country dbr:Switzerland .
 
 place:Lille_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lille ;
     dbo:country dbr:France .
 
 place:Lillebonne_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lillebonne ;
     dbo:country dbr:France .
 
 place:Lillehammer_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lillehammer ;
     dbo:country dbr:Norway .
 
 place:Lima_Peru a schema1:Place ;
-    rdfs:label "Peru"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lima ;
     dbo:country dbr:Peru .
 
 place:Lincoln_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lincoln_MA ;
     dbo:country dbr:United_States .
 
 place:Link%C3%B6ping_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Link%C3%B6ping ;
     dbo:country dbr:Sweden .
 
 place:Little_Falls_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Little_Falls_MN ;
     dbo:country dbr:United_States .
 
 place:Little_Rock_AR_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Little_Rock_AR ;
     dbo:country dbr:United_States .
 
 place:Livingston_Manor_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Livingston_Manor_NY ;
     dbo:country dbr:United_States .
 
 place:Llangarron_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Llangarron ;
     dbo:country dbr:United_Kingdom .
 
 place:Locarno_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Locarno ;
     dbo:country dbr:Switzerland .
 
 place:Lochfield_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lochfield ;
     dbo:country dbr:Scotland .
 
 place:Logan_UT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Logan_UT ;
     dbo:country dbr:United_States .
 
 place:Lom_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lom ;
     dbo:country dbr:Norway .
 
 place:Long_Island_New_York_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Long_Island_New_York_NY ;
     dbo:country dbr:United_States .
 
 place:Longlier_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Longlier ;
     dbo:country dbr:Belgium .
 
 place:Lorain_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lorain_OH ;
     dbo:country dbr:United_States .
 
 place:Lorenzkirch_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lorenzkirch ;
     dbo:country dbr:Germany .
 
 place:Los_Gatos_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Los_Gatos_CA ;
     dbo:country dbr:United_States .
 
 place:Louvain_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Louvain ;
     dbo:country dbr:Belgium .
 
 place:Luarca_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Luarca ;
     dbo:country dbr:Spain .
 
 place:Ludwigsburg_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Ludwigsburg ;
     dbo:country dbr:Germany .
 
 place:M%C3%B3r_Hungary a schema1:Place ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:M%C3%B3r ;
     dbo:country dbr:Hungary .
 
 place:M%C3%B6lle_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:M%C3%B6lle ;
     dbo:country dbr:Sweden .
 
 place:M%C3%BClheim_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:M%C3%BClheim ;
     dbo:country dbr:Germany .
 
 place:M%C3%BClheim_an_der_Ruhr_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:M%C3%BClheim_an_der_Ruhr ;
     dbo:country dbr:Germany .
 
 place:M%C3%BCrzzuschlag_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:M%C3%BCrzzuschlag ;
     dbo:country dbr:Austria .
 
 place:Maastricht_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Maastricht ;
     dbo:country dbr:Netherlands .
 
 place:Madison_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Madison_NJ ;
     dbo:country dbr:United_States .
 
 place:Magdeburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Magdeburg ;
     dbo:country dbr:Germany .
 
 place:Maine_ME_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Maine_ME ;
     dbo:country dbr:United_States .
 
 place:Marietta_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Marietta_OH ;
     dbo:country dbr:United_States .
 
 place:Mart_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Mart_TX ;
     dbo:country dbr:United_States .
 
 place:Martinsried_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Martinsried ;
     dbo:country dbr:Germany .
 
 place:Masterton_New_Zealand a schema1:Place ;
-    rdfs:label "New Zealand"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Masterton ;
     dbo:country dbr:New_Zealand .
 
 place:Medicine_Hat_Alberta_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Medicine_Hat_Alberta ;
     dbo:country dbr:Canada .
 
 place:Menin_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Menin ;
     dbo:country dbr:Belgium .
 
 place:Menlo_Park_CL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Menlo_Park_CL ;
     dbo:country dbr:United_States .
 
 place:Merriman_NE_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Merriman_NE ;
     dbo:country dbr:United_States .
 
 place:Messelhausen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Messelhausen ;
     dbo:country dbr:Germany .
 
 place:Methuen_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Methuen_MA ;
     dbo:country dbr:United_States .
 
 place:Miami_Beach_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Miami_Beach_FL ;
     dbo:country dbr:United_States .
 
 place:Middletown_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Middletown_CT ;
     dbo:country dbr:United_States .
 
 place:Milan_Austrian_Empire_%28now_Italy%29 a schema1:Place ;
-    rdfs:label "Austrian Empire (now Italy)"@en ;
+    rdfs:label "Italy"@en ;
     dbo:city dbr:Milan ;
     dbo:country dbr:Italy .
 
 place:Milford_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Milford_MA ;
     dbo:country dbr:United_States .
 
 place:Milton_Keynes_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Milton_Keynes ;
     dbo:country dbr:United_Kingdom .
 
 place:Mingora_Pakistan a schema1:Place ;
-    rdfs:label "Pakistan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mingora ;
     dbo:country dbr:Pakistan .
 
 place:Minnigaff_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Minnigaff ;
     dbo:country dbr:Scotland .
 
 place:Missoula_MT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Missoula_MT ;
     dbo:country dbr:United_States .
 
 place:Mit_Abu_al-Kawm_Egypt a schema1:Place ;
-    rdfs:label "Egypt"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mit_Abu_al-Kawm ;
     dbo:country dbr:Egypt .
 
 place:Mitcham_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mitcham ;
     dbo:country dbr:United_Kingdom .
 
 place:Modica_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Modica ;
     dbo:country dbr:Italy .
 
 place:Moffett_Field_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Moffett_Field_CA ;
     dbo:country dbr:United_States .
 
 place:Moguer_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Moguer ;
     dbo:country dbr:Spain .
 
 place:Mokpo_Korea_%28now_South_Korea%29 a schema1:Place ;
-    rdfs:label "Korea (now South Korea)"@en ;
+    rdfs:label "South_Korea"@en ;
     dbo:city dbr:Mokpo ;
     dbo:country dbr:South_Korea .
 
 place:Mondovi_French_Algeria_%28now_Algeria%29 a schema1:Place ;
-    rdfs:label "French Algeria (now Algeria)"@en ;
+    rdfs:label "Algeria"@en ;
     dbo:city dbr:Mondovi ;
     dbo:country dbr:Algeria .
 
 place:Monessen_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Monessen_PA ;
     dbo:country dbr:United_States .
 
 place:Montagnola_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Montagnola ;
     dbo:country dbr:Switzerland .
 
 place:Morrison_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Morrison_IL ;
     dbo:country dbr:United_States .
 
 place:Mukawa_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mukawa ;
     dbo:country dbr:Japan .
 
 place:Mulhouse_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mulhouse ;
     dbo:country dbr:France .
 
 place:Mulrany_Ireland a schema1:Place ;
-    rdfs:label "Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mulrany ;
     dbo:country dbr:Ireland .
 
 place:Mumbai_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mumbai ;
     dbo:country dbr:India .
 
 place:Munich_Bavaria_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Bavaria (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Munich ;
     dbo:country dbr:Germany .
 
 place:Munster_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Munster ;
     dbo:country dbr:Germany .
 
 place:Murfreesboro_TN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Murfreesboro_TN ;
     dbo:country dbr:United_States .
 
 place:Mvezo_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mvezo ;
     dbo:country dbr:South_Africa .
 
 place:N%C3%A6stved_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:N%C3%A6stved ;
     dbo:country dbr:Denmark .
 
 place:Nairobi_Kenya a schema1:Place ;
-    rdfs:label "Kenya"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nairobi ;
     dbo:country dbr:Kenya .
 
 place:Nam_Ha_province_Vietnam a schema1:Place ;
-    rdfs:label "Vietnam"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nam_Ha_province ;
     dbo:country dbr:Vietnam .
 
 place:Nantes_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nantes ;
     dbo:country dbr:France .
 
 place:Naples_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Naples ;
     dbo:country dbr:Italy .
 
 place:Nara_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nara ;
     dbo:country dbr:Japan .
 
 place:Ndola_Northern_Rhodesia_%28now_Zambia%29 a schema1:Place ;
-    rdfs:label "Northern Rhodesia (now Zambia)"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ndola ;
     dbo:country dbr:Northern_Rhodesia_%28now_Zambia%29 .
 
 place:Nedlands_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nedlands ;
     dbo:country dbr:Australia .
 
 place:Needham_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Needham_MA ;
     dbo:country dbr:United_States .
 
 place:Neisse_%28now_Nysa%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Neisse_%28now_Nysa%29 ;
     dbo:country dbr:Poland .
 
 place:Nelson_New_Zealand a schema1:Place ;
-    rdfs:label "New Zealand"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nelson ;
     dbo:country dbr:New_Zealand .
 
 place:Neston_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Neston ;
     dbo:country dbr:United_Kingdom .
 
 place:Nethen_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nethen ;
     dbo:country dbr:Belgium .
 
 place:Neuch%C3%A2tel_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Neuch%C3%A2tel ;
     dbo:country dbr:Switzerland .
 
 place:Neudorf_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Neudorf ;
     dbo:country dbr:Canada .
 
 place:Neuenkirchen_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Neuenkirchen ;
     dbo:country dbr:Germany .
 
 place:Neuilly-sur-Seine_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Neuilly-sur-Seine ;
     dbo:country dbr:France .
 
 place:New_Albany_MS_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:New_Albany_MS ;
     dbo:country dbr:United_States .
 
 place:New_Brunswick_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:New_Brunswick_NJ ;
     dbo:country dbr:United_States .
 
 place:New_Jersey_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:New_Jersey_NJ ;
     dbo:country dbr:United_States .
 
 place:New_Orleans_LA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:New_Orleans_LA ;
     dbo:country dbr:United_States .
 
 place:Newark_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Newark ;
     dbo:country dbr:United_Kingdom .
 
 place:Newburyport_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Newburyport_MA ;
     dbo:country dbr:United_States .
 
 place:Newcastle_upon_Tyne_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Newcastle_upon_Tyne ;
     dbo:country dbr:United_Kingdom .
 
 place:Newfoundland_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Newfoundland ;
     dbo:country dbr:Canada .
 
 place:Newport_Beach_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Newport_Beach_CA ;
     dbo:country dbr:United_States .
 
 place:Newquay_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Newquay ;
     dbo:country dbr:United_Kingdom .
 
 place:Newton-le-Willows_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Newton-le-Willows ;
     dbo:country dbr:United_Kingdom .
 
 place:Newton_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Newton_MA ;
     dbo:country dbr:United_States .
 
 place:Niagara_Falls_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Niagara_Falls ;
     dbo:country dbr:Canada .
 
 place:Nicosia_Cyprus a schema1:Place ;
-    rdfs:label "Cyprus"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nicosia ;
     dbo:country dbr:Cyprus .
 
 place:Nijkerk_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Nijkerk ;
     dbo:country dbr:Netherlands .
 
 place:Nitzkydorf_Banat_Romania a schema1:Place ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nitzkydorf_Banat ;
     dbo:country dbr:Romania .
 
 place:Nizhny_Tagil_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nizhny_Tagil ;
     dbo:country dbr:Russia .
 
 place:Norrk%C3%B6ping_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Norrk%C3%B6ping ;
     dbo:country dbr:Sweden .
 
 place:Northampton_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Northampton ;
     dbo:country dbr:United_Kingdom .
 
 place:Northfield_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Northfield_MN ;
     dbo:country dbr:United_States .
 
 place:Norwalk_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Norwalk_CT ;
     dbo:country dbr:United_States .
 
 place:Nottingham_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nottingham ;
     dbo:country dbr:United_Kingdom .
 
 place:Novaya_Chigla_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Novaya_Chigla ;
     dbo:country dbr:Russia .
 
 place:Nuoro_Sardinia_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nuoro_Sardinia ;
     dbo:country dbr:Italy .
 
 place:Nyeri_Kenya a schema1:Place ;
-    rdfs:label "Kenya"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nyeri ;
     dbo:country dbr:Kenya .
 
 place:Oak_Lawn_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Oak_Lawn_IL ;
     dbo:country dbr:United_States .
 
 place:Oakland_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Oakland_CA ;
     dbo:country dbr:United_States .
 
 place:Oceanside_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Oceanside_NY ;
     dbo:country dbr:United_States .
 
 place:Ocho_Rios_Jamaica a schema1:Place ;
-    rdfs:label "Jamaica"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ocho_Rios ;
     dbo:country dbr:Jamaica .
 
 place:Olshammar_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Olshammar ;
     dbo:country dbr:Sweden .
 
 place:Olten_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Olten ;
     dbo:country dbr:Switzerland .
 
 place:Olympus_TN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Olympus_TN ;
     dbo:country dbr:United_States .
 
 place:Orange_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Orange_CA ;
     dbo:country dbr:United_States .
 
 place:Orange_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Orange_NJ ;
     dbo:country dbr:United_States .
 
 place:Oranienburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Oranienburg ;
     dbo:country dbr:Germany .
 
 place:Ordrup_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ordrup ;
     dbo:country dbr:Denmark .
 
 place:Ostend_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ostend ;
     dbo:country dbr:Belgium .
 
 place:Owosso_MI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Owosso_MI ;
     dbo:country dbr:United_States .
 
 place:Oyster_Bay_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Oyster_Bay_NY ;
     dbo:country dbr:United_States .
 
 place:Palaiseau_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Palaiseau ;
     dbo:country dbr:France .
 
 place:Palm_Desert_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Palm_Desert_CA ;
     dbo:country dbr:United_States .
 
 place:Palma_Majorca_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Palma_Majorca ;
     dbo:country dbr:Spain .
 
 place:Paradise_Valley_AZ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Paradise_Valley_AZ ;
     dbo:country dbr:United_States .
 
 place:Parral_Chile a schema1:Place ;
-    rdfs:label "Chile"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Parral ;
     dbo:country dbr:Chile .
 
 place:Paterson_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Paterson_NJ ;
     dbo:country dbr:United_States .
 
 place:Peggau_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Peggau ;
     dbo:country dbr:Austria .
 
 place:Penrhyndeudraeth_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Penrhyndeudraeth ;
     dbo:country dbr:United_Kingdom .
 
 place:Peredelkino_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Peredelkino ;
     dbo:country dbr:Russia .
 
 place:Perranarworthal_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Perranarworthal ;
     dbo:country dbr:United_Kingdom .
 
 place:Perth_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Perth ;
     dbo:country dbr:Australia .
 
 place:Petilla_de_Arag%C3%B3n_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Petilla_de_Arag%C3%B3n ;
     dbo:country dbr:Spain .
 
 place:Pfaffendorf_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pfaffendorf ;
     dbo:country dbr:Germany .
 
 place:Pforzheim_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pforzheim ;
     dbo:country dbr:Germany .
 
 place:Pinsk_Russian_Empire_%28now_Belarus%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Belarus)"@en ;
+    rdfs:label "Belarus"@en ;
     dbo:city dbr:Pinsk ;
     dbo:country dbr:Belarus .
 
 place:Platteville_WI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Platteville_WI ;
     dbo:country dbr:United_States .
 
 place:Pleasanton_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Pleasanton_CA ;
     dbo:country dbr:United_States .
 
 place:Plzen_Czechoslovakia_%28now_Czech_Republic%29 a schema1:Place ;
-    rdfs:label "Czechoslovakia (now Czech Republic)"@en ;
+    rdfs:label "Czech_Republic"@en ;
     dbo:city dbr:Plzen ;
     dbo:country dbr:Czech_Republic .
 
 place:Pointe-%C3%A0-Pitre_Guadeloupe_France a schema1:Place ;
-    rdfs:label "Guadeloupe France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pointe-%C3%A0-Pitre ;
     dbo:country dbr:Guadeloupe_France .
 
 place:Pomona_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Pomona_CA ;
     dbo:country dbr:United_States .
 
 place:Pongaroa_New_Zealand a schema1:Place ;
-    rdfs:label "New Zealand"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pongaroa ;
     dbo:country dbr:New_Zealand .
 
 place:Popowo_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Popowo ;
     dbo:country dbr:Poland .
 
 place:Port_Hope_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Port_Hope ;
     dbo:country dbr:Canada .
 
 place:Portland_OR_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Portland_OR ;
     dbo:country dbr:United_States .
 
 place:Possum_Trot_KY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Possum_Trot_KY ;
     dbo:country dbr:United_States .
 
 place:Potsdam_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Potsdam_NY ;
     dbo:country dbr:United_States .
 
 place:Pottsville_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Pottsville_PA ;
     dbo:country dbr:United_States .
 
 place:Poughkeepsie_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Poughkeepsie_NY ;
     dbo:country dbr:United_States .
 
 place:Poznan_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Poznan ;
     dbo:country dbr:Poland .
 
 place:Prague_Austrian_Empire_%28now_Czech_Republic%29 a schema1:Place ;
-    rdfs:label "Austrian Empire (now Czech Republic)"@en ;
+    rdfs:label "Czech_Republic"@en ;
     dbo:city dbr:Prague ;
     dbo:country dbr:Czech_Republic .
 
 place:Presqu%27%C3%AEle-de-Giens_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Presqu%27%C3%AEle-de-Giens ;
     dbo:country dbr:France .
 
 place:Pressburg_%28now_Bratislava%29_Hungary_%28now_Slovakia%29 a schema1:Place ;
-    rdfs:label "Hungary (now Slovakia)"@en ;
+    rdfs:label "Slovakia"@en ;
     dbo:city dbr:Pressburg_%28now_Bratislava%29 ;
     dbo:country dbr:Slovakia .
 
 place:Priluka_%28now_Nova_Pryluka%29_Russian_Empire_%28now_Ukraine%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Ukraine)"@en ;
+    rdfs:label "Ukraine"@en ;
     dbo:city dbr:Priluka_%28now_Nova_Pryluka%29 ;
     dbo:country dbr:Ukraine .
 
 place:Privolnoye_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Privolnoye ;
     dbo:country dbr:Russia .
 
 place:Provo_UT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Provo_UT ;
     dbo:country dbr:United_States .
 
 place:Pusan_Korea_%28now_South_Korea%29 a schema1:Place ;
-    rdfs:label "Korea (now South Korea)"@en ;
+    rdfs:label "South_Korea"@en ;
     dbo:city dbr:Pusan ;
     dbo:country dbr:South_Korea .
 
 place:Putney_Heath_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Putney_Heath ;
     dbo:country dbr:United_Kingdom .
 
 place:R%C3%BCschlikon_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:R%C3%BCschlikon ;
     dbo:country dbr:Switzerland .
 
 place:Raipur_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Raipur ;
     dbo:country dbr:India .
 
 place:Raleigh_NC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Raleigh_NC ;
     dbo:country dbr:United_States .
 
 place:Ramelton_Ireland a schema1:Place ;
-    rdfs:label "Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ramelton ;
     dbo:country dbr:Ireland .
 
 place:Randallstown_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Randallstown_MD ;
     dbo:country dbr:United_States .
 
 place:Randolph_NH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Randolph_NH ;
     dbo:country dbr:United_States .
 
 place:Rangoon_%28now_Yangon%29_Burma_%28now_Myanmar%29 a schema1:Place ;
-    rdfs:label "Burma (now Myanmar)"@en ;
+    rdfs:label "Myanmar"@en ;
     dbo:city dbr:Rangoon_%28now_Yangon%29 ;
     dbo:country dbr:Myanmar .
 
 place:Raton_NM_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Raton_NM ;
     dbo:country dbr:United_States .
 
 place:Redondo_Beach_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Redondo_Beach_CA ;
     dbo:country dbr:United_States .
 
 place:Rendcombe_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rendcombe ;
     dbo:country dbr:United_Kingdom .
 
 place:Renton_WA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Renton_WA ;
     dbo:country dbr:United_States .
 
 place:Rexburg_ID_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rexburg_ID ;
     dbo:country dbr:United_States .
 
 place:Ridgeville_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ridgeville_IN ;
     dbo:country dbr:United_States .
 
 place:Ried_im_Innkreis_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ried_im_Innkreis ;
     dbo:country dbr:Austria .
 
 place:Riga_Russian_Empire_%28now_Latvia%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Latvia)"@en ;
+    rdfs:label "Latvia"@en ;
     dbo:city dbr:Riga ;
     dbo:country dbr:Latvia .
 
 place:Rio_de_Janeiro_Brazil a schema1:Place ;
-    rdfs:label "Brazil"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rio_de_Janeiro ;
     dbo:country dbr:Brazil .
 
 place:Roanoke_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Roanoke_VA ;
     dbo:country dbr:United_States .
 
 place:Rochester_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rochester_MN ;
     dbo:country dbr:United_States .
 
 place:Rockleigh_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rockleigh_NJ ;
     dbo:country dbr:United_States .
 
 place:Rockville_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rockville_MD ;
     dbo:country dbr:United_States .
 
 place:Roholte_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Roholte ;
     dbo:country dbr:Denmark .
 
 place:Roquebrune-Cap-Martin_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Roquebrune-Cap-Martin ;
     dbo:country dbr:France .
 
 place:Rosheim_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rosheim ;
     dbo:country dbr:France .
 
 place:Rostock_Mecklenburg_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Mecklenburg (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Rostock ;
     dbo:country dbr:Germany .
 
 place:Rouen_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rouen ;
     dbo:country dbr:France .
 
 place:Rueil-Malmaison_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rueil-Malmaison ;
     dbo:country dbr:France .
 
 place:Rufford_near_Chesterfield_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rufford_near_Chesterfield ;
     dbo:country dbr:United_Kingdom .
 
 place:Rumson_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rumson_NJ ;
     dbo:country dbr:United_States .
 
 place:Ruse_Bulgaria a schema1:Place ;
-    rdfs:label "Bulgaria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ruse ;
     dbo:country dbr:Bulgaria .
 
 place:Rutland_VT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rutland_VT ;
     dbo:country dbr:United_States .
 
 place:Ryazan_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ryazan ;
     dbo:country dbr:Russia .
 
 place:Rye_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rye_NY ;
     dbo:country dbr:United_States .
 
 place:Rymanow_Austria-Hungary_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Rymanow ;
     dbo:country dbr:Poland .
 
 place:Saco_ME_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Saco_ME ;
     dbo:country dbr:United_States .
 
 place:Sacramento_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sacramento_CA ;
     dbo:country dbr:United_States .
 
 place:Saint-Cyr-sur-Loire_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Saint-Cyr-sur-Loire ;
     dbo:country dbr:France .
 
 place:Sainte-Foy-l%C3%A8s-Lyon_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sainte-Foy-l%C3%A8s-Lyon ;
     dbo:country dbr:France .
 
 place:Salamanca_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Salamanca ;
     dbo:country dbr:Spain .
 
 place:Salem_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Salem_NJ ;
     dbo:country dbr:United_States .
 
 place:Salinas_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Salinas_CA ;
     dbo:country dbr:United_States .
 
 place:Sallanches_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sallanches ;
     dbo:country dbr:France .
 
 place:Salt_Lake_City_UT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Salt_Lake_City_UT ;
     dbo:country dbr:United_States .
 
 place:San_Jos%C3%A9_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:San_Jos%C3%A9_CA ;
     dbo:country dbr:United_States .
 
 place:San_Juan_Puerto_Rico a schema1:Place ;
-    rdfs:label "Puerto Rico"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:San_Juan ;
     dbo:country dbr:Puerto_Rico .
 
 place:Santa_Fe_NM_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Santa_Fe_NM ;
     dbo:country dbr:United_States .
 
 place:Santiago_Chile a schema1:Place ;
-    rdfs:label "Chile"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Santiago ;
     dbo:country dbr:Chile .
 
 place:Santiniketan_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Santiniketan ;
     dbo:country dbr:India .
 
 place:Sapporo_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sapporo ;
     dbo:country dbr:Japan .
 
 place:Sarajevo_Austria-Hungary_%28now_Bosnia_and_Herzegovina%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Bosnia and Herzegovina)"@en ;
+    rdfs:label "Bosnia_and_Herzegovina"@en ;
     dbo:city dbr:Sarajevo ;
     dbo:country dbr:Bosnia_and_Herzegovina .
 
 place:Saratov_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Saratov ;
     dbo:country dbr:Russia .
 
 place:Sauk_Centre_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sauk_Centre_MN ;
     dbo:country dbr:United_States .
 
 place:Savur_Turkey a schema1:Place ;
-    rdfs:label "Turkey"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Savur ;
     dbo:country dbr:Turkey .
 
 place:Schenectady_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Schenectady_NY ;
     dbo:country dbr:United_States .
 
 place:Schickenhof_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Schickenhof ;
     dbo:country dbr:Germany .
 
 place:Schopfheim_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Schopfheim ;
     dbo:country dbr:Germany .
 
 place:Schroda_German-occupied_Poland_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "German-occupied Poland (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Schroda ;
     dbo:country dbr:Poland .
 
 place:Semarang_Java_Dutch_East_Indies_%28now_Indonesia%29 a schema1:Place ;
-    rdfs:label "Java Dutch East Indies (now Indonesia)"@en ;
+    rdfs:label "Indonesia"@en ;
     dbo:city dbr:Semarang ;
     dbo:country dbr:Indonesia .
 
 place:Sens_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sens ;
     dbo:country dbr:France .
 
 place:Sevilla_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sevilla ;
     dbo:country dbr:Spain .
 
 place:Shenyang_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Shenyang ;
     dbo:country dbr:China .
 
 place:Shingu_Ehime_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Shingu_Ehime ;
     dbo:country dbr:Japan .
 
 place:Shipston-on-Stour_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Shipston-on-Stour ;
     dbo:country dbr:United_Kingdom .
 
 place:Sidney_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sidney_OH ;
     dbo:country dbr:United_States .
 
 place:Siegen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Siegen ;
     dbo:country dbr:Germany .
 
 place:Siena_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Siena ;
     dbo:country dbr:Italy .
 
 place:Sighet_Romania a schema1:Place ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sighet ;
     dbo:country dbr:Romania .
 
 place:Silkeborg_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Silkeborg ;
     dbo:country dbr:Denmark .
 
 place:Sioux_City_IA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sioux_City_IA ;
     dbo:country dbr:United_States .
 
 place:Skattungbyn_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Skattungbyn ;
     dbo:country dbr:Sweden .
 
 place:Skedsmo_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Skedsmo ;
     dbo:country dbr:Norway .
 
 place:Smyrna_%28now_Izmir%29_Ottoman_Empire_%28now_Turkey%29 a schema1:Place ;
-    rdfs:label "Ottoman Empire (now Turkey)"@en ;
+    rdfs:label "Turkey"@en ;
     dbo:city dbr:Smyrna_%28now_Izmir%29 ;
     dbo:country dbr:Turkey .
 
 place:Sochi_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sochi ;
     dbo:country dbr:Russia .
 
 place:Soignies_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Soignies ;
     dbo:country dbr:Belgium .
 
 place:Sorau_%28now_Zory%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Sorau_%28now_Zory%29 ;
     dbo:country dbr:Poland .
 
 place:South_Bend_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:South_Bend_IN ;
     dbo:country dbr:United_States .
 
 place:South_Norwalk_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:South_Norwalk_CT ;
     dbo:country dbr:United_States .
 
 place:Springfield_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Springfield_MA ;
     dbo:country dbr:United_States .
 
 place:Springs_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Springs ;
     dbo:country dbr:South_Africa .
 
 place:St._Petersburg_Russian_Empire_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:St._Petersburg ;
     dbo:country dbr:Russia .
 
 place:Stainforth_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stainforth ;
     dbo:country dbr:United_Kingdom .
 
 place:Stanger_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stanger ;
     dbo:country dbr:South_Africa .
 
 place:Stapleford_Cambridgeshire_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stapleford_Cambridgeshire ;
     dbo:country dbr:United_Kingdom .
 
 place:Starnberg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Starnberg ;
     dbo:country dbr:Germany .
 
 place:Staunton_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Staunton_VA ;
     dbo:country dbr:United_States .
 
 place:Stavanger_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stavanger ;
     dbo:country dbr:Norway .
 
 place:Stenstorp_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stenstorp ;
     dbo:country dbr:Sweden .
 
 place:Sterling_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sterling_IL ;
     dbo:country dbr:United_States .
 
 place:Stoughton_WI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Stoughton_WI ;
     dbo:country dbr:United_States .
 
 place:Strehlen_%28now_Strzelin%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Strehlen_%28now_Strzelin%29 ;
     dbo:country dbr:Poland .
 
 place:Strelno_%28now_Strzelno%29_Prussia_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Prussia (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Strelno_%28now_Strzelno%29 ;
     dbo:country dbr:Poland .
 
 place:Stroud_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stroud ;
     dbo:country dbr:United_Kingdom .
 
 place:Stuttgart_W%C3%BCrttemberg_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Württemberg (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Stuttgart ;
     dbo:country dbr:Germany .
 
 place:Suita_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Suita ;
     dbo:country dbr:Japan .
 
 place:Sulech%C3%B3w_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sulech%C3%B3w ;
     dbo:country dbr:Poland .
 
 place:Sumter_SC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Sumter_SC ;
     dbo:country dbr:United_States .
 
 place:Superior_WI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Superior_WI ;
     dbo:country dbr:United_States .
 
 place:Surfside_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Surfside_FL ;
     dbo:country dbr:United_States .
 
 place:Svartbj%C3%B6rnsbyn_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Svartbj%C3%B6rnsbyn ;
     dbo:country dbr:Sweden .
 
 place:Swanage_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Swanage ;
     dbo:country dbr:United_Kingdom .
 
 place:Swansea_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Swansea ;
     dbo:country dbr:United_Kingdom .
 
 place:Sydney_Nova_Scotia_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sydney_Nova_Scotia ;
     dbo:country dbr:Canada .
 
 place:Syosset_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Syosset_NY ;
     dbo:country dbr:United_States .
 
 place:Syracuse_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Syracuse_NY ;
     dbo:country dbr:United_States .
 
 place:Szeged_Hungary a schema1:Place ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Szeged ;
     dbo:country dbr:Hungary .
 
 place:Szolnok_Hungary a schema1:Place ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Szolnok ;
     dbo:country dbr:Hungary .
 
 place:T%C3%BCbingen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:T%C3%BCbingen ;
     dbo:country dbr:Germany .
 
 place:Ta%27izz_Yemen a schema1:Place ;
-    rdfs:label "Yemen"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ta%27izz ;
     dbo:country dbr:Yemen .
 
 place:Tabuse_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tabuse ;
     dbo:country dbr:Japan .
 
 place:Taktser_Tibet_%28now_China%29 a schema1:Place ;
-    rdfs:label "Tibet (now China)"@en ;
+    rdfs:label "China"@en ;
     dbo:city dbr:Taktser ;
     dbo:country dbr:China .
 
 place:Tananarive_%28now_Antananarivo%29_Madagascar a schema1:Place ;
-    rdfs:label "Madagascar"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tananarive_%28now_Antananarivo%29 ;
     dbo:country dbr:Madagascar .
 
 place:Tardebigg_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tardebigg ;
     dbo:country dbr:United_Kingdom .
 
 place:Taunton_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Taunton_MA ;
     dbo:country dbr:United_States .
 
 place:Taylorville_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Taylorville_IL ;
     dbo:country dbr:United_States .
 
 place:Tempe_AZ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Tempe_AZ ;
     dbo:country dbr:United_States .
 
 place:Thames_Ditton_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Thames_Ditton ;
     dbo:country dbr:United_Kingdom .
 
 place:Thieuloy-Saint-Antoine_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Thieuloy-Saint-Antoine ;
     dbo:country dbr:France .
 
 place:Thorshavn_Faroe_Islands_%28Denmark%29 a schema1:Place ;
-    rdfs:label "Faroe Islands (Denmark)"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Thorshavn ;
     dbo:country dbr:Faroe_Islands_%28Denmark%29 .
 
 place:Timmins_ON_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Timmins_ON ;
     dbo:country dbr:Canada .
 
 place:Tiruchirappalli_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tiruchirappalli ;
     dbo:country dbr:India .
 
 place:Tivoli_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tivoli ;
     dbo:country dbr:Italy .
 
 place:Tonbridge_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tonbridge ;
     dbo:country dbr:United_Kingdom .
 
 place:Tours_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tours ;
     dbo:country dbr:France .
 
 place:Toyama_City_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Toyama_City ;
     dbo:country dbr:Japan .
 
 place:Toyohashi_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Toyohashi ;
     dbo:country dbr:Japan .
 
 place:Tr%C3%B6n%C3%B6_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tr%C3%B6n%C3%B6 ;
     dbo:country dbr:Sweden .
 
 place:Tramelan_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tramelan ;
     dbo:country dbr:Switzerland .
 
 place:Traralgon_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Traralgon ;
     dbo:country dbr:Australia .
 
 place:Traunstein_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Traunstein ;
     dbo:country dbr:Germany .
 
 place:Trelleck_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Trelleck ;
     dbo:country dbr:United_Kingdom .
 
 place:Trieste_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Trieste ;
     dbo:country dbr:Italy .
 
 place:Troitse-Lykovo_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Troitse-Lykovo ;
     dbo:country dbr:Russia .
 
 place:Troms%C3%B8_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Troms%C3%B8 ;
     dbo:country dbr:Norway .
 
 place:Trondheim_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Trondheim ;
     dbo:country dbr:Norway .
 
 place:Troyes_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Troyes ;
     dbo:country dbr:France .
 
 place:Truro_NS_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Truro_NS ;
     dbo:country dbr:Canada .
 
 place:Tunbridge_Wells_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tunbridge_Wells ;
     dbo:country dbr:United_Kingdom .
 
 place:Tunis_French_protectorate_of_Tunisia_%28now_Tunisia%29 a schema1:Place ;
-    rdfs:label "French protectorate of Tunisia (now Tunisia)"@en ;
+    rdfs:label "Tunisia"@en ;
     dbo:city dbr:Tunis ;
     dbo:country dbr:Tunisia .
 
 place:Twin_Falls_ID_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Twin_Falls_ID ;
     dbo:country dbr:United_States .
 
 place:Uchiko_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Uchiko ;
     dbo:country dbr:Japan .
 
 place:Uddingston_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Uddingston ;
     dbo:country dbr:Scotland .
 
 place:Ulm_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ulm ;
     dbo:country dbr:Germany .
 
 place:Uniontown_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Uniontown_PA ;
     dbo:country dbr:United_States .
 
 place:Unkel_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Unkel ;
     dbo:country dbr:Germany .
 
 place:Uskup_%28now_Skopje%29_Ottoman_Empire_%28now_North_Macedonia%29 a schema1:Place ;
-    rdfs:label "Ottoman Empire (now North Macedonia)"@en ;
+    rdfs:label "North_Macedonia"@en ;
     dbo:city dbr:Uskup_%28now_Skopje%29 ;
     dbo:country dbr:North_Macedonia .
 
 place:Usman_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Usman ;
     dbo:country dbr:Russia .
 
 place:V%C3%A4xj%C3%B6_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:V%C3%A4xj%C3%B6 ;
     dbo:country dbr:Sweden .
 
 place:V%C3%A5l%C3%A5dalen_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:V%C3%A5l%C3%A5dalen ;
     dbo:country dbr:Sweden .
 
 place:V%C3%A9zelay_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:V%C3%A9zelay ;
     dbo:country dbr:France .
 
 place:Val_di_Castello_Tuscany_%28now_Italy%29 a schema1:Place ;
-    rdfs:label "Tuscany (now Italy)"@en ;
+    rdfs:label "Italy"@en ;
     dbo:city dbr:Val_di_Castello ;
     dbo:country dbr:Italy .
 
 place:Verona_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Verona ;
     dbo:country dbr:Italy .
 
 place:Veshenskaya_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Veshenskaya ;
     dbo:country dbr:Russia .
 
 place:Veshenskaya_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Veshenskaya ;
     dbo:country dbr:Russia .
 
 place:Vevey_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vevey ;
     dbo:country dbr:Switzerland .
 
 place:Victoria_BC_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Victoria_BC ;
     dbo:country dbr:Canada .
 
 place:Vicu%C3%B1a_Chile a schema1:Place ;
-    rdfs:label "Chile"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vicu%C3%B1a ;
     dbo:country dbr:Chile .
 
 place:Vidisha_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vidisha ;
     dbo:country dbr:India .
 
 place:Vienna_Austria-Hungary_%28now_Austria%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Austria)"@en ;
+    rdfs:label "Austria"@en ;
     dbo:city dbr:Vienna ;
     dbo:country dbr:Austria .
 
 place:Viipuri_%28now_Vyborg%29_Finland a schema1:Place ;
-    rdfs:label "Finland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Viipuri_%28now_Vyborg%29 ;
     dbo:country dbr:Finland .
 
 place:Vik_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vik ;
     dbo:country dbr:Sweden .
 
 place:Visalia_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Visalia_CA ;
     dbo:country dbr:United_States .
 
 place:Vishneva_Poland_%28now_Belarus%29 a schema1:Place ;
-    rdfs:label "Poland (now Belarus)"@en ;
+    rdfs:label "Belarus"@en ;
     dbo:city dbr:Vishneva ;
     dbo:country dbr:Belarus .
 
 place:Vitebsk_Belorussia_USSR_%28now_Belarus%29 a schema1:Place ;
-    rdfs:label "USSR (now Belarus)"@en ;
+    rdfs:label "Belarus"@en ;
     dbo:city dbr:Vitebsk_Belorussia ;
     dbo:country dbr:Belarus .
 
 place:Vladivostok_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vladivostok ;
     dbo:country dbr:Russia .
 
 place:Voronezh_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Voronezh ;
     dbo:country dbr:Russia .
 
 place:Vukovar_Austria-Hungary_%28now_Croatia%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Croatia)"@en ;
+    rdfs:label "Croatia"@en ;
     dbo:city dbr:Vukovar ;
     dbo:country dbr:Croatia .
 
 place:Vyartsilya_Karelia_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vyartsilya_Karelia ;
     dbo:country dbr:Russia .
 
 place:Waalwijk_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Waalwijk ;
     dbo:country dbr:Netherlands .
 
 place:Wahoo_NE_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wahoo_NE ;
     dbo:country dbr:United_States .
 
 place:Wailacama_East_Timor a schema1:Place ;
-    rdfs:label "East Timor"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wailacama ;
     dbo:country dbr:East_Timor .
 
 place:Wakulla_Springs_State_Park_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wakulla_Springs_State_Park_FL ;
     dbo:country dbr:United_States .
 
 place:Walkerton_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Walkerton_IN ;
     dbo:country dbr:United_States .
 
 place:Walnut_Creek_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Walnut_Creek_CA ;
     dbo:country dbr:United_States .
 
 place:Waltersdorf_%28now_Niegoslawice%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Niegoslawice ;
     dbo:country dbr:Poland .
 
 place:Warsaw_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Warsaw ;
     dbo:country dbr:Poland .
 
 place:Warwick_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Warwick ;
     dbo:country dbr:United_Kingdom .
 
 place:Waterford_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Waterford_CT ;
     dbo:country dbr:United_States .
 
 place:Waterloo_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Waterloo ;
     dbo:country dbr:Canada .
 
 place:Wayland_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wayland_MA ;
     dbo:country dbr:United_States .
 
 place:Weimar_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Weimar ;
     dbo:country dbr:Germany .
 
 place:Wels_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wels ;
     dbo:country dbr:Austria .
 
 place:West_Berlin_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:West_Berlin ;
     dbo:country dbr:Germany .
 
 place:West_Berlin_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:West_Berlin ;
     dbo:country dbr:Germany .
 
 place:West_Hartford_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:West_Hartford_CT ;
     dbo:country dbr:United_States .
 
 place:West_Lafayette_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:West_Lafayette_IN ;
     dbo:country dbr:United_States .
 
 place:Weston_Creek_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Weston_Creek ;
     dbo:country dbr:Australia .
 
 place:Whiting_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Whiting_IN ;
     dbo:country dbr:United_States .
 
 place:Wichita_KS_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wichita_KS ;
     dbo:country dbr:United_States .
 
 place:Wickenberg_AZ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wickenberg_AZ ;
     dbo:country dbr:United_States .
 
 place:Widnes_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Widnes ;
     dbo:country dbr:United_Kingdom .
 
 place:Wigton_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wigton ;
     dbo:country dbr:United_Kingdom .
 
 place:Willesden_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Willesden ;
     dbo:country dbr:United_Kingdom .
 
 place:Wilmette_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wilmette_IL ;
     dbo:country dbr:United_States .
 
 place:Wilno_%28now_Vilnius%29_Poland_%28now_Lithuania%29 a schema1:Place ;
-    rdfs:label "Poland (now Lithuania)"@en ;
+    rdfs:label "Lithuania"@en ;
     dbo:city dbr:Wilno_%28now_Vilnius%29 ;
     dbo:country dbr:Lithuania .
 
 place:Winchester_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Winchester_MA ;
     dbo:country dbr:United_States .
 
 place:Winchester_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Winchester ;
     dbo:country dbr:United_Kingdom .
 
 place:Windsor_ON_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Windsor_ON ;
     dbo:country dbr:Canada .
 
 place:Wingham_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wingham ;
     dbo:country dbr:Canada .
 
 place:Winnipeg_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Winnipeg ;
     dbo:country dbr:Canada .
 
 place:Wisbech_Cambridgeshire_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wisbech_Cambridgeshire ;
     dbo:country dbr:United_Kingdom .
 
 place:Wloclawek_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wloclawek ;
     dbo:country dbr:Poland .
 
 place:Wola_Okrzejska_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wola_Okrzejska ;
     dbo:country dbr:Poland .
 
 place:Wollerau_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Wollerau ;
     dbo:country dbr:Switzerland .
 
 place:Woodstock_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Woodstock ;
     dbo:country dbr:United_Kingdom .
 
 place:Wooster_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wooster_OH ;
     dbo:country dbr:United_States .
 
 place:Worms_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Worms ;
     dbo:country dbr:Germany .
 
 place:Yakima_WA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Yakima_WA ;
     dbo:country dbr:United_States .
 
 place:Yamanashi_Prefecture_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Yamanashi_Prefecture ;
     dbo:country dbr:Japan .
 
 place:York_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:York_PA ;
     dbo:country dbr:United_States .
 
 place:Yorktown_Heights_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Yorktown_Heights_NY ;
     dbo:country dbr:United_States .
 
 place:Yukon_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Yukon_FL ;
     dbo:country dbr:United_States .
 
 place:Zamora_Mexico a schema1:Place ;
-    rdfs:label "Mexico"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zamora ;
     dbo:country dbr:Mexico .
 
 place:Zanjan_Iran a schema1:Place ;
-    rdfs:label "Iran"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zanjan ;
     dbo:country dbr:Iran .
 
 place:Zelvas_Lithuania a schema1:Place ;
-    rdfs:label "Lithuania"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zelvas ;
     dbo:country dbr:Lithuania .
 
 place:Zhejiang_Ningbo_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zhejiang_Ningbo ;
     dbo:country dbr:China .
 
 place:Zibelle_%28now_Niwica%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Zibelle_%28now_Niwica%29 ;
     dbo:country dbr:Poland .
 
 place:Zloczov_Poland_%28now_Ukraine%29 a schema1:Place ;
-    rdfs:label "Poland (now Ukraine)"@en ;
+    rdfs:label "Ukraine"@en ;
     dbo:city dbr:Zloczov ;
     dbo:country dbr:Ukraine .
 
 place:Zonnemaire_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Zonnemaire ;
     dbo:country dbr:Netherlands .
 
 place:Zusamaltheim_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zusamaltheim ;
     dbo:country dbr:Germany .
 
 place:Zushi_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zushi ;
     dbo:country dbr:Japan .
 
 place:_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:country dbr:France .
 
 place:_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:country dbr:Italy .
 
 place:_Singapore a schema1:Place ;
-    rdfs:label "Singapore"@en ;
+    rdfs:label "None"@en ;
     dbo:country dbr:Singapore .
 
 place:_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:country dbr:Russia .
 
 place:_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:country dbr:Netherlands .
 
 <http://example.org/nobel/organization/%C3%89cole_Polytechnique> a schema1:Organization ;
@@ -19929,512 +19929,512 @@ organization:Wellcome_Research_Laboratories a schema1:Organization ;
     foaf:givenName "Marie"^^xsd:string .
 
 <http://example.org/nobel/place/%C3%96rebro_Sweden> a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city <http://dbpedia.org/resource/%C3%96rebro> ;
     dbo:country dbr:Sweden .
 
 place:Aarhus_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Aarhus ;
     dbo:country dbr:Denmark .
 
 place:Alice_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Alice_TX ;
     dbo:country dbr:United_States .
 
 place:Athens_Greece a schema1:Place ;
-    rdfs:label "Greece"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Athens ;
     dbo:country dbr:Greece .
 
 place:Bad_Homburg_vor_der_H%C3%B6he_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bad_Homburg_vor_der_H%C3%B6he ;
     dbo:country dbr:Germany .
 
 place:Bar_Harbor_ME_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bar_Harbor_ME ;
     dbo:country dbr:United_States .
 
 place:Berlin_Prussia_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "Prussia (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Berlin ;
     dbo:country dbr:Germany .
 
 place:Big_Sur_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Big_Sur_CA ;
     dbo:country dbr:United_States .
 
 place:Bloomington_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bloomington_IN ;
     dbo:country dbr:United_States .
 
 place:Bodmin_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bodmin ;
     dbo:country dbr:United_Kingdom .
 
 place:Bologna_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bologna ;
     dbo:country dbr:Italy .
 
 place:Breisgau_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Breisgau ;
     dbo:country dbr:Germany .
 
 place:Breslau_%28now_Wroclaw%29_Germany_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Germany (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Breslau_%28now_Wroclaw%29 ;
     dbo:country dbr:Poland .
 
 place:Burlington_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Burlington_MA ;
     dbo:country dbr:United_States .
 
 place:Carcassonne_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Carcassonne ;
     dbo:country dbr:France .
 
 place:Cardiff_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cardiff ;
     dbo:country dbr:United_Kingdom .
 
 place:Changchun_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Changchun ;
     dbo:country dbr:China .
 
 place:Columbus_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Columbus_OH ;
     dbo:country dbr:United_States .
 
 place:Del_Mar_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Del_Mar_CA ;
     dbo:country dbr:United_States .
 
 place:Denver_CO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Denver_CO ;
     dbo:country dbr:United_States .
 
 place:Fairfax_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Fairfax_VA ;
     dbo:country dbr:United_States .
 
 place:Frankfurt-on-the-Main_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Frankfurt-on-the-Main ;
     dbo:country dbr:Germany .
 
 place:Freiburg_im_Breisgau_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Freiburg_im_Breisgau ;
     dbo:country dbr:Germany .
 
 place:Garching_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Garching ;
     dbo:country dbr:Germany .
 
 place:Gary_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Gary_IN ;
     dbo:country dbr:United_States .
 
 place:Genoa_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Genoa ;
     dbo:country dbr:Italy .
 
 place:Graz_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Graz ;
     dbo:country dbr:Austria .
 
 place:Guelph_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Guelph ;
     dbo:country dbr:Canada .
 
 place:Halifax_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Halifax ;
     dbo:country dbr:United_Kingdom .
 
 place:Hamilton_Ontario_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hamilton_Ontario ;
     dbo:country dbr:Canada .
 
 place:Hartford_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Hartford_CT ;
     dbo:country dbr:United_States .
 
 place:Helsinki_Russian_Empire_%28now_Finland%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Finland)"@en ;
+    rdfs:label "Finland"@en ;
     dbo:city dbr:Helsinki ;
     dbo:country dbr:Finland .
 
 place:Honolulu_HI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Honolulu_HI ;
     dbo:country dbr:United_States .
 
 place:Istanbul_Turkey a schema1:Place ;
-    rdfs:label "Turkey"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Istanbul ;
     dbo:country dbr:Turkey .
 
 place:J%C3%BClich_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:J%C3%BClich ;
     dbo:country dbr:Germany .
 
 place:Jena_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Jena ;
     dbo:country dbr:Germany .
 
 place:Jerusalem_British_Mandate_of_Palestine_%28now_Israel%29 a schema1:Place ;
-    rdfs:label "British Mandate of Palestine (now Israel)"@en ;
+    rdfs:label "Israel"@en ;
     dbo:city dbr:Jerusalem ;
     dbo:country dbr:Israel .
 
 place:Koenigsberg_%28now_Kaliningrad%29_Germany_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "Germany (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Koenigsberg_%28now_Kaliningrad%29 ;
     dbo:country dbr:Russia .
 
 place:Krak%C3%B3w_Poland a schema1:Place ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Krak%C3%B3w ;
     dbo:country dbr:Poland .
 
 place:Lafayette_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lafayette_CA ;
     dbo:country dbr:United_States .
 
 place:Lausanne_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lausanne ;
     dbo:country dbr:Switzerland .
 
 place:Leningrad_%28now_St._Petersburg%29_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Leningrad_%28now_St._Petersburg%29 ;
     dbo:country dbr:Russia .
 
 place:Lisbon_Portugal a schema1:Place ;
-    rdfs:label "Portugal"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lisbon ;
     dbo:country dbr:Portugal .
 
 place:Londonderry_Northern_Ireland a schema1:Place ;
-    rdfs:label "Northern Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Londonderry ;
     dbo:country dbr:Northern_Ireland .
 
 place:Lucerne_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lucerne ;
     dbo:country dbr:Switzerland .
 
 place:Lund_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lund ;
     dbo:country dbr:Sweden .
 
 place:Lyon_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Lyon ;
     dbo:country dbr:France .
 
 place:M%C3%A5rbacka_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:M%C3%A5rbacka ;
     dbo:country dbr:Sweden .
 
 place:Maillane_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Maillane ;
     dbo:country dbr:France .
 
 place:Manila_Philippines a schema1:Place ;
-    rdfs:label "Philippines"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Manila ;
     dbo:country dbr:Philippines .
 
 place:Marburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Marburg ;
     dbo:country dbr:Germany .
 
 place:Medford_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Medford_MA ;
     dbo:country dbr:United_States .
 
 place:Memphis_TN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Memphis_TN ;
     dbo:country dbr:United_States .
 
 place:Miami_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Miami_FL ;
     dbo:country dbr:United_States .
 
 place:Minneapolis_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Minneapolis_MN ;
     dbo:country dbr:United_States .
 
 place:Monrovia_Liberia a schema1:Place ;
-    rdfs:label "Liberia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Monrovia ;
     dbo:country dbr:Liberia .
 
 place:Montclair_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Montclair_NJ ;
     dbo:country dbr:United_States .
 
 place:Mount_Vernon_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Mount_Vernon_NY ;
     dbo:country dbr:United_States .
 
 place:Mountain_View_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Mountain_View_CA ;
     dbo:country dbr:United_States .
 
 place:Murray_Hill_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Murray_Hill_NJ ;
     dbo:country dbr:United_States .
 
 place:Nagasaki_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nagasaki ;
     dbo:country dbr:Japan .
 
 place:Nancy_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nancy ;
     dbo:country dbr:France .
 
 place:Nice_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nice ;
     dbo:country dbr:France .
 
 place:Norwich_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Norwich ;
     dbo:country dbr:United_Kingdom .
 
 place:Oak_Park_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Oak_Park_IL ;
     dbo:country dbr:United_States .
 
 place:Omaha_NE_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Omaha_NE ;
     dbo:country dbr:United_States .
 
 place:Orsay_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Orsay ;
     dbo:country dbr:France .
 
 place:Pavia_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pavia ;
     dbo:country dbr:Italy .
 
 place:Plains_GA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Plains_GA ;
     dbo:country dbr:United_States .
 
 place:Pretoria_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Pretoria ;
     dbo:country dbr:South_Africa .
 
 place:Providence_RI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Providence_RI ;
     dbo:country dbr:United_States .
 
 place:Rehovot_Israel a schema1:Place ;
-    rdfs:label "Israel"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rehovot ;
     dbo:country dbr:Israel .
 
 place:Research_Triangle_Park_NC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Research_Triangle_Park_NC ;
     dbo:country dbr:United_States .
 
 place:Reykjavik_Iceland a schema1:Place ;
-    rdfs:label "Iceland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Reykjavik ;
     dbo:country dbr:Iceland .
 
 place:Richmond_VA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Richmond_VA ;
     dbo:country dbr:United_States .
 
 place:Rochester_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Rochester_NY ;
     dbo:country dbr:United_States .
 
 place:Rotterdam_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Rotterdam ;
     dbo:country dbr:Netherlands .
 
 place:S%C3%A8vres_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:S%C3%A8vres ;
     dbo:country dbr:France .
 
 place:San_Marino_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:San_Marino_CA ;
     dbo:country dbr:United_States .
 
 place:Sheffield_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sheffield ;
     dbo:country dbr:United_Kingdom .
 
 place:Strasbourg_Germany_%28now_France%29 a schema1:Place ;
-    rdfs:label "Germany (now France)"@en ;
+    rdfs:label "France"@en ;
     dbo:city dbr:Strasbourg ;
     dbo:country dbr:France .
 
 place:Stuttgart_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stuttgart ;
     dbo:country dbr:Germany .
 
 place:Sydney_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Sydney ;
     dbo:country dbr:Australia .
 
 place:Tallahassee_FL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Tallahassee_FL ;
     dbo:country dbr:United_States .
 
 place:Tel_Aviv_British_Mandate_of_Palestine_%28now_Israel%29 a schema1:Place ;
-    rdfs:label "British Mandate of Palestine (now Israel)"@en ;
+    rdfs:label "Israel"@en ;
     dbo:city dbr:Tel_Aviv ;
     dbo:country dbr:Israel .
 
 place:Todmorden_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Todmorden ;
     dbo:country dbr:United_Kingdom .
 
 place:Toronto_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Toronto ;
     dbo:country dbr:Canada .
 
 place:Tsukuba_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tsukuba ;
     dbo:country dbr:Japan .
 
 place:Tunis_Tunisia a schema1:Place ;
-    rdfs:label "Tunisia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tunis ;
     dbo:country dbr:Tunisia .
 
 place:Turin_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Turin ;
     dbo:country dbr:Italy .
 
 place:Utrecht_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Utrecht ;
     dbo:country dbr:Netherlands .
 
 place:Vancouver_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vancouver ;
     dbo:country dbr:Canada .
 
 place:Vienna_Austrian_Empire_%28now_Austria%29 a schema1:Place ;
-    rdfs:label "Austrian Empire (now Austria)"@en ;
+    rdfs:label "Austria"@en ;
     dbo:city dbr:Vienna ;
     dbo:country dbr:Austria .
 
 place:W%C3%BCrzburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:W%C3%BCrzburg ;
     dbo:country dbr:Germany .
 
 place:Waltham_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Waltham_MA ;
     dbo:country dbr:United_States .
 
 place:Warsaw_Russian_Empire_%28now_Poland%29 a schema1:Place ;
-    rdfs:label "Russian Empire (now Poland)"@en ;
+    rdfs:label "Poland"@en ;
     dbo:city dbr:Warsaw ;
     dbo:country dbr:Poland .
 
 place:White_Plains_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:White_Plains_NY ;
     dbo:country dbr:United_States .
 
 place:Wilkes-Barre_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wilkes-Barre_PA ;
     dbo:country dbr:United_States .
 
 place:Wilmington_DE_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Wilmington_DE ;
     dbo:country dbr:United_States .
 
 place:Winterthur_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Winterthur ;
     dbo:country dbr:Switzerland .
 
 place:Woods_Hole_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Woods_Hole_MA ;
     dbo:country dbr:United_States .
 
 place:Worcester_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Worcester_MA ;
     dbo:country dbr:United_States .
 
@@ -20530,206 +20530,206 @@ organization:Victoria_University a schema1:Organization ;
     foaf:name "Victoria University" .
 
 place:Adelaide_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Adelaide ;
     dbo:country dbr:Australia .
 
 place:Ann_Arbor_MI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Ann_Arbor,_Michigan> ;
     dbo:country dbr:United_States .
 
 place:Austin_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Austin_TX ;
     dbo:country dbr:United_States .
 
 place:Bethesda_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Bethesda_MD ;
     dbo:country dbr:United_States .
 
 place:Birmingham_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Birmingham ;
     dbo:country dbr:United_Kingdom .
 
 place:Bonn_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bonn ;
     dbo:country dbr:Germany .
 
 place:Brighton_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Brighton ;
     dbo:country dbr:United_Kingdom .
 
 place:Bristol_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bristol ;
     dbo:country dbr:United_Kingdom .
 
 place:Brookline_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Brookline_MA ;
     dbo:country dbr:United_States .
 
 place:Budapest_Austria-Hungary_%28now_Hungary%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Hungary)"@en ;
+    rdfs:label "Hungary"@en ;
     dbo:city dbr:Budapest ;
     dbo:country dbr:Hungary .
 
 place:Buffalo_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Buffalo_NY ;
     dbo:country dbr:United_States .
 
 place:Cape_Town_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cape_Town ;
     dbo:country dbr:South_Africa .
 
 place:Cologne_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cologne ;
     dbo:country dbr:Germany .
 
 place:Detroit_MI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Detroit_MI ;
     dbo:country dbr:United_States .
 
 place:Eastbourne_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Eastbourne ;
     dbo:country dbr:United_Kingdom .
 
 place:Edinburgh_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Edinburgh ;
     dbo:country dbr:United_Kingdom .
 
 place:Freiburg_im_Breisgau_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Freiburg_im_Breisgau ;
     dbo:country dbr:Germany .
 
 place:Ghent_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ghent ;
     dbo:country dbr:Belgium .
 
 place:Glasgow_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Glasgow ;
     dbo:country dbr:Scotland .
 
 place:Gothenburg_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Gothenburg ;
     dbo:country dbr:Sweden .
 
 place:Indianapolis_IN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Indianapolis_IN ;
     dbo:country dbr:United_States .
 
 place:Kristiania_%28now_Oslo%29_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kristiania_%28now_Oslo%29 ;
     dbo:country dbr:Norway .
 
 place:L%C3%BCbeck_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:L%C3%BCbeck ;
     dbo:country dbr:Germany .
 
 place:Lexington_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Lexington_MA ;
     dbo:country dbr:United_States .
 
 place:Liverpool_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Liverpool ;
     dbo:country dbr:United_Kingdom .
 
 place:Madison_WI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Madison_WI ;
     dbo:country dbr:United_States .
 
 place:Mainz_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mainz ;
     dbo:country dbr:Germany .
 
 place:Melbourne_Australia a schema1:Place ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Melbourne ;
     dbo:country dbr:Australia .
 
 place:Milwaukee_WI_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Milwaukee_WI ;
     dbo:country dbr:United_States .
 
 place:Munich_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Munich ;
     dbo:country dbr:Germany .
 
 place:Nashville_TN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Nashville_TN ;
     dbo:country dbr:United_States .
 
 place:Ottawa_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Ottawa ;
     dbo:country dbr:Canada .
 
 place:Prague_Czechoslovakia_%28now_Czech_Republic%29 a schema1:Place ;
-    rdfs:label "Czechoslovakia (now Czech Republic)"@en ;
+    rdfs:label "Czech_Republic"@en ;
     dbo:city dbr:Prague ;
     dbo:country dbr:Czech_Republic .
 
 place:Santa_Barbara_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Santa_Barbara_CA ;
     dbo:country dbr:United_States .
 
 place:Shanghai_China a schema1:Place ;
-    rdfs:label "China"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Shanghai ;
     dbo:country dbr:China .
 
 place:Strasbourg_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Strasbourg ;
     dbo:country dbr:France .
 
 place:Tel_Aviv_Israel a schema1:Place ;
-    rdfs:label "Israel"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tel_Aviv ;
     dbo:country dbr:Israel .
 
 place:Tucson_AZ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Tucson_AZ ;
     dbo:country dbr:United_States .
 
 place:Yonkers_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Yonkers_NY ;
     dbo:country dbr:United_States .
 
 place:_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:country dbr:United_States .
 
 place:_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:country dbr:United_Kingdom .
 
 organization:Eidgen%C3%B6ssische_Technische_Hochschule_%28Swiss_Federal_Institute_of_Technology%29 a schema1:Organization ;
@@ -20767,92 +20767,92 @@ organization:University_of_Toronto a schema1:Organization ;
     foaf:name "University of Toronto" .
 
 place:Berlin-Dahlem_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Berlin-Dahlem ;
     dbo:country dbr:Germany .
 
 place:Boulder_CO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Boulder,_Colorado> ;
     dbo:country dbr:United_States .
 
 place:Calcutta_India a schema1:Place ;
-    rdfs:label "India"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Calcutta ;
     dbo:country dbr:India .
 
 place:Evanston_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Evanston_IL ;
     dbo:country dbr:United_States .
 
 place:Groningen_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Groningen ;
     dbo:country dbr:Netherlands .
 
 place:Ithaca_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Ithaca_NY ;
     dbo:country dbr:United_States .
 
 place:Johannesburg_South_Africa a schema1:Place ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Johannesburg ;
     dbo:country dbr:South_Africa .
 
 place:Leiden_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Leiden ;
     dbo:country dbr:Netherlands .
 
 place:Leipzig_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Leipzig ;
     dbo:country dbr:Germany .
 
 place:Manchester_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Manchester ;
     dbo:country dbr:United_Kingdom .
 
 place:Milan_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Milan ;
     dbo:country dbr:Italy .
 
 place:Montreal_Canada a schema1:Place ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Montreal ;
     dbo:country dbr:Canada .
 
 place:Osaka_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Osaka ;
     dbo:country dbr:Japan .
 
 place:Prague_Austria-Hungary_%28now_Czech_Republic%29 a schema1:Place ;
-    rdfs:label "Austria-Hungary (now Czech Republic)"@en ;
+    rdfs:label "Czech_Republic"@en ;
     dbo:city dbr:Prague ;
     dbo:country dbr:Czech_Republic .
 
 place:St._Paul_MN_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:St._Paul_MN ;
     dbo:country dbr:United_States .
 
 place:St._Petersburg_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:St._Petersburg ;
     dbo:country dbr:Russia .
 
 place:Toulouse_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Toulouse ;
     dbo:country dbr:France .
 
 place:Urbana_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Urbana_IL ;
     dbo:country dbr:United_States .
 
@@ -20886,47 +20886,47 @@ organization:Washington_University a schema1:Organization ;
     foaf:name "Washington University" .
 
 place:Baltimore_MD_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Baltimore,_Maryland> ;
     dbo:country dbr:United_States .
 
 place:Chapel_Hill_NC_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Chapel_Hill_NC ;
     dbo:country dbr:United_States .
 
 place:Cleveland_OH_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Cleveland_OH ;
     dbo:country dbr:United_States .
 
 place:Edinburgh_Scotland a schema1:Place ;
-    rdfs:label "Scotland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Edinburgh ;
     dbo:country dbr:Scotland .
 
 place:G%C3%B6ttingen_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:G%C3%B6ttingen ;
     dbo:country dbr:Germany .
 
 place:Heidelberg_West_Germany_%28now_Germany%29 a schema1:Place ;
-    rdfs:label "West Germany (now Germany)"@en ;
+    rdfs:label "Germany"@en ;
     dbo:city dbr:Heidelberg ;
     dbo:country dbr:Germany .
 
 place:Helsinki_Finland a schema1:Place ;
-    rdfs:label "Finland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Helsinki ;
     dbo:country dbr:Finland .
 
 place:Houston_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Houston_TX ;
     dbo:country dbr:United_States .
 
 place:the_Hague_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:The_Hague ;
     dbo:country dbr:Netherlands .
 
@@ -20957,62 +20957,62 @@ organization:University_of_Heidelberg a schema1:Organization ;
     foaf:name "University of Heidelberg" .
 
 place:Amsterdam_the_Netherlands a schema1:Place ;
-    rdfs:label "the Netherlands"@en ;
+    rdfs:label "Netherlands"@en ;
     dbo:city dbr:Amsterdam ;
     dbo:country dbr:Netherlands .
 
 place:Belfast_Northern_Ireland a schema1:Place ;
-    rdfs:label "Northern Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Belfast ;
     dbo:country dbr:Northern_Ireland .
 
 place:Bern_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Bern ;
     dbo:country dbr:Switzerland .
 
 place:Budapest_Hungary a schema1:Place ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Budapest ;
     dbo:country dbr:Hungary .
 
 place:Cairo_Egypt a schema1:Place ;
-    rdfs:label "Egypt"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cairo ;
     dbo:country dbr:Egypt .
 
 place:Dallas_TX_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Dallas_TX ;
     dbo:country dbr:United_States .
 
 place:Dublin_Ireland a schema1:Place ;
-    rdfs:label "Ireland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Dublin ;
     dbo:country dbr:Ireland .
 
 place:Frankfurt-on-the-Main_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Frankfurt-on-the-Main ;
     dbo:country dbr:Germany .
 
 place:La_Jolla_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:La_Jolla_CA ;
     dbo:country dbr:United_States .
 
 place:Mexico_City_Mexico a schema1:Place ;
-    rdfs:label "Mexico"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Mexico_City ;
     dbo:country dbr:Mexico .
 
 place:Nagoya_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Nagoya ;
     dbo:country dbr:Japan .
 
 place:Palo_Alto_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Palo_Alto,_California> ;
     dbo:country dbr:United_States .
 
@@ -21026,32 +21026,32 @@ organization:University_College a schema1:Organization ;
     foaf:name "University College" .
 
 place:Brussels_Belgium a schema1:Place ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Brussels ;
     dbo:country dbr:Belgium .
 
 place:Oslo_Norway a schema1:Place ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Oslo ;
     dbo:country dbr:Norway .
 
 place:Philadelphia_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Philadelphia_PA ;
     dbo:country dbr:United_States .
 
 place:Pittsburgh_PA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Pittsburgh_PA ;
     dbo:country dbr:United_States .
 
 place:San_Diego_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:San_Diego_CA ;
     dbo:country dbr:United_States .
 
 place:Uppsala_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Uppsala ;
     dbo:country dbr:Sweden .
 
@@ -21064,62 +21064,62 @@ organization:Yale_University a schema1:Organization ;
     foaf:name "Yale University" .
 
 place:G%C3%B6ttingen_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:G%C3%B6ttingen ;
     dbo:country dbr:Germany .
 
 place:Geneva_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Geneva ;
     dbo:country dbr:Switzerland .
 
 place:Hamburg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Hamburg ;
     dbo:country dbr:Germany .
 
 place:New_Haven_CT_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/New_Haven,_Connecticut> ;
     dbo:country dbr:United_States .
 
 place:Oxford_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Oxford ;
     dbo:country dbr:United_Kingdom .
 
 place:Princeton_NJ_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Princeton,_New_Jersey> ;
     dbo:country dbr:United_States .
 
 place:St._Louis_MO_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:St._Louis_MO ;
     dbo:country dbr:United_States .
 
 place:Basel_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Basel ;
     dbo:country dbr:Switzerland .
 
 place:Buenos_Aires_Argentina a schema1:Place ;
-    rdfs:label "Argentina"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Buenos_Aires ;
     dbo:country dbr:Argentina .
 
 place:Heidelberg_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Heidelberg ;
     dbo:country dbr:Germany .
 
 place:Kyoto_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Kyoto ;
     dbo:country dbr:Japan .
 
 place:San_Francisco_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:San_Francisco ;
     dbo:country dbr:United_States .
 
@@ -21132,47 +21132,47 @@ organization:University_of_Oxford a schema1:Organization ;
     foaf:name "University of Oxford" .
 
 place:Brooklyn_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Brooklyn_NY ;
     dbo:country dbr:United_States .
 
 place:Madrid_Spain a schema1:Place ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Madrid ;
     dbo:country dbr:Spain .
 
 place:Moscow_Russia a schema1:Place ;
-    rdfs:label "Russia"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Moscow ;
     dbo:country dbr:Russia .
 
 place:Pasadena_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Pasadena,_California> ;
     dbo:country dbr:United_States .
 
 place:Seattle_WA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Seattle_WA ;
     dbo:country dbr:United_States .
 
 place:Stanford_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Stanford,_California> ;
     dbo:country dbr:United_States .
 
 place:Los_Angeles_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Los_Angeles ;
     dbo:country dbr:United_States .
 
 place:Moscow_USSR_%28now_Russia%29 a schema1:Place ;
-    rdfs:label "USSR (now Russia)"@en ;
+    rdfs:label "Russia"@en ;
     dbo:city dbr:Moscow ;
     dbo:country dbr:Russia .
 
 place:Tokyo_Japan a schema1:Place ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Tokyo ;
     dbo:country dbr:Japan .
 
@@ -21181,22 +21181,22 @@ organization:Rockefeller_University a schema1:Organization ;
     foaf:name "Rockefeller University" .
 
 place:Berkeley_CA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Berkeley,_California> ;
     dbo:country dbr:United_States .
 
 place:Rome_Italy a schema1:Place ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Rome ;
     dbo:country dbr:Italy .
 
 place:Washington_D.C._USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Washington_D.C.> ;
     dbo:country dbr:United_States .
 
 place:Zurich_Switzerland a schema1:Place ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Zurich ;
     dbo:country dbr:Switzerland .
 
@@ -21209,7 +21209,7 @@ organization:University_of_Cambridge a schema1:Organization ;
     foaf:name "University of Cambridge" .
 
 place:Boston_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Boston_MA ;
     dbo:country dbr:United_States .
 
@@ -21222,22 +21222,22 @@ organization:Princeton_University a schema1:Organization ;
     foaf:name "Princeton University" .
 
 place:Copenhagen_Denmark a schema1:Place ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Copenhagen ;
     dbo:country dbr:Denmark .
 
 place:Munich_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Munich ;
     dbo:country dbr:Germany .
 
 place:Vienna_Austria a schema1:Place ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Vienna ;
     dbo:country dbr:Austria .
 
 place:Berlin_Germany a schema1:Place ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Berlin ;
     dbo:country dbr:Germany .
 
@@ -21246,7 +21246,7 @@ organization:University_of_Chicago a schema1:Organization ;
     foaf:name "University of Chicago" .
 
 place:Cambridge_MA_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city <http://dbpedia.org/resource/Cambridge,_Massachusetts> ;
     dbo:country dbr:United_States .
 
@@ -21259,7 +21259,7 @@ organization:Massachusetts_Institute_of_Technology_%28MIT%29 a schema1:Organizat
     foaf:name "Massachusetts Institute of Technology (MIT)" .
 
 place:Chicago_IL_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:Chicago ;
     dbo:country dbr:United_States .
 
@@ -21268,12 +21268,12 @@ organization:Harvard_University a schema1:Organization ;
     foaf:name "Harvard University" .
 
 place:Cambridge_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Cambridge ;
     dbo:country dbr:United_Kingdom .
 
 place:Stockholm_Sweden a schema1:Place ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Stockholm ;
     dbo:country dbr:Sweden .
 
@@ -21287,17 +21287,17 @@ organization:University_of_California a schema1:Organization ;
     foaf:name "University of California" .
 
 place:London_United_Kingdom a schema1:Place ;
-    rdfs:label "United Kingdom"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:London ;
     dbo:country dbr:United_Kingdom .
 
 place:Paris_France a schema1:Place ;
-    rdfs:label "France"@en ;
+    rdfs:label "None"@en ;
     dbo:city dbr:Paris ;
     dbo:country dbr:France .
 
 place:New_York_NY_USA a schema1:Place ;
-    rdfs:label "USA"@en ;
+    rdfs:label "United_States"@en ;
     dbo:city dbr:New_York_City ;
     dbo:country dbr:United_States .
 

@@ -132,6 +132,13 @@ def normalize_country_to_uri(country: str, dbpedia_res: Namespace) -> URIRef:
         return URIRef(dbpedia_res + COUNTRY_URI_MAP[c])
     return URIRef(dbpedia_res + safe_uri_component(c))
 
+def normalize_country(country: str) -> str:
+    c = normalize_text(country)
+    if not c:
+        return ""
+    if c in COUNTRY_URI_MAP:
+        return COUNTRY_URI_MAP[c]
+
 
 def normalize_city_to_uri(city: str, dbpedia_res: Namespace) -> URIRef:
     c = normalize_text(city)
@@ -219,7 +226,7 @@ def add_place_triples(
     place_uri = URIRef(place_ns + place_id)
     g.add((subject_uri, predicate, place_uri))
     g.add((place_uri, RDF.type, schema.Place))
-    g.add((place_uri, RDFS.label, Literal(country, lang="en"))) # country label
+    g.add((place_uri, RDFS.label, Literal(normalize_country(country), lang="en"))) # country label
 
     if city:
         city_uri = normalize_city_to_uri(city, dbr)
