@@ -1,0 +1,40 @@
+#requete qui donne le nombre de prix nobel d'economie en fonction du pays et on a la monnaie du pays et son nombre d'utilisateur 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema1: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX exont: <http://example.org/ontology/> 
+
+SELECT ?currencyCountryLabel 
+       ?currencyLabel 
+       ?nbPopUsing
+       (COUNT(DISTINCT ?Name) AS ?nbNobelPrize)
+WHERE {
+  
+  SERVICE <https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql> {
+      ?award a schema1:Award ;
+           schema1:category "Economics" ;
+           schema1:recipient ?person .
+
+      ?person a foaf:Person ;
+              foaf:givenName ?Name ;
+              schema1:birthPlace ?place .
+
+      ?place a schema1:Place ;
+             rdfs:label ?country .
+  }
+  
+  SERVICE <https://api.triplydb.com/datasets/PiardineauHugo/curenties/sparql> {
+    ?currency a dbo:Currency ;
+              rdfs:label ?currencyLabel ;
+              exont:populationUsing ?nbPopUsing ;
+              dbo:usedInCountry ?currencyCountryURI .
+    
+    ?currencyCountryURI rdfs:label ?currencyCountryLabel .
+    FILTER(LANG(?currencyLabel) = "en" || LANG(?currencyLabel) = "")
+  }
+  
+  FILTER(LCASE(STR(?country)) = LCASE(STR(?currencyCountryLabel)))
+}
+GROUP BY ?currencyCountryLabel ?currencyLabel ?nbPopUsing
+LIMIT 20
