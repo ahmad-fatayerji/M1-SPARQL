@@ -1,0 +1,58 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema1: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+
+SELECT  
+    (STR(?popCountryLabel) AS ?country) 
+    (STR(COUNT(DISTINCT ?athlete)) AS ?nbFemaleAthletes)
+    (STR(COUNT(DISTINCT ?laureate)) AS ?nbFemaleNobel)
+    (CONCAT(STR(COUNT(DISTINCT ?athlete)), " / ", STR(?population)) AS ?ratioAthletes)
+    (CONCAT(STR(COUNT(DISTINCT ?laureate)), "/ ", STR(?population)) AS ?ratioNobel)
+    (STR(?population) AS ?populationTotal)
+WHERE {
+
+  # --- Athlètes ---
+  {
+    SELECT ?athlete ?isoCode  
+    WHERE { 
+      ?athlete dbo:gender dbr:Female ;
+               schema:alpha3Code ?isoCode .
+    }
+    LIMIT 1000
+  }
+
+  # --- Population ---
+  SERVICE <https://api.triplydb.com/datasets/Asserche/worldPopulation/sparql> {
+    ?popCountry a dbo:Country ;
+                dbo:populationTotal ?population ;
+                dbo:isoCode ?isoNode ;
+                rdfs:label ?popCountryLabel .
+    BIND(REPLACE(STR(?isoNode), ".*iso_", "") AS ?isoPop)
+  }
+
+  # --- Nobel ---
+  SERVICE <https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql> {
+    SELECT DISTINCT ?laureate ?countryLabel
+    WHERE {
+      ?award a schema1:Award ;
+             schema1:recipient ?laureate .
+      ?laureate a foaf:Person ;
+                 schema1:gender "female"^^xsd:string ;
+                 schema1:birthPlace ?birthPlace .
+      ?birthPlace dbo:country ?nobelCountry ;
+                  rdfs:label ?countryLabel .
+    }
+    LIMIT 2000
+  }
+
+  # Jointures
+  FILTER(LCASE(?isoCode) = LCASE(?isoPop))
+  FILTER(STR(?countryLabel) = STR(?popCountryLabel))
+}
+GROUP BY ?population ?popCountryLabel
+ORDER BY DESC(?nbFemaleAthletes)
+LIMIT 116
