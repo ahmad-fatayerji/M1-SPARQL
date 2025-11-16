@@ -1,0 +1,33 @@
+
+# --- REQUÊTES DE VÉRIFICATION APRÈS INFÉRENCE ---
+
+PREFIX schema1: <http://schema.org/>
+PREFIX ex:      <http://example.org/nobel/>
+
+# 1) Liste des personnes (avant + après inférence)
+SELECT DISTINCT ?person
+WHERE {
+  { ?person a schema1:Person }
+  UNION
+  { GRAPH <urn:materialized> { ?person a schema1:Person } }
+}
+LIMIT 100;
+
+# 2) Nationalités inférées
+SELECT ?person ?country
+WHERE {
+  GRAPH <urn:materialized> { ?person ex:hasNationality ?country }
+}
+ORDER BY ?country ?person
+LIMIT 200;
+
+# 3) Prix par décennie et genre
+SELECT ?decade ?gender (COUNT(?a) AS ?awards)
+WHERE {
+  ?a a schema1:Award.
+  { GRAPH <urn:materialized> { ?a ex:decade ?decade } }
+  ?a schema1:recipient ?p.
+  OPTIONAL { ?p schema1:gender ?gender }
+}
+GROUP BY ?decade ?gender
+ORDER BY ?decade ?gender;
