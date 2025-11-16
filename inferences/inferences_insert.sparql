@@ -1,0 +1,63 @@
+# --- INFÉRENCES ---
+
+PREFIX schema1: <http://schema.org/>
+PREFIX dbo:     <http://dbpedia.org/ontology/>
+PREFIX ex:      <http://example.org/nobel/>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+
+
+# 1) Typage des personnes (recipient → Person)
+
+INSERT {
+  GRAPH <urn:materialized> { ?p a schema1:Person. }
+}
+WHERE {
+  ?a a schema1:Award; schema1:recipient ?p.
+  FILTER NOT EXISTS { GRAPH <urn:materialized> { ?p a schema1:Person. } }
+};
+
+
+
+
+# 2) Typage des lieux (birthPlace/deathPlace → Place)
+
+INSERT {
+  GRAPH <urn:materialized> { ?pl a schema1:Place. }
+}
+WHERE {
+  { ?p schema1:birthPlace ?pl } UNION { ?p schema1:deathPlace ?pl }
+  FILTER NOT EXISTS { GRAPH <urn:materialized> { ?pl a schema1:Place. } }
+};
+
+
+
+# 3) Nationalité (birthPlace → dbo:country → hasNationality + Nationality)
+
+INSERT {
+  GRAPH <urn:materialized> {
+    ?p  ex:hasNationality ?c.
+    ?c  a ex:Nationality.
+  }
+}
+WHERE {
+  ?p  schema1:birthPlace ?pl.
+  ?pl dbo:country ?c.
+  FILTER NOT EXISTS { GRAPH <urn:materialized> { ?p ex:hasNationality ?c. } }
+};
+
+
+
+
+# 4) Décennie du prix (awardDate → ex:decade "1970s")
+
+INSERT {
+  GRAPH <urn:materialized> { ?a ex:decade ?decade. }
+}
+WHERE {
+  ?a a schema1:Award; schema1:awardDate ?y.
+  BIND(STR(?y) AS ?ys)
+  BIND(SUBSTR(?ys,1,3) AS ?y3)
+  BIND(CONCAT(?y3, "0s") AS ?decade)
+  FILTER NOT EXISTS { GRAPH <urn:materialized> { ?a ex:decade ?decade. } }
+};
