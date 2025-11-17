@@ -8,6 +8,16 @@ local_namespaces = set([
     "http://example.org/nobel/place/"
 ])
 
+vocabularies = set([
+        "http://dbpedia.org/ontology/",
+        "http://schema.org/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://www.w3.org/2001/XMLSchema#"
+    ])
+
 def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
     g = Graph()
     g.parse(input_ttl, format="turtle")
@@ -20,14 +30,6 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
     classes = set(g.objects(predicate=RDF.type))
     properties = set(g.predicates())
     subjects = set(g.subjects())
-
-
-
-    # used vocabularies
-    vocabularies = set()
-    for p in properties:
-        if isinstance(p, URIRef):
-            vocabularies.add(p.rsplit("#", 1)[0].rsplit("/", 1)[0] + "/")
 
     # main dataset description
     void_graph.add((dataset, RDF.type, VOID.Dataset))
