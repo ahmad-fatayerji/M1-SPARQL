@@ -68,7 +68,7 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
 
 if __name__ == "__main__":
     generate_void_enriched(
-        input_ttl="Step4/out_enriched_orgs.ttl",
+        input_ttl="Step4/out_enriched_complete.ttl",
         output_ttl="void.ttl",
         dataset_uri="http://example.org/nobel",
         creators=["Ahmad Fatayerji", "Hugo Piard", "Louis Boulanger", "Ziad Ijja"]

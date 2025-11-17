@@ -9,13 +9,13 @@
     void:linkPredicate owl:sameAs ;
     void:objectsTarget <http://dbpedia.org> ;
     void:subjectsTarget <http://example.org/nobel> ;
-    void:triples 1245 .
+    void:triples 1918 .
 
 <http://example.org/nobel/linkset/www.wikidata.org> a void:Linkset ;
     void:linkPredicate owl:sameAs ;
     void:objectsTarget <http://www.wikidata.org> ;
     void:subjectsTarget <http://example.org/nobel> ;
-    void:triples 839 .
+    void:triples 1348 .
 
 <http://example.org/nobel> a void:Dataset ;
     rdfs:label "VoID description of Nobel Prize laureates graph"^^xsd:string ;
@@ -25,12 +25,12 @@
         "Louis Boulanger"^^xsd:string,
         "Ziad Ijja"^^xsd:string ;
     void:classes 4 ;
-    void:dataDump <Step4/out_enriched_orgs.ttl> ;
+    void:dataDump <Step4/out_enriched_complete.ttl> ;
     void:entities 3327 ;
     void:properties 20 ;
     void:subset <http://example.org/nobel/linkset/dbpedia.org>,
         <http://example.org/nobel/linkset/www.wikidata.org> ;
-    void:triples 20052 ;
+    void:triples 21234 ;
     void:uriSpace "http://example.org/nobel/award/"^^xsd:string,
         "http://example.org/nobel/organization/"^^xsd:string,
         "http://example.org/nobel/person/"^^xsd:string,

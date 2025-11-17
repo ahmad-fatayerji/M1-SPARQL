@@ -9766,8 +9766,8 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:deathDate "1953-11-27"^^xsd:date ;
     schema1:deathPlace place:Boston_MA_USA ;
     schema1:gender "male"^^xsd:string ;
-    owl:sameAs <http://dbpedia.org/resource/Eugene_O'Neill> ;
-    foaf:familyName "O'Neill"^^xsd:string ;
+    owl:sameAs <http://dbpedia.org/resource/Eugene_O\'Neill> ;
+    foaf:familyName "O\'Neill"^^xsd:string ;
     foaf:givenName "Eugene"^^xsd:string .
 
 <http://example.org/nobel/person/Eugene_Wigner> a foaf:Person ;
@@ -10595,8 +10595,8 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:birthDate "1946-07-05"^^xsd:date ;
     schema1:birthPlace place:Den_Helder_the_Netherlands ;
     schema1:gender "male"^^xsd:string ;
-    owl:sameAs <http://dbpedia.org/resource/Gerardus_'t_Hooft> ;
-    foaf:familyName "'t Hooft"^^xsd:string ;
+    owl:sameAs <http://dbpedia.org/resource/Gerardus_\'t_Hooft> ;
+    foaf:familyName "\'t Hooft"^^xsd:string ;
     foaf:givenName "Gerardus"^^xsd:string .
 
 <http://example.org/nobel/person/Gerd_Binnig> a foaf:Person ;
@@ -11703,8 +11703,8 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:deathDate "1911-03-01"^^xsd:date ;
     schema1:deathPlace place:Berlin_Germany ;
     schema1:gender "male"^^xsd:string ;
-    owl:sameAs <http://dbpedia.org/resource/Jacobus_H._van_'t_Hoff> ;
-    foaf:familyName "van 't Hoff"^^xsd:string ;
+    owl:sameAs <http://dbpedia.org/resource/Jacobus_H._van_\'t_Hoff> ;
+    foaf:familyName "van \'t Hoff"^^xsd:string ;
     foaf:givenName "Jacobus H."^^xsd:string .
 
 <http://example.org/nobel/person/Jacques_Dubochet> a foaf:Person ;
@@ -12386,8 +12386,8 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:birthDate "1939-11-18"^^xsd:date ;
     schema1:birthPlace place:New_York_NY_USA ;
     schema1:gender "male"^^xsd:string ;
-    owl:sameAs <http://dbpedia.org/resource/John_O'Keefe> ;
-    foaf:familyName "O'Keefe"^^xsd:string ;
+    owl:sameAs <http://dbpedia.org/resource/John_O\'Keefe> ;
+    foaf:familyName "O\'Keefe"^^xsd:string ;
     foaf:givenName "John"^^xsd:string .
 
 <http://example.org/nobel/person/John_Pople> a foaf:Person ;
@@ -14458,8 +14458,8 @@ organization:Zoologisches_Institut_der_Universit%C3%A4t_M%C3%BCnchen a schema1:O
     schema1:deathDate "1924-05-15"^^xsd:date ;
     schema1:deathPlace place:Paris_France ;
     schema1:gender "male"^^xsd:string ;
-    owl:sameAs <http://dbpedia.org/resource/Paul_Henri_d'Estournelles_de_Constant> ;
-    foaf:familyName "d'Estournelles de Constant"^^xsd:string ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Henri_d\'Estournelles_de_Constant> ;
+    foaf:familyName "d\'Estournelles de Constant"^^xsd:string ;
     foaf:givenName "Paul Henri"^^xsd:string .
 
 <http://example.org/nobel/person/Paul_Heyse> a foaf:Person ;
