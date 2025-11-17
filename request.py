@@ -37,17 +37,17 @@ def main():
     for uri in sorted(dbpedia_uris):
         if not is_valid_dbpedia_uri(uri):
             invalid.append(uri)
-            print(f"❌ Invalide : {uri}")
+            print(f"Invalide : {uri}")
         else:
-            print(f"✅ OK : {uri}")
+            print(f"OK : {uri}")
 
     if invalid:
         with open(LOG_FILE, "w", encoding="utf-8") as f:
             for uri in invalid:
                 f.write(uri + "\n")
-        print(f"\n⚠️ {len(invalid)} URI invalides enregistrées dans {LOG_FILE}")
+        print(f"\n{len(invalid)} URI invalides enregistrées dans {LOG_FILE}")
     else:
-        print("\n✅ Toutes les URI DBpedia sont valides !")
+        print("\nToutes les URI DBpedia sont valides.")
 
 if __name__ == "__main__":
     main()

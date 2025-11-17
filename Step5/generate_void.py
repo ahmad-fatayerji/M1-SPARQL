@@ -15,7 +15,7 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
 
     dataset = URIRef(dataset_uri)
 
-    # --- Stats principales ---
+    # main statistics
     triples_count = len(g)
     classes = set(g.objects(predicate=RDF.type))
     properties = set(g.predicates())
@@ -23,13 +23,13 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
 
 
 
-    # --- Vocabularies utilisés ---
+    # used vocabularies
     vocabularies = set()
     for p in properties:
         if isinstance(p, URIRef):
             vocabularies.add(p.rsplit("#", 1)[0].rsplit("/", 1)[0] + "/")
 
-    # --- Dataset principal ---
+    # main dataset description
     void_graph.add((dataset, RDF.type, VOID.Dataset))
     void_graph.add((dataset, VOID.triples, Literal(triples_count, datatype=XSD.integer)))
     void_graph.add((dataset, VOID.entities, Literal(len(subjects), datatype=XSD.integer)))
@@ -45,7 +45,7 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
     for v in vocabularies:
         void_graph.add((dataset, VOID.vocabulary, URIRef(v)))
 
-    # --- Linksets owl:sameAs ---
+    # Linksets owl:sameAs 
     sameas_links = list(g.triples((None, OWL.sameAs, None)))
     linksets = {}
     for s, _, o in sameas_links:
@@ -62,7 +62,7 @@ def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
         void_graph.add((linkset_uri, VOID.subjectsTarget, dataset))
         void_graph.add((linkset_uri, VOID.objectsTarget, URIRef(f"http://{domain}")))
 
-    # --- Export final ---
+    # export VoID graph
     void_graph.serialize(output_ttl, format="turtle")
     print(f"VoID enrichi généré dans : {output_ttl}")
 

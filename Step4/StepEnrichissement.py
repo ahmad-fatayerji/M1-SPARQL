@@ -8,9 +8,7 @@ SCHEMA = Namespace("http://schema.org/")
 DBO = Namespace("http://dbpedia.org/ontology/")
 DBR = Namespace("http://dbpedia.org/resource/")
 
-# ----------------------------------------------------------
 # URI ENCODING
-# ----------------------------------------------------------
 def encode_dbpedia_uri(name):
     return quote(name, safe='_,')  # évite les apostrophes cassées
 
@@ -20,9 +18,8 @@ def sanitize(uri):
         return URIRef("http://dbpedia.org/resource/" + encode_dbpedia_uri(name))
     return URIRef(uri)
 
-# ----------------------------------------------------------
+
 # CHECK DBPEDIA
-# ----------------------------------------------------------
 def dbpedia_exists(name):
     try:
         encoded = encode_dbpedia_uri(name)
@@ -32,9 +29,7 @@ def dbpedia_exists(name):
     except:
         return None
 
-# ----------------------------------------------------------
 # GET WIKIDATA
-# ----------------------------------------------------------
 def wikidata_from_sparql(name):
     try:
         encoded = encode_dbpedia_uri(name)
@@ -69,9 +64,8 @@ def wikidata_from_rdf(name):
 def wikidata(name):
     return wikidata_from_sparql(name) or wikidata_from_rdf(name)
 
-# ----------------------------------------------------------
+
 # LINK ADDER
-# ----------------------------------------------------------
 def add_sameas(g, s, uri):
     try:
         g.add((s, OWL.sameAs, sanitize(uri)))
@@ -80,9 +74,7 @@ def add_sameas(g, s, uri):
         print("   ✗ erreur ajout sameAs:", e)
         return False
 
-# ----------------------------------------------------------
-# ORGANIZATION VARIATIONS
-# ----------------------------------------------------------
+
 def org_variants(name):
     base = name.replace(" ", "_")
     out = {base}
@@ -95,35 +87,23 @@ def org_variants(name):
         out.add(name.replace(" ", "_"))
         out.add(name.replace("Institute", "Institute_of_Technology").replace(" ", "_"))
 
-    # Nettoyage final
+    # Nettoyage 
     return {v.strip("_").replace("__", "_") for v in out}
 
-# ----------------------------------------------------------
-# MAIN
-# ----------------------------------------------------------
-print("\n============================================================")
-print("🚀 ENRICHISSEMENT RDF", datetime.now().strftime("%H:%M:%S"))
-print("============================================================\n")
 
 g = Graph()
 g.parse("out_enriched.ttl")
-print(f"✓ Chargé : {len(g)} triples")
 
-# ----------------------------------------------------------
-# EXTRACT ENTITIES
-# ----------------------------------------------------------
 def extract_entities(g, rdf_type):
     return [
         s for s in g.subjects(RDF.type, rdf_type)
     ]
 
-orgs = extract_entities(g, None)  # tu filtreras si tu veux
+orgs = extract_entities(g, None) 
 places = extract_entities(g, SCHEMA.Place)
 
-# ----------------------------------------------------------
-# ENRICH ORGANIZATIONS
-# ----------------------------------------------------------
-print("\n===== 📦 ORGANISATIONS =====")
+
+# ORGANIZATIONS
 for s in orgs:
     name = g.value(s, FOAF.name) or g.value(s, SCHEMA.name)
     if not name:
@@ -146,10 +126,8 @@ for s in orgs:
                 add_sameas(g, s, wd)
             break
 
-# ----------------------------------------------------------
-# ENRICH PLACES
-# ----------------------------------------------------------
-print("\n===== 🌍 LIEUX =====")
+
+# PLACES
 for s in places:
     # skip if DBpedia present
     if any("dbpedia.org" in str(o) for o in g.objects(s, OWL.sameAs)):
@@ -168,9 +146,6 @@ for s in places:
         if wd:
             add_sameas(g, s, wd)
 
-# ----------------------------------------------------------
-# SAVE
-# ----------------------------------------------------------
-print("\n💾 Sauvegarde…")
+
 g.serialize("out_enriched_complete.ttl", format="turtle")
-print("✓ Terminé.")
+print("Fichier ttl terminé")
