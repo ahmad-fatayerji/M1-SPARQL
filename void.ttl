@@ -29,6 +29,7 @@
     void:dataDump <Step4/out_enriched_complete.ttl> ;
     void:entities 3327 ;
     void:properties 20 ;
+    void:sparqlEndpoint <https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql> ;
     void:subset <http://example.org/nobel/linkset/dbpedia.org>,
         <http://example.org/nobel/linkset/www.wikidata.org> ;
     void:triples 21234 ;
@@ -42,5 +43,6 @@
         rdfs:,
         xsd:,
         owl:,
-        foaf: .
+        foaf: ;
+    rdfs:seeAlso <https://github.com/ahmad-fatayerji/M1-SPARQL> .
 

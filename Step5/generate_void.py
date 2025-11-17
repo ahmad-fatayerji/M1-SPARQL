@@ -18,12 +18,19 @@ vocabularies = set([
         "http://www.w3.org/2001/XMLSchema#"
     ])
 
+apiLink = "https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql"
+githubLink = "https://github.com/ahmad-fatayerji/M1-SPARQL"
+
 def generate_void_enriched(input_ttl, output_ttl, dataset_uri, creators):
     g = Graph()
     g.parse(input_ttl, format="turtle")
     void_graph = Graph()
-
+    
     dataset = URIRef(dataset_uri)
+
+    # SPARQL endpoint
+    void_graph.add((dataset, VOID.sparqlEndpoint, URIRef("https://api.triplydb.com/datasets/Ijjaziad/laureate-nobel/sparql")))
+    void_graph.add((dataset, RDFS.seeAlso, URIRef("https://github.com/ahmad-fatayerji/M1-SPARQL")))
 
     # main statistics
     triples_count = len(g)
