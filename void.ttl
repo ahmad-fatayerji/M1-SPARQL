@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/nobel/linkset/dbpedia.org> a void:Linkset ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget <http://dbpedia.org> ;
+    void:subjectsTarget <http://example.org/nobel> ;
+    void:triples 1245 .
+
+<http://example.org/nobel/linkset/www.wikidata.org> a void:Linkset ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget <http://www.wikidata.org> ;
+    void:subjectsTarget <http://example.org/nobel> ;
+    void:triples 839 .
+
+<http://example.org/nobel> a void:Dataset ;
+    rdfs:label "VoID description of Nobel Prize laureates graph"^^xsd:string ;
+    dcterms:created "2025-11-17"^^xsd:date ;
+    dcterms:creator "Ahmad Fatayerji"^^xsd:string,
+        "Hugo Piard"^^xsd:string,
+        "Louis Boulanger"^^xsd:string,
+        "Ziad Ijja"^^xsd:string ;
+    void:classes 4 ;
+    void:dataDump <Step4/out_enriched_orgs.ttl> ;
+    void:entities 3327 ;
+    void:properties 20 ;
+    void:subset <http://example.org/nobel/linkset/dbpedia.org>,
+        <http://example.org/nobel/linkset/www.wikidata.org> ;
+    void:triples 20052 ;
+    void:uriSpace "http://example.org/nobel/award/"^^xsd:string,
+        "http://example.org/nobel/organization/"^^xsd:string,
+        "http://example.org/nobel/person/"^^xsd:string,
+        "http://example.org/nobel/place/"^^xsd:string ;
+    void:vocabulary <http://dbpedia.org/ontology/>,
+        <http://schema.org/>,
+        <http://www.w3.org/1999/02/>,
+        <http://www.w3.org/2000/01/>,
+        <http://www.w3.org/2002/07/>,
+        foaf: .
+
