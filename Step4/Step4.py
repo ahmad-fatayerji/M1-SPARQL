@@ -77,7 +77,7 @@ def format_name_for_dbpedia(given_name, family_name):
     return full_name.replace(" ", "_")
 
 g = Graph()
-g.parse("out.ttl")
+g.parse("../out.ttl")
 
 persons = []
 for s in g.subjects(RDF.type, FOAF.Person):
